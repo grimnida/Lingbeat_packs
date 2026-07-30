@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.coincide.core.v1",
+  "word": "coincide",
+  "wordpack_version": "2.1.0",
+  "status": "preview",
+  "wordpack_path": "coincide.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/coincide.motion.json",
+    "fallback_svg_path": "assets/images/coincide/coincide.master.svg",
+    "artboard": "coincide",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/coincide/coincide.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/coincide/coincide.chunk1.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/coincide/coincide.chunk2.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/coincide/coincide.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "coincide.app_wordpack.json",
+      "bytes": 4553,
+      "sha256": "ab3b6ba3f8286185656f1935240beec23264f7686233c184975b7c680812d3c7"
+    }
+  ]
+}

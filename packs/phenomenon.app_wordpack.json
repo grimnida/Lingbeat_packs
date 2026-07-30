@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.1.0",
+  "word_id": "linkling.phenomenon.core.v1",
+  "word": "phenomenon",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "noun",
+    "core_meaning_ko": "현상",
+    "accepted_meanings_ko": [
+      "현상",
+      "관찰할 수 있는 현상이나 사건"
+    ],
+    "excluded_meanings_ko": [
+      "가설",
+      "놀라운 사람",
+      "단순 사물"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "fəˈnɑməˌnɑn",
+    "full_audio_asset_id": "assets/audio/phenomenon/phenomenon.audio_spec.json",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "fə",
+        "cumulative_spelling": "phe",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "fəˈnɑ",
+        "cumulative_spelling": "pheno",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "fəˈnɑməˌnɑn",
+        "cumulative_spelling": "phenomenon",
+        "audio_asset_id": "assets/audio/phenomenon/phenomenon.audio_spec.json",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/phenomenon/phenomenon.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "하늘 한가운데 낯선 빛의 물결이 실제로 나타나고 사람들이 올려다본다.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "HIDDEN_OR_INITIAL"
+        ],
+        "group_ids": [
+          "hiddenInitial"
+        ],
+        "description_ko": "평범한 하늘과 관찰자를 제시한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "REVEAL"
+        ],
+        "group_ids": [
+          "hiddenInitial",
+          "revealCue"
+        ],
+        "description_ko": "하늘에 빛의 물결 윤곽을 추가한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "CONTRAST_CONFIRMED"
+        ],
+        "group_ids": [
+          "hiddenInitial",
+          "revealCue",
+          "contrastConfirmed"
+        ],
+        "description_ko": "관찰자의 시선과 기록 장치를 추가해 실제 관찰되는 사건임을 완성한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 1800,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "눈앞에 나타난 일!",
+    "anchor_group_id": "hiddenInitial"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "phenomenon",
+    "spelling_chunks": [
+      "phe",
+      "pheno",
+      "phenomenon"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/phenomenon/phenomenon.master.svg",
+    "motionRecipePath": "motion_recipes/phenomenon.motion.json",
+    "audioSpecPath": "assets/audio/phenomenon/phenomenon.audio_spec.json",
+    "assetStatus": "generated"
+  }
+}

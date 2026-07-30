@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.1.0",
+  "word_id": "linkling.habitat.core.v1",
+  "word": "habitat",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "noun",
+    "core_meaning_ko": "서식지",
+    "accepted_meanings_ko": [
+      "서식지",
+      "동식물이 자연적으로 살아가는 곳"
+    ],
+    "excluded_meanings_ko": [
+      "집",
+      "연못 자체",
+      "동물",
+      "생태계"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈhæbɪˌtæt",
+    "full_audio_asset_id": "assets/audio/habitat/habitat.audio_spec.json",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈhæbɪ",
+        "cumulative_spelling": "habi",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈhæbɪˌtæt",
+        "cumulative_spelling": "habitat",
+        "audio_asset_id": "assets/audio/habitat/habitat.audio_spec.json",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/habitat/habitat.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "작은 연못 가장자리의 물·갈대·바위·수련잎이 한데 모인 자연 공간에 개구리가 편안히 자리 잡는다.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "HIDDEN_OR_INITIAL"
+        ],
+        "group_ids": [
+          "hiddenInitial"
+        ],
+        "description_ko": "연못 물과 둑의 전형적 윤곽을 제시한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "REVEAL"
+        ],
+        "group_ids": [
+          "hiddenInitial",
+          "revealCue"
+        ],
+        "description_ko": "갈대, 바위, 수련잎을 추가해 살아갈 조건을 드러낸다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "CONTRAST_CONFIRMED"
+        ],
+        "group_ids": [
+          "hiddenInitial",
+          "revealCue",
+          "contrastConfirmed"
+        ],
+        "description_ko": "작은 개구리를 수련잎 옆에 추가해 그 공간의 거주 관계를 완성한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 1800,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "여기가 사는 곳이야!",
+    "anchor_group_id": "hiddenInitial"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "habitat",
+    "spelling_chunks": [
+      "habi",
+      "habitat"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/habitat/habitat.master.svg",
+    "motionRecipePath": "motion_recipes/habitat.motion.json",
+    "audioSpecPath": "assets/audio/habitat/habitat.audio_spec.json",
+    "assetStatus": "generated"
+  }
+}

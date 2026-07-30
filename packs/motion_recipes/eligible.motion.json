@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.eligible.core.v1",
+ "word": "eligible",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/eligible/eligible.master.svg",
+  "layerSvgPaths": [
+   "assets/images/eligible/eligible.layer1.svg",
+   "assets/images/eligible/eligible.layer2.svg",
+   "assets/images/eligible/eligible.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/eligible/eligible.final.svg"
+ },
+ "sceneObjectIds": [
+  "options",
+  "criterion",
+  "decision"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "OPTIONS",
+   "visibleObjectIds": [
+    "options"
+   ],
+   "svgPath": "assets/images/eligible/eligible.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PRESSURE_OR_CRITERION",
+   "visibleObjectIds": [
+    "options",
+    "criterion"
+   ],
+   "svgPath": "assets/images/eligible/eligible.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "DECISION",
+   "visibleObjectIds": [
+    "options",
+    "criterion",
+    "decision"
+   ],
+   "svgPath": "assets/images/eligible/eligible.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "마지막 조건 토큰이 슬롯에 들어가고 문이 짧게 열리며 지원자가 한 걸음 가까워진다.",
+  "allowedObjectIds": [
+   "options",
+   "criterion",
+   "decision"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/eligible/frame_00.svg",
+    "sha256": "36d30df71c8d071d238d68312e2d889162672946f04b20e7ef10de6348e7c93b"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/eligible/frame_01.svg",
+    "sha256": "36d30df71c8d071d238d68312e2d889162672946f04b20e7ef10de6348e7c93b"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/eligible/frame_02.svg",
+    "sha256": "e257ac9f8376e8686d7b632779c066a0913c29438c3b54e92c059a00cec8ed83"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/eligible/frame_03.svg",
+    "sha256": "40883d23dd3bae8cc2872aad3fc4218ffd5b7fff76e3822b8173b5eb7a804697"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/eligible/frame_04.svg",
+    "sha256": "b16a6f22c65bc5823bc1d72ea5c751094c91bb4e838c8fc403f6c88e817bd418"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/eligible/frame_05.svg",
+    "sha256": "dee82a6bc557869b639ee358b13763ecece5b4c1b3b25267d34627e399d561ca"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/eligible/frame_06.svg",
+    "sha256": "03784c29f1daaff7675e8cf3e6163ca3f01a4b2bc0e4e50f15cb2653d1d1018d"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/eligible/frame_07.svg",
+    "sha256": "3ea29883a48c3fa982e0c12fbf86819b699360c89d19186a09a3edcb12476b91"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/eligible/frame_08.svg",
+    "sha256": "3ea29883a48c3fa982e0c12fbf86819b699360c89d19186a09a3edcb12476b91"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/eligible/frame_09.svg",
+    "sha256": "ee112485c837ab7e6619e474366ab82817a4942baa9618535b462990066b0313"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/eligible/frame_10.svg",
+    "sha256": "c797bf5f9b188cc36e227b2efcf499aec43eb5cc40f4eaeadf3920d79ad299f1"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/eligible/frame_11.svg",
+    "sha256": "2cffe7d52b08dbc9e53a3532b0bffd0d36c1f5b81dd2f83b392dc481f06402bd"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/eligible/frame_12.svg",
+    "sha256": "6cb437e1dcdcdd85813835e5dd7270520a9447b9994a7f919542eacc57244512"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/eligible/frame_13.svg",
+    "sha256": "89a30738df4f7812116cdd1ceff08cc86f2357fe899eae9b691759333016fc0a"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/eligible/frame_14.svg",
+    "sha256": "effcf4d551089f648bab1b24e049ea7758756ce7b1bc20b1cb75706ebab0989d"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/eligible/frame_15.svg",
+    "sha256": "ccf0472c9366d1dc16359976d930dc95ffd6ab39f918c92d135b22ef9eeae04c"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/eligible/frame_16.svg",
+    "sha256": "67d9846074543ae1957f68b65e2db41b35203b9e514fe719e6698ffad8441c87"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/eligible/frame_17.svg",
+    "sha256": "6b599ab5a16ff85337fce9a46b830996c18ea9fcc1e538e23fb10e94a1694d6b"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/eligible/frame_18.svg",
+    "sha256": "01ad4e4b7e3e01160f078f6bea5c5f9b244ddab1ce34c6f4aa2cd9d29fae3914"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/eligible/frame_19.svg",
+    "sha256": "7e9c0baf61e675cdf8f21dba1b5bc42e4a0a8cf337176aecb5d23ac87eb45d12"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/eligible/frame_20.svg",
+    "sha256": "729324fb29f2865b18ef9f01f995a79d4066ff149dccbb44c2fae260ff98758f"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/eligible/eligible.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "7e3c19279bb66a4327459acc027aab56eb8581dd17ed1ef292d5b7ae4b5ecba2",
+  "semanticContentSha256": "9ce8e7b85b046d76ef2aa179a209b9423cb6d4f192b26b8d4388a83c63df1d72",
+  "masterSvgSha256": "36d30df71c8d071d238d68312e2d889162672946f04b20e7ef10de6348e7c93b",
+  "layerSvgSha256": [
+   "d82954a31451334e2056b396a9e9ad77e9a224b5193c15d6af5f0d3ed980bae6",
+   "2f1e2e9775ec854b840ced3d97c94704bc7bc8f42eafe7853259329bc4ad6b15",
+   "36d30df71c8d071d238d68312e2d889162672946f04b20e7ef10de6348e7c93b"
+  ],
+  "finalSvgSha256": "729324fb29f2865b18ef9f01f995a79d4066ff149dccbb44c2fae260ff98758f",
+  "audioSpecSha256": "c22d8dec3af29ba0617e56d2de035d22f2c10ca115922fc5d947800c36578564"
+ }
+}

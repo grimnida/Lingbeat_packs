@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.undermine.core.v1",
+ "word": "undermine",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/undermine/undermine.master.svg",
+  "layerSvgPaths": [
+   "assets/images/undermine/undermine.layer1.svg",
+   "assets/images/undermine/undermine.layer2.svg",
+   "assets/images/undermine/undermine.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/undermine/undermine.final.svg"
+ },
+ "sceneObjectIds": [
+  "agentAction",
+  "patientImpact",
+  "resultState"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "AGENT_ACTION",
+   "visibleObjectIds": [
+    "agentAction"
+   ],
+   "svgPath": "assets/images/undermine/undermine.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PATIENT_IMPACT",
+   "visibleObjectIds": [
+    "agentAction",
+    "patientImpact"
+   ],
+   "svgPath": "assets/images/undermine/undermine.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "RESULT",
+   "visibleObjectIds": [
+    "agentAction",
+    "patientImpact",
+    "resultState"
+   ],
+   "svgPath": "assets/images/undermine/undermine.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "받침 블록이 옆으로 빠지고 상부가 작게 기울어 두 번 이하로 흔들린 뒤 정착한다.",
+  "allowedObjectIds": [
+   "agentAction",
+   "patientImpact",
+   "resultState"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/undermine/frame_00.svg",
+    "sha256": "48a963d2a725861d0c286fb53c3c4d80ca185bec4b9dd3cdc3a2c6760be31f13"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/undermine/frame_01.svg",
+    "sha256": "a50d7610d2a246035936a78cec46c8052a92340753357ff69253ba2158e467d7"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/undermine/frame_02.svg",
+    "sha256": "23d1e898d8ca38410c52ea45920dea971041e4ad73e6d6908750ef485a2db71b"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/undermine/frame_03.svg",
+    "sha256": "55136decee28dc84bab57c7961c445f358e94045e5d3d59d65e6a98d57543677"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/undermine/frame_04.svg",
+    "sha256": "b2d39c63689459e4891684490240aafe646eb03a211c2a060e00f02c628eda93"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/undermine/frame_05.svg",
+    "sha256": "3a5e7959a55f8210f9ae731e83498ea04781b86f453785f1e86621cbab6bb0ac"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/undermine/frame_06.svg",
+    "sha256": "0a2af5047b901b36bde5aff22600f256bfb90d6c63778a43b413787cbe0a3679"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/undermine/frame_07.svg",
+    "sha256": "c27955d3929ce7310bffe38ed56157c1de73f0c08f28250b82b343ae4fcb4afc"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/undermine/frame_08.svg",
+    "sha256": "a46a1c52f7d267f68df2d28d6ab757956b1a6cbcbf11acdfb7a9ddf372618e12"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/undermine/frame_09.svg",
+    "sha256": "fdc19ae75d9243f691917b9332ba13ecbfef1621680c84f08c95ac6630f4759a"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/undermine/frame_10.svg",
+    "sha256": "080736a92a009d63dc5b84f8c0a41accda6ee54a5b40c77004bf7b8106a8a620"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/undermine/frame_11.svg",
+    "sha256": "0e92e9b9825f616ec4dbe515f7fe8ced6b5cd4332631084fcd8ec8cd79c6253d"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/undermine/frame_12.svg",
+    "sha256": "30ba9d0e2b93d53796b9ba1077695c8948343f368d31a10d05db2d30196d38b6"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/undermine/frame_13.svg",
+    "sha256": "cae5d7ff158d127ea8beaf32933876a79decc7e3e92f14d6b553a7bfebfc2b28"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/undermine/frame_14.svg",
+    "sha256": "c79998b41e2c2e1700c85561ca4a15b0bc60baca1f7a413b1e94f8bb4b7d1cc0"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/undermine/frame_15.svg",
+    "sha256": "afd00d614e854c3a997f982b715ab961dedc81d060ac5ef32b4db57df61b746a"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/undermine/frame_16.svg",
+    "sha256": "62f96e693f23f20af5e0c78ea2d3518c3b2ae6e6cee74b6eb02e20161616f5da"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/undermine/frame_17.svg",
+    "sha256": "1f419530d99c26551b767125c36a5afadad4935806724ac0289bd7f9792a11d0"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/undermine/frame_18.svg",
+    "sha256": "c9a160e237372446c09fe9b94da7e04f9d6aebdf276e92be5bd9c33eaaa9ce78"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/undermine/frame_19.svg",
+    "sha256": "2727f125683b99af8cbfdce5609d5fd98ce2929a88ee594ef0bf01d46b7f214f"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/undermine/frame_20.svg",
+    "sha256": "58bed8a39b976a45ae960c799d0251e2a56b5124dbaf4b4752c95c571fd204eb"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/undermine/undermine.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "ca0271fc6ec1717a78e9faa13c3e1954c4b2fa0b9e8a3a22b5bc824fdcec2ab6",
+  "semanticContentSha256": "9e6b1f7908678b9a6fe7e953157357f466be579e03a0ebd22d186600d84799ce",
+  "masterSvgSha256": "48a963d2a725861d0c286fb53c3c4d80ca185bec4b9dd3cdc3a2c6760be31f13",
+  "layerSvgSha256": [
+   "b4c09eaee1a56e17460d4230a3297189c3e0ab234efffb84a966fde827066b92",
+   "3ac2f86dd71c06914754b0290fc6beaa9095dfeed71ea8542130dd87052c565b",
+   "48a963d2a725861d0c286fb53c3c4d80ca185bec4b9dd3cdc3a2c6760be31f13"
+  ],
+  "finalSvgSha256": "58bed8a39b976a45ae960c799d0251e2a56b5124dbaf4b4752c95c571fd204eb",
+  "audioSpecSha256": "1c59156c86f2376b680875f620844c9ce4b8a489464c6ce8309c4da7d299dd6e"
+ }
+}

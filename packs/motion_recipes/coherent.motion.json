@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.coherent.core.v1",
+ "word": "coherent",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/coherent/coherent.master.svg",
+  "layerSvgPaths": [
+   "assets/images/coherent/coherent.layer1.svg",
+   "assets/images/coherent/coherent.layer2.svg",
+   "assets/images/coherent/coherent.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/coherent/coherent.final.svg"
+ },
+ "sceneObjectIds": [
+  "startState",
+  "accumulation",
+  "visibleProgress"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "START",
+   "visibleObjectIds": [
+    "startState"
+   ],
+   "svgPath": "assets/images/coherent/coherent.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "ACCUMULATION",
+   "visibleObjectIds": [
+    "startState",
+    "accumulation"
+   ],
+   "svgPath": "assets/images/coherent/coherent.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "VISIBLE_PROGRESS",
+   "visibleObjectIds": [
+    "startState",
+    "accumulation",
+    "visibleProgress"
+   ],
+   "svgPath": "assets/images/coherent/coherent.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "블록들이 왼쪽부터 차례로 맞물리고 연결선이 한 번 이어진다.",
+  "allowedObjectIds": [
+   "startState",
+   "accumulation",
+   "visibleProgress"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/coherent/frame_00.svg",
+    "sha256": "53ffab0faedbbfe82b213fbc997bc4f65707f944a65535caef57bce213424568"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/coherent/frame_01.svg",
+    "sha256": "53ffab0faedbbfe82b213fbc997bc4f65707f944a65535caef57bce213424568"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/coherent/frame_02.svg",
+    "sha256": "8bce74b84b402c68e4acb5bd8534fe160e84962410a93e740644afcf5f06e017"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/coherent/frame_03.svg",
+    "sha256": "e95190ffb031a962cd9c4856e8021f93c70220d661cad8d457aaadbfcd09b630"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/coherent/frame_04.svg",
+    "sha256": "c351b46f57dc7256768a09408af6de89e6a387aa21fae0fe7d06ad310a89adb4"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/coherent/frame_05.svg",
+    "sha256": "6c4040241a18607742f454aad76a364d51aa7e3c9639cadbaf5775a203250619"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/coherent/frame_06.svg",
+    "sha256": "deeeca10ac066dff8d7cc3ca166f260d81abea713184716ee7cbef426276eb50"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/coherent/frame_07.svg",
+    "sha256": "bbf64c79aeec7b30d2d98e688e639dc241cfdf3f2494f9266c936b17c5be7e10"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/coherent/frame_08.svg",
+    "sha256": "72a693217c3cd60dd03c85f98367f105bf10bd7e65aaee76f026addc046393de"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/coherent/frame_09.svg",
+    "sha256": "1d533b7c93d58e6bd0ed5a1a0b3959e8b24ee0ecbc29a1ac7c28f9d8ea3ce08a"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/coherent/frame_10.svg",
+    "sha256": "0205a6c389c1debb8b5166004d46de524192f81c6fa37a2e43b501baf90c1d3d"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/coherent/frame_11.svg",
+    "sha256": "8009f71ac3c359e90b43cdb2a68fbbfbe43baa5c3754f8117d275cebc90f964e"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/coherent/frame_12.svg",
+    "sha256": "24ac66d327a79b9befd45db1a88ecf45eac4dd547162d9ce5968931fc2689e04"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/coherent/frame_13.svg",
+    "sha256": "159351e23fbdddac2c4507c427b2eab3c5f6c1d2e20ae9c78b38b34aa399543f"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/coherent/frame_14.svg",
+    "sha256": "eb072d9df879234f840ac756219d6a453294974cfd9872143b4c692260710212"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/coherent/frame_15.svg",
+    "sha256": "51bc0392f553f0660db8abf72e5fb8983a6bb7dc04d04202658c922a5c9d1637"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/coherent/frame_16.svg",
+    "sha256": "54e22878752896b02b66d68684cbc706827bca889072c6819f2bc2abb5b606c2"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/coherent/frame_17.svg",
+    "sha256": "14355c57fca4463e4c8f5c48f3f12d9c2c3891daa8441c7d47dcdddd855278c3"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/coherent/frame_18.svg",
+    "sha256": "269464f8befa127064c01d67e81a11b1df3cce02027d0cdeb4a3e9470d7573dc"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/coherent/frame_19.svg",
+    "sha256": "c5e33dab24b623b30e7ee3ff9a996fcfe4756517aacd0fb0f12090ab8f18e67c"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/coherent/frame_20.svg",
+    "sha256": "3ad00661d2697bd0f6621d6615d72d7b946e166ad08cd007fdc05e286f7bb0f1"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/coherent/coherent.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "b878ffa4a5b09bd228314f187ccc13f665cd58784ccb3388faf9049cb24ddfef",
+  "semanticContentSha256": "445bc1deb6caa4be60ea2470d43b3cb25446a2049835c572eced1f5904f89fcd",
+  "masterSvgSha256": "53ffab0faedbbfe82b213fbc997bc4f65707f944a65535caef57bce213424568",
+  "layerSvgSha256": [
+   "b177391a7f97576d668db790e1ba6112d108203d5d801e7666b8a2d4d82cdff7",
+   "a97496d21dd67f3c9c8c2356f403ed49988db97d7422fdbba6db3ed4c364dd82",
+   "53ffab0faedbbfe82b213fbc997bc4f65707f944a65535caef57bce213424568"
+  ],
+  "finalSvgSha256": "3ad00661d2697bd0f6621d6615d72d7b946e166ad08cd007fdc05e286f7bb0f1",
+  "audioSpecSha256": "45fddf33290b1e6acd32bc25f5125805d9a742057f4a24f9de6094b2c18f2147"
+ }
+}

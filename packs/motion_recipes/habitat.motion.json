@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.habitat.core.v1",
+ "word": "habitat",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/habitat/habitat.master.svg",
+  "layerSvgPaths": [
+   "assets/images/habitat/habitat.layer1.svg",
+   "assets/images/habitat/habitat.layer2.svg",
+   "assets/images/habitat/habitat.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/habitat/habitat.final.svg"
+ },
+ "sceneObjectIds": [
+  "hiddenInitial",
+  "revealCue",
+  "contrastConfirmed"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "HIDDEN_OR_INITIAL",
+   "visibleObjectIds": [
+    "hiddenInitial"
+   ],
+   "svgPath": "assets/images/habitat/habitat.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "REVEAL",
+   "visibleObjectIds": [
+    "hiddenInitial",
+    "revealCue"
+   ],
+   "svgPath": "assets/images/habitat/habitat.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "CONTRAST_CONFIRMED",
+   "visibleObjectIds": [
+    "hiddenInitial",
+    "revealCue",
+    "contrastConfirmed"
+   ],
+   "svgPath": "assets/images/habitat/habitat.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "이미 보이던 개구리가 바위에서 수련잎으로 짧게 뛰어가 앉고, 물결 하나와 갈대 흔들림이 따라온다.",
+  "allowedObjectIds": [
+   "hiddenInitial",
+   "revealCue",
+   "contrastConfirmed"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/habitat/frame_00.svg",
+    "sha256": "833ea4296cadbd0950f790c5fb1f612831d56fc542f91809c40475ef0d488a54"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/habitat/frame_01.svg",
+    "sha256": "3ceef3305335f68df74a0d5513e1c755677b70ba328616b27607984d0b629606"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/habitat/frame_02.svg",
+    "sha256": "d0e9d4c602cacaa47cb94240349040f4aebb5b9fc443129d9d02f2e00793b252"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/habitat/frame_03.svg",
+    "sha256": "652795ce85853a84d8b032e2e9d381058fd1f44b7a3072bd4355eb1af733b530"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/habitat/frame_04.svg",
+    "sha256": "8d0c3c5f99d13634bcfdba4c66c962626694c09bfe8796846893c75cb1968811"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/habitat/frame_05.svg",
+    "sha256": "68e14b5d57ba97a5c06067c6d6a4975728213a0236144c009c912dabb87ea468"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/habitat/frame_06.svg",
+    "sha256": "e6366f0f67cba9a888b9015a4a7b39e84f52b30fa7513f24a75d42429ff78362"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/habitat/frame_07.svg",
+    "sha256": "d6f702892b4273f03d564917650f09fa7dcc1b41332c706886733c91cc1521e9"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/habitat/frame_08.svg",
+    "sha256": "8860069bdddae903f3aa0b0f46252991a237094dabde04db3a7e837198106544"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/habitat/frame_09.svg",
+    "sha256": "65a16a8f87ba79e15017b00524228cc728c025499ac875f8112928df3c23c41d"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/habitat/frame_10.svg",
+    "sha256": "d597d60d05582f7fb179255675ebad6159c8a129b78fa72e90cba0d2a14d126c"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/habitat/frame_11.svg",
+    "sha256": "c7488317f0a25159d97971f0c2430632046aa32f773a493da10c57df4ce3bc34"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/habitat/frame_12.svg",
+    "sha256": "5760bef73d954e9f82f8c1a80c3629c46efaac2c7c3a7462f5542118f391bb97"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/habitat/frame_13.svg",
+    "sha256": "25652711258cfda4fb34aa3dbc3541964061681254436a1fda60f9e3af3242f8"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/habitat/frame_14.svg",
+    "sha256": "efa062e042bf283a04cf688e2a90c4d1d70c2962e742586ed149d3024db3fc6f"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/habitat/frame_15.svg",
+    "sha256": "ca3e5968cf2075058b07de30abca6f943af48b0d1da5cf018e5b029db76553d8"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/habitat/frame_16.svg",
+    "sha256": "f4ce40c650914a06dd70bd4f2960e7c36c408cdaacfc3277c6f44799381c5c0c"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/habitat/frame_17.svg",
+    "sha256": "fb5e19f8abc151eca9e2e73f2ace1db98c0903d0eccb2e74ff7c09eebc576d9b"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/habitat/frame_18.svg",
+    "sha256": "bf74828c28cd3b7a778b5787ee759a8048840106bdce8cb0e159f42ecfb1eed4"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/habitat/frame_19.svg",
+    "sha256": "cb7acb8794e2a85498725f7535bc1591f8d00468aa8dd8b565121eef768d9fa0"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/habitat/frame_20.svg",
+    "sha256": "6a2d85d2b93d89df03b1b3144fe6cc2896d557be8f1ca88af8e670f5baec3522"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/habitat/habitat.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "497c97ef535f3b9cf4775332c55a3fe196ca2a61c02b44ca59129a63e2c4ad88",
+  "semanticContentSha256": "7dd7c2f9f8ec5ece2292d44280d8e83fa893174447d0807555f6826d236d2712",
+  "masterSvgSha256": "833ea4296cadbd0950f790c5fb1f612831d56fc542f91809c40475ef0d488a54",
+  "layerSvgSha256": [
+   "9fae0d7cd6e2c90d80df062edb90ba4c4b9230fa5c1dc63125e18d009563574b",
+   "a0e44a797c3fecf4a9f1f9b31c5b8857ed779bfafbf44e05beea30159cefd4cc",
+   "833ea4296cadbd0950f790c5fb1f612831d56fc542f91809c40475ef0d488a54"
+  ],
+  "finalSvgSha256": "6a2d85d2b93d89df03b1b3144fe6cc2896d557be8f1ca88af8e670f5baec3522",
+  "audioSpecSha256": "1930197217cb7fc855cad2fd3e6e3a0ccc9c9952def90aeb9ea301aeae238fb7"
+ }
+}

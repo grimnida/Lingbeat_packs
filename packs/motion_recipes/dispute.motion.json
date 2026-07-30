@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.dispute.core.v1",
+ "word": "dispute",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/dispute/dispute.master.svg",
+  "layerSvgPaths": [
+   "assets/images/dispute/dispute.layer1.svg",
+   "assets/images/dispute/dispute.layer2.svg",
+   "assets/images/dispute/dispute.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/dispute/dispute.final.svg"
+ },
+ "sceneObjectIds": [
+  "initialRelation",
+  "transferShift",
+  "newRelation"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "INITIAL_RELATION",
+   "visibleObjectIds": [
+    "initialRelation"
+   ],
+   "svgPath": "assets/images/dispute/dispute.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "TRANSFER_OR_SHIFT",
+   "visibleObjectIds": [
+    "initialRelation",
+    "transferShift"
+   ],
+   "svgPath": "assets/images/dispute/dispute.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "NEW_RELATION",
+   "visibleObjectIds": [
+    "initialRelation",
+    "transferShift",
+    "newRelation"
+   ],
+   "svgPath": "assets/images/dispute/dispute.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "중앙 쟁점이 좌우로 한 번 당겨졌다가 중앙에서 멈춘다.",
+  "allowedObjectIds": [
+   "initialRelation",
+   "transferShift",
+   "newRelation"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/dispute/frame_00.svg",
+    "sha256": "792d598467a34f1390dcb8dbb9affd83b2be411ac9765b3404c2daebb19880e1"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/dispute/frame_01.svg",
+    "sha256": "792d598467a34f1390dcb8dbb9affd83b2be411ac9765b3404c2daebb19880e1"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/dispute/frame_02.svg",
+    "sha256": "0d1f5e7c959db3d1effdd7d7adeb8c3a735dd9a279542367b5b64de1e80a1ec5"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/dispute/frame_03.svg",
+    "sha256": "2354229147fdc584c4f891a3be93a04174caf0196bd5b7bc79a363127fd33379"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/dispute/frame_04.svg",
+    "sha256": "ed5216960284dfc38e6a31554b3bdae8e1c1895df36f1d4fb9896f7d44f42d92"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/dispute/frame_05.svg",
+    "sha256": "96c033ac9688ea863e383147ac5b7bb2ec288223e65e98c4c3fcb6e998fbc74b"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/dispute/frame_06.svg",
+    "sha256": "4a58fdfc8135b97d2420a202b2f09047d48744ae05cd3da51155d946c85f6bcd"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/dispute/frame_07.svg",
+    "sha256": "f86279c6348b5c27062f1b452e845c3059c0c89f80fe5fda6c7ff66be2bb24f4"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/dispute/frame_08.svg",
+    "sha256": "23ea846bdf5286d6a8f98de626f7fbe2766aa4ab626dfc1522f0061bbcaca2dc"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/dispute/frame_09.svg",
+    "sha256": "d03a84e72721ff08e156db748c01669e41abae7015283f39dfe79358f63988c4"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/dispute/frame_10.svg",
+    "sha256": "79b1a6013d0b2dde7b3ca4c2c2a384c128c68bf95122c0e5f5b49e889e677a30"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/dispute/frame_11.svg",
+    "sha256": "e8e0ad882c2dc4b16c463bc8e363deb70f27e7f4a3c24901dd646f9e5c725da8"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/dispute/frame_12.svg",
+    "sha256": "ff75c7116cd6b69fa5ff7423cc5dd612f4675c3519b227795f41d88e2cbfc96b"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/dispute/frame_13.svg",
+    "sha256": "8926fa3fe035e00344b2be9d73893c819839b0bec6d2fd867b575eca00b054db"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/dispute/frame_14.svg",
+    "sha256": "db3d009254730b96eb85e24cc4b49071ccb157364e63cf3b9c45cccc4cbf74fe"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/dispute/frame_15.svg",
+    "sha256": "316fb3f3b0b47ef25adbb283e8853d34c7d47f097422b773ae222dc6028f3387"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/dispute/frame_16.svg",
+    "sha256": "32748a8459dd7075f1e172f0a0646748a5af33a480f6079444bfa9aad3072148"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/dispute/frame_17.svg",
+    "sha256": "dc7bf07dbd68404643ff7718e0aa259485574b34f4074b5150d7bfcde2f1a82f"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/dispute/frame_18.svg",
+    "sha256": "c6f4e7f400cad18801ac0dba5e2823afda306c9a5c6f2da642c51b94b63a60bb"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/dispute/frame_19.svg",
+    "sha256": "652341c72e080ff9629df99feb40c3327e2dc9e9856bb093108204c73a5d3a64"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/dispute/frame_20.svg",
+    "sha256": "41cd52b930c88a0b03e86cd48f623eaf111d99696ad64a377b5aee18084a156c"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/dispute/dispute.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "52a21a877f37f0c9083de08132004d01032e6118994f9cbde9c62521955db3e3",
+  "semanticContentSha256": "0f89f46fdb69dba6bd274e5f0fcd99ad410cecc3b4897ec3db2e182911d59d82",
+  "masterSvgSha256": "792d598467a34f1390dcb8dbb9affd83b2be411ac9765b3404c2daebb19880e1",
+  "layerSvgSha256": [
+   "88df0fffd56b44a668e60f2ffd80a5d02b2caa935e87ec41aa12fd498162c271",
+   "1a3977bf05ffe7d10b36218d0d84f4915dbda2ac98ef089e800a4232008943c8",
+   "792d598467a34f1390dcb8dbb9affd83b2be411ac9765b3404c2daebb19880e1"
+  ],
+  "finalSvgSha256": "41cd52b930c88a0b03e86cd48f623eaf111d99696ad64a377b5aee18084a156c",
+  "audioSpecSha256": "09cb030ddc219a399601bf210380d3783764a6e4c960ddfc716b95607ac16320"
+ }
+}

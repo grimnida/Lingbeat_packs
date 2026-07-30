@@ -1,0 +1,123 @@
+{
+  "engine": "kokoro-onnx",
+  "voice": "af_bella",
+  "dialect": "en-US",
+  "speed": 1.0,
+  "assetClass": "tts_neural_full_and_ipa_cumulative_chunks",
+  "humanListeningApproved": false,
+  "noteKo": "v0.6.8: 누적 chunk 발음 = 누적 IPA 직접 합성(af_bella 1.0). 마지막 chunk 는 full alias. v0.6.7: 음성 af_bella·속도 1.0 네이티브 재생성. 절단 chunk 음원 전량 폐기(오발음 원인) — 전 chunk full alias, 앱은 전체 발음 1회 재생.",
+  "words": {
+    "accommodate": 0.87,
+    "adequate": 0.66,
+    "coherent": 0.7,
+    "coincide": 0.79,
+    "colleague": 0.7,
+    "conceal": 0.66,
+    "derive": 0.64,
+    "dispute": 0.73,
+    "distract": 0.75,
+    "eligible": 0.77,
+    "facilitate": 0.83,
+    "fluctuate": 0.77,
+    "habitat": 0.81,
+    "hence": 0.55,
+    "hypothesis": 0.87,
+    "incentive": 0.77,
+    "inherent": 0.73,
+    "legitimate": 0.75,
+    "phenomenon": 0.75,
+    "prejudice": 0.77,
+    "prevail": 0.7,
+    "rather": 0.64,
+    "retain": 0.66,
+    "skeptical": 0.77,
+    "undermine": 0.75
+  },
+  "chunkDurations": {
+    "accommodate": [
+      0.66,
+      0.64
+    ],
+    "adequate": [
+      0.6
+    ],
+    "coherent": [
+      0.55,
+      0.68
+    ],
+    "coincide": [
+      0.6,
+      0.62
+    ],
+    "colleague": [
+      0.53
+    ],
+    "conceal": [
+      0.55
+    ],
+    "derive": [
+      0.47
+    ],
+    "dispute": [
+      0.51
+    ],
+    "distract": [
+      0.51
+    ],
+    "eligible": [
+      0.53,
+      0.73
+    ],
+    "facilitate": [
+      0.73,
+      0.64
+    ],
+    "fluctuate": [
+      0.58,
+      0.87
+    ],
+    "habitat": [
+      0.66
+    ],
+    "hence": [],
+    "hypothesis": [
+      0.79,
+      0.77
+    ],
+    "incentive": [
+      0.49,
+      0.62
+    ],
+    "inherent": [
+      0.49,
+      0.6
+    ],
+    "legitimate": [
+      0.7,
+      0.7
+    ],
+    "phenomenon": [
+      0.41,
+      0.68
+    ],
+    "prejudice": [
+      0.75
+    ],
+    "prevail": [
+      0.58
+    ],
+    "rather": [
+      0.62
+    ],
+    "retain": [
+      0.47
+    ],
+    "skeptical": [
+      0.58,
+      0.81
+    ],
+    "undermine": [
+      0.58
+    ]
+  }
+}

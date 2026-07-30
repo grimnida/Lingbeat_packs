@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.1.0",
+  "word_id": "linkling.undermine.core.v1",
+  "word": "undermine",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "약화시키다",
+    "accepted_meanings_ko": [
+      "약화시키다",
+      "힘·기반·신뢰를 약화시키다"
+    ],
+    "excluded_meanings_ko": [
+      "파괴하다",
+      "공격하다",
+      "즉시 무너뜨리다"
+    ],
+    "profile": {
+      "transitivity": "transitive"
+    }
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˌʌndərˈmaɪn",
+    "full_audio_asset_id": "assets/audio/undermine/undermine.audio_spec.json",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˌʌndər",
+        "cumulative_spelling": "under",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˌʌndərˈmaɪn",
+        "cumulative_spelling": "undermine",
+        "audio_asset_id": "assets/audio/undermine/undermine.audio_spec.json",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/undermine/undermine.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "겉으로 서 있는 구조물 아래에서 작은 받침 블록이 빠져나가 구조가 흔들린다.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction"
+        ],
+        "description_ko": "안정된 구조물과 받침대를 제시한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact"
+        ],
+        "description_ko": "빠질 수 있는 특정 받침 블록과 주체의 손을 추가한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "상부 흔들림 방향과 빈 지지 공간을 완성한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 1800,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "점점 힘이 빠져!",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "undermine",
+    "spelling_chunks": [
+      "under",
+      "undermine"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/undermine/undermine.master.svg",
+    "motionRecipePath": "motion_recipes/undermine.motion.json",
+    "audioSpecPath": "assets/audio/undermine/undermine.audio_spec.json",
+    "assetStatus": "generated"
+  }
+}

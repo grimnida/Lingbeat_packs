@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.legitimate.core.v1",
+ "word": "legitimate",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/legitimate/legitimate.master.svg",
+  "layerSvgPaths": [
+   "assets/images/legitimate/legitimate.layer1.svg",
+   "assets/images/legitimate/legitimate.layer2.svg",
+   "assets/images/legitimate/legitimate.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/legitimate/legitimate.final.svg"
+ },
+ "sceneObjectIds": [
+  "options",
+  "criterion",
+  "decision"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "OPTIONS",
+   "visibleObjectIds": [
+    "options"
+   ],
+   "svgPath": "assets/images/legitimate/legitimate.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PRESSURE_OR_CRITERION",
+   "visibleObjectIds": [
+    "options",
+    "criterion"
+   ],
+   "svgPath": "assets/images/legitimate/legitimate.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "DECISION",
+   "visibleObjectIds": [
+    "options",
+    "criterion",
+    "decision"
+   ],
+   "svgPath": "assets/images/legitimate/legitimate.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "주장 카드가 근거와 함께 심사대를 통과하고 인정 도장이 한 번 찍힌다.",
+  "allowedObjectIds": [
+   "options",
+   "criterion",
+   "decision"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/legitimate/frame_00.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/legitimate/frame_01.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/legitimate/frame_02.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/legitimate/frame_03.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/legitimate/frame_04.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/legitimate/frame_05.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/legitimate/frame_06.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/legitimate/frame_07.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/legitimate/frame_08.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/legitimate/frame_09.svg",
+    "sha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/legitimate/frame_10.svg",
+    "sha256": "7a4a499bdfda59ee2472797a2dbb7b0a588f9315133a9a76e8751440336c3541"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/legitimate/frame_11.svg",
+    "sha256": "4819a2f19a08fe75303ff934ddde63a5dd0154d06bdf4e6d71c4181cbba55956"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/legitimate/frame_12.svg",
+    "sha256": "786f7a7685430a0361d4881c2523e7279664663d1621609b08859ed7d9145155"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/legitimate/frame_13.svg",
+    "sha256": "05833cb0f5efa192212b3ae2b88f6e4598cbf3a0ec01473a9f3ca76c429dcbde"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/legitimate/frame_14.svg",
+    "sha256": "dcbcb28611c44f75d8158418eb0ab437aa28e1a3c151b1dd13db467233ee5db3"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/legitimate/frame_15.svg",
+    "sha256": "fff04d18d0cc6c711a53502a3b4cb7b57e5c880b7599953ccaa1d6df808322b8"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/legitimate/frame_16.svg",
+    "sha256": "a0bc17d8e8b4396e4e486320acc7f7890a9fe43abd1368952534f83794505c54"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/legitimate/frame_17.svg",
+    "sha256": "d751ca4dcb8a07ab98c9984b7805580fdeb3dd7bd298731225f22ace08cafe63"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/legitimate/frame_18.svg",
+    "sha256": "e2d93763ba011dd5c1f9fa5897c21b29df663335ef919b48b258d4e170c34785"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/legitimate/frame_19.svg",
+    "sha256": "da27b7fac30fbb80b66af26db446c2c9c3522ee0161f9c4629c946c9ce716365"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/legitimate/frame_20.svg",
+    "sha256": "ce445f92061ab8a0221a1dc5b02a5f2241a2cd661e68e0036ec9ee2bd0eac63b"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/legitimate/legitimate.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "32f3fdd2b1c04cb5aef0405d7d61d5314ad2a6d68da1016c50dd79471fb20da9",
+  "semanticContentSha256": "fa9baa04536f6fbc1d35b7b0e802a75a8c737a2fe00058b7f91a462231385150",
+  "masterSvgSha256": "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d",
+  "layerSvgSha256": [
+   "4e29baf28e0ac18af891ebeffcb8a71e009adcd4b9dc3a336e182475fdbba04d",
+   "e48d7412516d7126d9ba6029061504960ac505599b5ffa015ab9953f7590db82",
+   "a5e3352cf8936ca18065c5ad4cca4e544ea2b2fade386450b72d24d8e06fae0d"
+  ],
+  "finalSvgSha256": "ce445f92061ab8a0221a1dc5b02a5f2241a2cd661e68e0036ec9ee2bd0eac63b",
+  "audioSpecSha256": "5966bd04158ecb557fb5d3d61fd4a16848129dd0f6ab1f3c7d501b89dbac4715"
+ }
+}

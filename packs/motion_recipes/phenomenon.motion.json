@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.phenomenon.core.v1",
+ "word": "phenomenon",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/phenomenon/phenomenon.master.svg",
+  "layerSvgPaths": [
+   "assets/images/phenomenon/phenomenon.layer1.svg",
+   "assets/images/phenomenon/phenomenon.layer2.svg",
+   "assets/images/phenomenon/phenomenon.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/phenomenon/phenomenon.final.svg"
+ },
+ "sceneObjectIds": [
+  "hiddenInitial",
+  "revealCue",
+  "contrastConfirmed"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "HIDDEN_OR_INITIAL",
+   "visibleObjectIds": [
+    "hiddenInitial"
+   ],
+   "svgPath": "assets/images/phenomenon/phenomenon.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "REVEAL",
+   "visibleObjectIds": [
+    "hiddenInitial",
+    "revealCue"
+   ],
+   "svgPath": "assets/images/phenomenon/phenomenon.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "CONTRAST_CONFIRMED",
+   "visibleObjectIds": [
+    "hiddenInitial",
+    "revealCue",
+    "contrastConfirmed"
+   ],
+   "svgPath": "assets/images/phenomenon/phenomenon.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "빛의 물결이 한 번 퍼지고 관찰자들의 시선이 위로 모인다.",
+  "allowedObjectIds": [
+   "hiddenInitial",
+   "revealCue",
+   "contrastConfirmed"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/phenomenon/frame_00.svg",
+    "sha256": "a69f67453075cf285c7f566c7d8b1dd43d4c48d6373cccc683f32dfdbaa706b3"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/phenomenon/frame_01.svg",
+    "sha256": "a69f67453075cf285c7f566c7d8b1dd43d4c48d6373cccc683f32dfdbaa706b3"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/phenomenon/frame_02.svg",
+    "sha256": "a69f67453075cf285c7f566c7d8b1dd43d4c48d6373cccc683f32dfdbaa706b3"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/phenomenon/frame_03.svg",
+    "sha256": "b02c0b8606f74a1eb1f61f730e8050a0bcb236fd0e471300e4efa4c75e526413"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/phenomenon/frame_04.svg",
+    "sha256": "30f472ef027c1f5d3f2388b158db4cb51586a58061db7dbdfbcf695ba03d0fdf"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/phenomenon/frame_05.svg",
+    "sha256": "5fd6f77c889f641905f7542460e12f13ab21ca7668c566fab4f5a22cb344ad7f"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/phenomenon/frame_06.svg",
+    "sha256": "22e45fa950ee7ba0069aa287c866b337a96cdad03db73d3bec28ac4c247df37b"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/phenomenon/frame_07.svg",
+    "sha256": "fec7fb0c0e6d406ba173152e3ef38ec571c7d4dd76f665bd6ece5db8921d3d32"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/phenomenon/frame_08.svg",
+    "sha256": "24d5e4c82e6f3a4bf2fe6c3e4c1af084302332470630e0a2ac2f87ad6ad956fc"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/phenomenon/frame_09.svg",
+    "sha256": "dd349a39ed321ab1977afd32579b8f7b24de51fb0b6139bbeb6365bfb6467b46"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/phenomenon/frame_10.svg",
+    "sha256": "ff9453c1c33840e76774f7d7957d36f4df1b0d28d65013e7c365f746c24a753e"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/phenomenon/frame_11.svg",
+    "sha256": "ec3ac2281c828918e6518a9638ede767cbacb204299a4c83f75db93b27c8ed90"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/phenomenon/frame_12.svg",
+    "sha256": "3b211dd2c48f58d72937d210a9c53183ea93d0f2165b344aa7b798c5a5f3a21e"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/phenomenon/frame_13.svg",
+    "sha256": "5ff119fdb23b8ce0cb8c6e7613e0a90387da9d978695918fef3bcc99d7ac54f6"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/phenomenon/frame_14.svg",
+    "sha256": "d9cfe2452024f4aa52c01ec8e8a20b58a828e57ff4897a6f1f7a8d1b09e08ded"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/phenomenon/frame_15.svg",
+    "sha256": "8ca9c554ef5ffb35e74c45c36ce5a14955f5861534113c0e2b7b3b4eedb45001"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/phenomenon/frame_16.svg",
+    "sha256": "96ffe9d866a60f1722e1706ddb1168200fbafcc6e35c8f0150b4ef9a2a9b2124"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/phenomenon/frame_17.svg",
+    "sha256": "8d768d9c7f753396507223e6af836b9479cb3e7e9d75ff3705a5326561c8afaa"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/phenomenon/frame_18.svg",
+    "sha256": "4fed1df8cc91f3368d3dbf6a27f59e61aef36a46527b8a11f7d329424b629c85"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/phenomenon/frame_19.svg",
+    "sha256": "e0d35eaf381ab3f3e78caf51b0ec043921263e0cc321a212ab0fc98527199c38"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/phenomenon/frame_20.svg",
+    "sha256": "ecc04d9f4c16c49d702b35762b3aff09760c48adbb1eb31fa2b6dde2b50bb8b3"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/phenomenon/phenomenon.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "f48585697aa87e982753bd9402929b9b77fdf41333ce8d9d51ebaa9c8f9731e5",
+  "semanticContentSha256": "1e5aa360cab3cf926415e0b52c6cc50995e1197c953175e76ec0fc757550ec61",
+  "masterSvgSha256": "a69f67453075cf285c7f566c7d8b1dd43d4c48d6373cccc683f32dfdbaa706b3",
+  "layerSvgSha256": [
+   "df4b814c37611fea537e0a0b55757f18433be8603df59e98ef038bfc0a47e95a",
+   "d27a84c844e48ce56dff7595b68a36a996c37affba8c258ac853b14e376d019a",
+   "a69f67453075cf285c7f566c7d8b1dd43d4c48d6373cccc683f32dfdbaa706b3"
+  ],
+  "finalSvgSha256": "ecc04d9f4c16c49d702b35762b3aff09760c48adbb1eb31fa2b6dde2b50bb8b3",
+  "audioSpecSha256": "2aca835abb44624ee83a33aaa17460c363d6431839f4ab8fec04c0832778d337"
+ }
+}

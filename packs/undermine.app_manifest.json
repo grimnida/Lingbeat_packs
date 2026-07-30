@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.undermine.core.v1",
+  "word": "undermine",
+  "wordpack_version": "2.1.0",
+  "status": "preview",
+  "wordpack_path": "undermine.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/undermine.motion.json",
+    "fallback_svg_path": "assets/images/undermine/undermine.master.svg",
+    "artboard": "undermine",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/undermine/undermine.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/undermine/undermine.chunk1.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/undermine/undermine.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "undermine.app_wordpack.json",
+      "bytes": 4222,
+      "sha256": "b0dacecb416431f384f94dc0041e2037b3a9fb191991d0fa1756f3bb1b17263f"
+    }
+  ]
+}

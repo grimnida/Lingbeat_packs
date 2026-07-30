@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.derive.core.v1",
+ "word": "derive",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/derive/derive.master.svg",
+  "layerSvgPaths": [
+   "assets/images/derive/derive.layer1.svg",
+   "assets/images/derive/derive.layer2.svg",
+   "assets/images/derive/derive.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/derive/derive.final.svg"
+ },
+ "sceneObjectIds": [
+  "agentAction",
+  "patientImpact",
+  "resultState"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "AGENT_ACTION",
+   "visibleObjectIds": [
+    "agentAction"
+   ],
+   "svgPath": "assets/images/derive/derive.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PATIENT_IMPACT",
+   "visibleObjectIds": [
+    "agentAction",
+    "patientImpact"
+   ],
+   "svgPath": "assets/images/derive/derive.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "RESULT",
+   "visibleObjectIds": [
+    "agentAction",
+    "patientImpact",
+    "resultState"
+   ],
+   "svgPath": "assets/images/derive/derive.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "자료 조각이 한 번 맞물리고 결론 타일이 위로 뽑혀 올라와 0.30초 정착한다.",
+  "allowedObjectIds": [
+   "agentAction",
+   "patientImpact",
+   "resultState"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/derive/frame_00.svg",
+    "sha256": "8719f3411232d879e98b618d6dd9c48a7ac3d64cd968ad1e40a3bd7823e1d1be"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/derive/frame_01.svg",
+    "sha256": "8719f3411232d879e98b618d6dd9c48a7ac3d64cd968ad1e40a3bd7823e1d1be"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/derive/frame_02.svg",
+    "sha256": "8acb7048cbf9146e3e7c25cbe39bd4d79f92ba3d1e36169e914475f7dc59c559"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/derive/frame_03.svg",
+    "sha256": "4256fef775a47fe13aebdb0edd1690853efd99d9746353ac3767c8fd1be50e8a"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/derive/frame_04.svg",
+    "sha256": "f12aae163a58d62bdd02c00531355900c1cc0261ded2bbd89d75722c4f98b1f1"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/derive/frame_05.svg",
+    "sha256": "b104e3762cb940ff17dd7be603763f90c48762f77435c4e66c13fcef52a421c4"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/derive/frame_06.svg",
+    "sha256": "846275094b7d1ca9b79e37664798615126764687cc4688ff24cea37d3382e2f0"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/derive/frame_07.svg",
+    "sha256": "106a830b0e2d9cd188b2c216abbcf90eed3da5d06264b24008a99b0591df9e46"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/derive/frame_08.svg",
+    "sha256": "ec3f586f019ad0413692165212fc10c52cff2d48fa6d7fc8a1e6c3c0436f4e73"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/derive/frame_09.svg",
+    "sha256": "ed93c94835c42a772739872ef6a5c52e04094eb52f45a4a4ad876b836714fcc8"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/derive/frame_10.svg",
+    "sha256": "9ee1d6b56157b3aada71aa7f1fa7398f9a157c8f0e72151124ff36779a377288"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/derive/frame_11.svg",
+    "sha256": "f169254f3dc126fdd79c55d91808957180dbc3e89e064fa99cb2c07e5378f990"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/derive/frame_12.svg",
+    "sha256": "f169254f3dc126fdd79c55d91808957180dbc3e89e064fa99cb2c07e5378f990"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/derive/frame_13.svg",
+    "sha256": "b38af78830e85377e40556f8d0cdf79e7cc00557e80360927dc145030044e81e"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/derive/frame_14.svg",
+    "sha256": "218bb9374abf678883585cb320cd0f6bbec088e5764a867265260166b7ff13c6"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/derive/frame_15.svg",
+    "sha256": "76a4c73124093d053b574182e8cdf7d40f39b8bf9077bbf9355e741c0492b352"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/derive/frame_16.svg",
+    "sha256": "f9aad80445e9fd6ec1ee5cfc30fb136586d507734742220e13fec3e6500ed461"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/derive/frame_17.svg",
+    "sha256": "d11a3501c8c0d056a6086b5ec2285da61de580fcce704d73b8726ab11ee3f84d"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/derive/frame_18.svg",
+    "sha256": "f2974cde2a6cce866b62f8870d07a8478cb717d2913e53dbef718c747dc12bec"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/derive/frame_19.svg",
+    "sha256": "8cc3c78636e973e8244d544d2197ac864dc2f9e54fbd790fa309b3e1a899ae48"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/derive/frame_20.svg",
+    "sha256": "db58d05fa30a1a6b559a0d257c2329edbfe34410fde3c9e8e3260162f61cdb8b"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/derive/derive.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "9d599b48da18e7ea38028f231506492826527e99c83f844332776700921f7a9d",
+  "semanticContentSha256": "de537164a19130763567594f6ab497a14d67921adb95485792a03b388b635fef",
+  "masterSvgSha256": "8719f3411232d879e98b618d6dd9c48a7ac3d64cd968ad1e40a3bd7823e1d1be",
+  "layerSvgSha256": [
+   "49430b3c8803cb8939b6d580c4c0e1cfc17afbc95569ba1093937d0cf594464c",
+   "4519d994c01c1e199b18c67480a525bae6bfb1d49035473c09f2dcbd06f1fe29",
+   "8719f3411232d879e98b618d6dd9c48a7ac3d64cd968ad1e40a3bd7823e1d1be"
+  ],
+  "finalSvgSha256": "db58d05fa30a1a6b559a0d257c2329edbfe34410fde3c9e8e3260162f61cdb8b",
+  "audioSpecSha256": "1191462dce63231aa49daabd00089d3fedcbc138b3fe301aea676beac0d73a77"
+ }
+}

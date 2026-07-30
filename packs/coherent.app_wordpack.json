@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.1.0",
+  "word_id": "linkling.coherent.core.v1",
+  "word": "coherent",
+  "template_id": "T05_ACCUMULATION_PROGRESS",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "adjective",
+    "core_meaning_ko": "일관된",
+    "accepted_meanings_ko": [
+      "일관된",
+      "앞뒤가 논리적으로 잘 이어지는"
+    ],
+    "excluded_meanings_ko": [
+      "정돈된",
+      "붙어 있는",
+      "본래 내재한"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "koʊˈhɪrənt",
+    "full_audio_asset_id": "assets/audio/coherent/coherent.audio_spec.json",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "koʊ",
+        "cumulative_spelling": "co",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "koʊˈhɪr",
+        "cumulative_spelling": "coher",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "koʊˈhɪrənt",
+        "cumulative_spelling": "coherent",
+        "audio_asset_id": "assets/audio/coherent/coherent.audio_spec.json",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/coherent/coherent.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "흩어진 생각 블록들이 왼쪽에서 오른쪽으로 논리 순서대로 연결되어 하나의 선을 만든다.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "START"
+        ],
+        "group_ids": [
+          "startState"
+        ],
+        "description_ko": "서로 떨어진 생각 블록들을 제시한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "ACCUMULATION"
+        ],
+        "group_ids": [
+          "startState",
+          "accumulation"
+        ],
+        "description_ko": "순서 번호와 빈 연결 위치를 추가한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "VISIBLE_PROGRESS"
+        ],
+        "group_ids": [
+          "startState",
+          "accumulation",
+          "visibleProgress"
+        ],
+        "description_ko": "연결선과 완성될 전체 흐름을 추가한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 1800,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "앞뒤가 딱 맞는!",
+    "anchor_group_id": "startState"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "coherent",
+    "spelling_chunks": [
+      "co",
+      "coher",
+      "coherent"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/coherent/coherent.master.svg",
+    "motionRecipePath": "motion_recipes/coherent.motion.json",
+    "audioSpecPath": "assets/audio/coherent/coherent.audio_spec.json",
+    "assetStatus": "generated"
+  }
+}

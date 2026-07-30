@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.hence.core.v1",
+ "word": "hence",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/hence/hence.master.svg",
+  "layerSvgPaths": [
+   "assets/images/hence/hence.layer1.svg",
+   "assets/images/hence/hence.layer2.svg",
+   "assets/images/hence/hence.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/hence/hence.final.svg"
+ },
+ "sceneObjectIds": [
+  "agentAction",
+  "patientImpact",
+  "resultState"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "AGENT_ACTION",
+   "visibleObjectIds": [
+    "agentAction"
+   ],
+   "svgPath": "assets/images/hence/hence.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PATIENT_IMPACT",
+   "visibleObjectIds": [
+    "agentAction",
+    "patientImpact"
+   ],
+   "svgPath": "assets/images/hence/hence.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "RESULT",
+   "visibleObjectIds": [
+    "agentAction",
+    "patientImpact",
+    "resultState"
+   ],
+   "svgPath": "assets/images/hence/hence.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "비가 한 번 세지고 공이 물웅덩이에서 짧게 멈춘다.",
+  "allowedObjectIds": [
+   "agentAction",
+   "patientImpact",
+   "resultState"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/hence/frame_00.svg",
+    "sha256": "080be8c498d005ac543b4b25b9ec9c4997dbd675adf297c38d13ebdf24ffc359"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/hence/frame_01.svg",
+    "sha256": "a4233b9374b1c8f541bb9e4b47f00857ea43fa5eb92c0c111584781ff12fc102"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/hence/frame_02.svg",
+    "sha256": "c5a9ba6ab31990c0ba0c0f0130288e931e74074ecb598c312c7b537673a7c97c"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/hence/frame_03.svg",
+    "sha256": "f8f046449730f2156a8d93f2c7eafd355bc690188a3a88e5aeab3654c99c7b38"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/hence/frame_04.svg",
+    "sha256": "dc04e8daeef62bc63cad4cef006a0cf31ef9d50ff37562dadde41a48adc91d1e"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/hence/frame_05.svg",
+    "sha256": "4d453b3b1f12699feaf0d67ddb679baa3e9ba6ca3bb9f7cbec3e80664483d0ab"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/hence/frame_06.svg",
+    "sha256": "e00c4c8fe24c2b7453bdc06e4d69c25dc1da34f640fb396cd9575e97644e8bb5"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/hence/frame_07.svg",
+    "sha256": "9bb2993fccbdd2b85c5d24b596a491ad689adfc695e7e0963ad0792efac3c94f"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/hence/frame_08.svg",
+    "sha256": "281ca7d6af42d4866d0218cf1e8dd692040ee80c288ec5ad6d027f152531785f"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/hence/frame_09.svg",
+    "sha256": "ce07bcb693685eedc1ec43b54b3e0f064a9485f5ddce1f4ee59a780ee4b2d4a2"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/hence/frame_10.svg",
+    "sha256": "5ce2a5545235fd7a5cf88b28546e0367234d70e5438b5442e34e4ae8f5f77388"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/hence/frame_11.svg",
+    "sha256": "c97b6e4d0955988ae0fd9525117be1435959704db6ba0b6c535be7fc5e8c6244"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/hence/frame_12.svg",
+    "sha256": "cdf72b66477131c83b7247f1e6081c430ae200c14ba0821301b5b6f2d1851a1b"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/hence/frame_13.svg",
+    "sha256": "4b81e62e8f5c7d9c9ee993688c9a89bc56441dc4223549c130a65c7e6db98509"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/hence/frame_14.svg",
+    "sha256": "c5f9f79cbd636a7826f61c618c7bf82421e2bebc1738ca296f47bd8940e9e442"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/hence/frame_15.svg",
+    "sha256": "08c69f3cefb748993e4f64f9feeef346733a3f6e9a43b0f20c203e8d459de094"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/hence/frame_16.svg",
+    "sha256": "38760e0202b2e8bb703135c694a4a60d3870b483e2fec83f884038b128bb8772"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/hence/frame_17.svg",
+    "sha256": "5faaa1ec01b3648b9b86aba8127704ef5e6b883a42787d10000a1eae8bea63e4"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/hence/frame_18.svg",
+    "sha256": "1657a9cea78871c4dbcaaf119438ca1dfbcceba0c2f95dc137a499f26671e83a"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/hence/frame_19.svg",
+    "sha256": "38cc08a225e73edf4528dfae64e15f61c0d5d1763e4354da4c3d31ca12403006"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/hence/frame_20.svg",
+    "sha256": "876d9331b4cc01646094d8977c7ca899a8291c826caeb85f73c260ea44e40316"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/hence/hence.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "ba63f2b45a28f899e06ff9e0237c5b7bfbc844124393cb809fc32c6db70b95c3",
+  "semanticContentSha256": "f28f1b2875c96f65d22a10c01fcc0c3c8079c4f7d93bc2b66720e2d3167e4c2e",
+  "masterSvgSha256": "080be8c498d005ac543b4b25b9ec9c4997dbd675adf297c38d13ebdf24ffc359",
+  "layerSvgSha256": [
+   "5f7e0b6285fa2ffbcb41e6655fa111b841dff78af36235969d354353e6e2c4ec",
+   "0a212edd00db44273d1794a5fb400e68a16a7e5b31b2b7e0ec104e3af01aad4a",
+   "080be8c498d005ac543b4b25b9ec9c4997dbd675adf297c38d13ebdf24ffc359"
+  ],
+  "finalSvgSha256": "876d9331b4cc01646094d8977c7ca899a8291c826caeb85f73c260ea44e40316",
+  "audioSpecSha256": "1434a56ac9ee226f54dcaba7c0a8ce86081e3dd35f8cd014722a6929f5a336b9"
+ }
+}

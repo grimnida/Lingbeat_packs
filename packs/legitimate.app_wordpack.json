@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.1.0",
+  "word_id": "linkling.legitimate.core.v1",
+  "word": "legitimate",
+  "template_id": "T04_CHOICE_PRESSURE_DECISION",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "adjective",
+    "core_meaning_ko": "정당한",
+    "accepted_meanings_ko": [
+      "정당한",
+      "근거와 기준에 비추어 정당하고 타당한"
+    ],
+    "excluded_meanings_ko": [
+      "자격이 있다",
+      "진짜다",
+      "특별 권리가 있다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ləˈdʒɪtəmət",
+    "full_audio_asset_id": "assets/audio/legitimate/legitimate.audio_spec.json",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ləˈdʒɪ",
+        "cumulative_spelling": "legi",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ləˈdʒɪtə",
+        "cumulative_spelling": "legiti",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ləˈdʒɪtəmət",
+        "cumulative_spelling": "legitimate",
+        "audio_asset_id": "assets/audio/legitimate/legitimate.audio_spec.json",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/legitimate/legitimate.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "근거를 갖춘 주장 카드가 간단한 심사대를 통과해 공식 인정 도장을 받는다.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "OPTIONS"
+        ],
+        "group_ids": [
+          "options"
+        ],
+        "description_ko": "주장 카드와 빈 인정 칸을 제시한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PRESSURE_OR_CRITERION"
+        ],
+        "group_ids": [
+          "options",
+          "criterion"
+        ],
+        "description_ko": "주장을 받치는 근거 묶음을 추가한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "DECISION"
+        ],
+        "group_ids": [
+          "options",
+          "criterion",
+          "decision"
+        ],
+        "description_ko": "심사대와 인정 도장을 추가해 정당성을 완성한다.",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 1800,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "맞는 말이야!",
+    "anchor_group_id": "options"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "legitimate",
+    "spelling_chunks": [
+      "legi",
+      "legiti",
+      "legitimate"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/legitimate/legitimate.master.svg",
+    "motionRecipePath": "motion_recipes/legitimate.motion.json",
+    "audioSpecPath": "assets/audio/legitimate/legitimate.audio_spec.json",
+    "assetStatus": "generated"
+  }
+}

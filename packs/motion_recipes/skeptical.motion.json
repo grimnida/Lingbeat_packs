@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.skeptical.core.v1",
+ "word": "skeptical",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/skeptical/skeptical.master.svg",
+  "layerSvgPaths": [
+   "assets/images/skeptical/skeptical.layer1.svg",
+   "assets/images/skeptical/skeptical.layer2.svg",
+   "assets/images/skeptical/skeptical.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/skeptical/skeptical.final.svg"
+ },
+ "sceneObjectIds": [
+  "options",
+  "criterion",
+  "decision"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "OPTIONS",
+   "visibleObjectIds": [
+    "options"
+   ],
+   "svgPath": "assets/images/skeptical/skeptical.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PRESSURE_OR_CRITERION",
+   "visibleObjectIds": [
+    "options",
+    "criterion"
+   ],
+   "svgPath": "assets/images/skeptical/skeptical.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "DECISION",
+   "visibleObjectIds": [
+    "options",
+    "criterion",
+    "decision"
+   ],
+   "svgPath": "assets/images/skeptical/skeptical.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "사람이 고개를 살짝 기울이고 눈썹이 올라가며 물음표가 한 번 나타난다.",
+  "allowedObjectIds": [
+   "options",
+   "criterion",
+   "decision"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/skeptical/frame_00.svg",
+    "sha256": "b703531a8d45add7931d882e6c8c13e0b4c3a9d0bde8bea4bf871637373cbf11"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/skeptical/frame_01.svg",
+    "sha256": "b703531a8d45add7931d882e6c8c13e0b4c3a9d0bde8bea4bf871637373cbf11"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/skeptical/frame_02.svg",
+    "sha256": "b703531a8d45add7931d882e6c8c13e0b4c3a9d0bde8bea4bf871637373cbf11"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/skeptical/frame_03.svg",
+    "sha256": "fb8ce5aadebcdf5a63081f1325cefd4b009dd33ed31d576dca3612a737c58ece"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/skeptical/frame_04.svg",
+    "sha256": "b703531a8d45add7931d882e6c8c13e0b4c3a9d0bde8bea4bf871637373cbf11"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/skeptical/frame_05.svg",
+    "sha256": "d8259e1985bf93187759e82c2b4b6f3af48c8c9977505ae9e71aef0778876b3d"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/skeptical/frame_06.svg",
+    "sha256": "2a34e092e196cacd957a7ff6743bfd3e05385eb6b240ac7d2f665235b919831e"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/skeptical/frame_07.svg",
+    "sha256": "27aab493a37666c8226eb00b58acb719d04f48d23f75ca35e4743f3935fddbf1"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/skeptical/frame_08.svg",
+    "sha256": "dff06307529f79b7e392a262f68218de6a294c479fdba99757ffd2e6db75ed6e"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/skeptical/frame_09.svg",
+    "sha256": "a579b833717dc1d310265b59624d60c59ca93d81220f938ad75b6946a4243141"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/skeptical/frame_10.svg",
+    "sha256": "4831325df96a37685f861d421ce2a7217fe52274e8b737b40c8e89fdc0f5e133"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/skeptical/frame_11.svg",
+    "sha256": "2342e6ee14c22ab3a759f02af56321fda9469e43732cd9d396799dc108bb76fd"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/skeptical/frame_12.svg",
+    "sha256": "37cb97e8bc31a4258a9498cb45b9e42d4d84b2a5de655be6885d7ef3c4ca67ee"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/skeptical/frame_13.svg",
+    "sha256": "4479a7e399beb2e89998dec7a63496b4aae498599e9ac8caedd7bceb31f92260"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/skeptical/frame_14.svg",
+    "sha256": "ddb191ca1e22c35c46b5fdc40e40ac1c5a20aeb17205ccbca214059cf5420e51"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/skeptical/frame_15.svg",
+    "sha256": "3b66c2baa938b4155e6bdca23b8b39cd4383042b603fffdf83dd36dd907be93e"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/skeptical/frame_16.svg",
+    "sha256": "eaa4f60d32d2606ab34ed8653133eaac6d4ca7ded48352ab7fa008cdcd2f442a"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/skeptical/frame_17.svg",
+    "sha256": "e4a7ff294aa146b921ce81b38ad5b6351285012b117b5b2a54265492aeb241ba"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/skeptical/frame_18.svg",
+    "sha256": "41fcb5a17f946c98ca1a43e1ea5238fffd6a9e49c1fa409052bdafac43ce5ec3"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/skeptical/frame_19.svg",
+    "sha256": "731358eaa0df40267ebc97c9d4a266ef3789f03916f95d21811a70779292bd35"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/skeptical/frame_20.svg",
+    "sha256": "876c0cf227fd7c229124efa93b62a1393c82ce21082f09fb95df51106288601c"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/skeptical/skeptical.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "491ebd420bc080a2445fe0ea4476c45dc839aa2e43113d3a9b8fcffc050be755",
+  "semanticContentSha256": "bca1f01271b8e29a2f5e048ece0083466e842e7fb6c645095c3cd60c5e31bdb0",
+  "masterSvgSha256": "b703531a8d45add7931d882e6c8c13e0b4c3a9d0bde8bea4bf871637373cbf11",
+  "layerSvgSha256": [
+   "bedb8edf59079ef108d11503b87171e0e2f3c495e103188476de9dd3f0794cb1",
+   "de9bdee984553a5263a616cbc016375a1601065cf7dd5865ded8c4de9be5e13f",
+   "b703531a8d45add7931d882e6c8c13e0b4c3a9d0bde8bea4bf871637373cbf11"
+  ],
+  "finalSvgSha256": "876c0cf227fd7c229124efa93b62a1393c82ce21082f09fb95df51106288601c",
+  "audioSpecSha256": "c064f3e570c9fcfe30ca64e09319bac11498cd10ca98da0f6ad8287240854d93"
+ }
+}

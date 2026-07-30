@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.fluctuate.core.v1",
+ "word": "fluctuate",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/fluctuate/fluctuate.master.svg",
+  "layerSvgPaths": [
+   "assets/images/fluctuate/fluctuate.layer1.svg",
+   "assets/images/fluctuate/fluctuate.layer2.svg",
+   "assets/images/fluctuate/fluctuate.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/fluctuate/fluctuate.final.svg"
+ },
+ "sceneObjectIds": [
+  "subjectState",
+  "changeTrigger",
+  "resultState"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "BASELINE",
+   "visibleObjectIds": [
+    "subjectState"
+   ],
+   "svgPath": "assets/images/fluctuate/fluctuate.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "CHANGE_TRIGGER",
+   "visibleObjectIds": [
+    "subjectState",
+    "changeTrigger"
+   ],
+   "svgPath": "assets/images/fluctuate/fluctuate.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "RESULT_STATE",
+   "visibleObjectIds": [
+    "subjectState",
+    "changeTrigger",
+    "resultState"
+   ],
+   "svgPath": "assets/images/fluctuate/fluctuate.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "값 점이 물결 경로를 따라 한 번 위로, 아래로, 다시 중간 위로 이동한 뒤 멈춘다.",
+  "allowedObjectIds": [
+   "subjectState",
+   "changeTrigger",
+   "resultState"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/fluctuate/frame_00.svg",
+    "sha256": "0f244f18cbd8ff806e51e2818105936e7e9bfb3c2a6a2ba5eab5009f2483f6a7"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/fluctuate/frame_01.svg",
+    "sha256": "8dbf6fb7c318da189164deb4555cd15bcc790407eb9bcd8a5b257e5e5ff75cb5"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/fluctuate/frame_02.svg",
+    "sha256": "5a0b60bc832174202a6813df5d954e736182d8cc37333a8e7de696e48f1ded22"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/fluctuate/frame_03.svg",
+    "sha256": "e0448dbbee5eecceeb806efc822834d706744ceffca31dcefb5278ddea0aaf23"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/fluctuate/frame_04.svg",
+    "sha256": "5d9e75a4cd8620ee8e7a175b42447665a1d50d12eb2db097fa32858fe81866eb"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/fluctuate/frame_05.svg",
+    "sha256": "030389831ca777742699cfd93a0d66c510d9c508dee69ea44a29b09c6bc71010"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/fluctuate/frame_06.svg",
+    "sha256": "548ac0242ba4c08ad0f8432bee921a74881787b118218c3f196dd7e55c979490"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/fluctuate/frame_07.svg",
+    "sha256": "f524f6743bae67401a9a16244316d792c7f696c12725b8d6824bb1935f3ed1a4"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/fluctuate/frame_08.svg",
+    "sha256": "1bd22563275db6ee729c1ce901dbb981e77ec0ea4571a9f703b5b103019f7dae"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/fluctuate/frame_09.svg",
+    "sha256": "8dc5c5add8f2b9ef2ca01edad254a4bcf93499511f12ec2348b5b4660c3b4516"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/fluctuate/frame_10.svg",
+    "sha256": "fe9a821db183f6cf0251463881ebf6b4deaa5500816d2a60eb48f6abd3830125"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/fluctuate/frame_11.svg",
+    "sha256": "259f385e6af5e197984bd23441df37c4d65fc30b0dd1b2ea5c4be0b0040e622e"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/fluctuate/frame_12.svg",
+    "sha256": "0b6576f2c37f92509ed2626b748a4482fc1ad06fcffb48c5eed1d0e9cbda7a33"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/fluctuate/frame_13.svg",
+    "sha256": "79382b0e24d62ca13365ab5cb2b6c589c28688725111a280b436719d03e3d0cd"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/fluctuate/frame_14.svg",
+    "sha256": "d0f56867fec880a20f022eb9cfd0b18e5707f7e4a4eb012623656e4020b82198"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/fluctuate/frame_15.svg",
+    "sha256": "25d84efa21aa7d3c2707a9c33b9d474c78e03fe17fc3c3f8c425c8be50b57068"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/fluctuate/frame_16.svg",
+    "sha256": "159bed25644bae1b31f6e01259c9e0863d9bbdf81166c1758855c1fe43b70a23"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/fluctuate/frame_17.svg",
+    "sha256": "9a5ce5c89b4e2058fc784070075eed5f41a44bc1bd632115225dcad0ac0eab00"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/fluctuate/frame_18.svg",
+    "sha256": "22db2a7648753383dc24b6ab9c13852e101e361a42750a49278fff055f4d19c6"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/fluctuate/frame_19.svg",
+    "sha256": "e6d90d3e2f6bd6b2326e1d38ceb0df3990367949729bbf1ffaafe410c20b25e7"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/fluctuate/frame_20.svg",
+    "sha256": "e6d90d3e2f6bd6b2326e1d38ceb0df3990367949729bbf1ffaafe410c20b25e7"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/fluctuate/fluctuate.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "05549a61873bb234ccd80e7165df6aee9056d43fc65bb31bc2367f65e43c1e9d",
+  "semanticContentSha256": "8d5b5814c76634828afce2f2cf97a1df95b701194860b78eb7b5b3475d2b2505",
+  "masterSvgSha256": "0f244f18cbd8ff806e51e2818105936e7e9bfb3c2a6a2ba5eab5009f2483f6a7",
+  "layerSvgSha256": [
+   "31951084514c837bd83e6940ce816b6bd112cad5ab149ec46b4d8dfe4cfe70e3",
+   "a2c7987150ec8fcd81402d098fefb359be2d77049a4a6bb4f2a19561aab145ba",
+   "0f244f18cbd8ff806e51e2818105936e7e9bfb3c2a6a2ba5eab5009f2483f6a7"
+  ],
+  "finalSvgSha256": "e6d90d3e2f6bd6b2326e1d38ceb0df3990367949729bbf1ffaafe410c20b25e7",
+  "audioSpecSha256": "0f7f182c560fe2f9a893d8f25c933d570b77cc25fb8c452711986f879413fcce"
+ }
+}

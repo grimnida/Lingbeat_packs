@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.rather.core.v1",
+ "word": "rather",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/rather/rather.master.svg",
+  "layerSvgPaths": [
+   "assets/images/rather/rather.layer1.svg",
+   "assets/images/rather/rather.layer2.svg",
+   "assets/images/rather/rather.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/rather/rather.final.svg"
+ },
+ "sceneObjectIds": [
+  "options",
+  "criterion",
+  "decision"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "OPTIONS",
+   "visibleObjectIds": [
+    "options"
+   ],
+   "svgPath": "assets/images/rather/rather.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "PRESSURE_OR_CRITERION",
+   "visibleObjectIds": [
+    "options",
+    "criterion"
+   ],
+   "svgPath": "assets/images/rather/rather.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "DECISION",
+   "visibleObjectIds": [
+    "options",
+    "criterion",
+    "decision"
+   ],
+   "svgPath": "assets/images/rather/rather.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "선택자가 A 방향에서 B 방향으로 90도 안팎 회전해 B 경로 첫 칸에 멈춘다.",
+  "allowedObjectIds": [
+   "options",
+   "criterion",
+   "decision"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/rather/frame_00.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/rather/frame_01.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/rather/frame_02.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/rather/frame_03.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/rather/frame_04.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/rather/frame_05.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/rather/frame_06.svg",
+    "sha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/rather/frame_07.svg",
+    "sha256": "f701b1c5946f3280e409c836b82838d145779641597296e9039d6b7ca1113e93"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/rather/frame_08.svg",
+    "sha256": "158b6fb5f1cc222df615e9df5980103e8865b16640908f01c6058c6f9c0b50f4"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/rather/frame_09.svg",
+    "sha256": "983494012697d239cc6bd0cdbe4990781bf2bf0bfe6004a25584675f06c9dc51"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/rather/frame_10.svg",
+    "sha256": "983494012697d239cc6bd0cdbe4990781bf2bf0bfe6004a25584675f06c9dc51"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/rather/frame_11.svg",
+    "sha256": "983494012697d239cc6bd0cdbe4990781bf2bf0bfe6004a25584675f06c9dc51"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/rather/frame_12.svg",
+    "sha256": "b8045d620df2339c85ac8271a290e9740fcd48ba298b6d79785adf408956c7a2"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/rather/frame_13.svg",
+    "sha256": "03371b382045d5c2dcd1b98a272cd47d052d2a9b1d437f90c71e933a3b4882ee"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/rather/frame_14.svg",
+    "sha256": "2956d7046c6575305581314f7902280e1025c23bfeb9f5d4bba4457b479d52a2"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/rather/frame_15.svg",
+    "sha256": "a249db73f2786a622b3b81256e5248b9e91a5f8c67df637aba24c13882106818"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/rather/frame_16.svg",
+    "sha256": "8b670e79b47c0715dc3841eee0018b8c49c2cf6290d77d46b20db9faeef29a5b"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/rather/frame_17.svg",
+    "sha256": "9b794e9fba9be32bd4f8f68bb4b618887844a7217da233b637ea35388b035a1c"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/rather/frame_18.svg",
+    "sha256": "ec9c5bd1ea2f71bc2c4947e1239df116fe0d0072636292613123f2db72accf4c"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/rather/frame_19.svg",
+    "sha256": "e5f9efcb7cd54736aa1b22e952ce6edd831a9a4c0e885327cadbfd69276f1243"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/rather/frame_20.svg",
+    "sha256": "cd25fb3ac2ecfcaf28ae0146fee582b2988ade4dea02e96815dbf670b58d4411"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/rather/rather.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "47b721703ad70e5a589ea65bbee686d9854a2a2b4d5bc48f7278f19854b41c31",
+  "semanticContentSha256": "ec7d22809ba4f79134c13e6bc173badd0febbabef9f066a5e180b9122b259710",
+  "masterSvgSha256": "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c",
+  "layerSvgSha256": [
+   "1b6e089c68167d79b159cb79679f4aa1f9fd5aed6e8ff8a707c33835bc20bda2",
+   "2b6b612d4ee62cbcce84ecf7ef5c8c0912f0a14e9f790270e32c220c37a12523",
+   "8a9db516d0da9f8c17960334c9daa485c0ec1ca256eef7e77d3089067a8f9b3c"
+  ],
+  "finalSvgSha256": "cd25fb3ac2ecfcaf28ae0146fee582b2988ade4dea02e96815dbf670b58d4411",
+  "audioSpecSha256": "2305636659e0bfce8b1ec3dc839e40b0ace38175ae174a9b6ac59e396f8928af"
+ }
+}

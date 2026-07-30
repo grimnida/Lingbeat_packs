@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.adequate.core.v1",
+  "word": "adequate",
+  "wordpack_version": "2.1.0",
+  "status": "preview",
+  "wordpack_path": "adequate.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/adequate.motion.json",
+    "fallback_svg_path": "assets/images/adequate/adequate.master.svg",
+    "artboard": "adequate",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/adequate/adequate.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/adequate/adequate.chunk1.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/adequate/adequate.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "adequate.app_wordpack.json",
+      "bytes": 4126,
+      "sha256": "53ebfe4f2647dab076df893da9bccb81c46e7db00af5f07794391bf0c60faba1"
+    }
+  ]
+}

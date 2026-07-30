@@ -1,0 +1,194 @@
+{
+ "motionRecipeVersion": "1.0.0",
+ "contractVersion": "2.0.0",
+ "wordpackId": "linkling.colleague.core.v1",
+ "word": "colleague",
+ "renderer": "svg_motion",
+ "packageBase": "../",
+ "viewport": {
+  "width": 768,
+  "height": 768,
+  "fit": "contain",
+  "alignment": "center"
+ },
+ "source": {
+  "masterSvgPath": "assets/images/colleague/colleague.master.svg",
+  "layerSvgPaths": [
+   "assets/images/colleague/colleague.layer1.svg",
+   "assets/images/colleague/colleague.layer2.svg",
+   "assets/images/colleague/colleague.layer3.svg"
+  ],
+  "finalSvgPath": "assets/images/colleague/colleague.final.svg"
+ },
+ "sceneObjectIds": [
+  "initialRelation",
+  "transferShift",
+  "newRelation"
+ ],
+ "layerStates": [
+  {
+   "layerIndex": 1,
+   "role": "INITIAL_RELATION",
+   "visibleObjectIds": [
+    "initialRelation"
+   ],
+   "svgPath": "assets/images/colleague/colleague.layer1.svg"
+  },
+  {
+   "layerIndex": 2,
+   "role": "TRANSFER_OR_SHIFT",
+   "visibleObjectIds": [
+    "initialRelation",
+    "transferShift"
+   ],
+   "svgPath": "assets/images/colleague/colleague.layer2.svg"
+  },
+  {
+   "layerIndex": 3,
+   "role": "NEW_RELATION",
+   "visibleObjectIds": [
+    "initialRelation",
+    "transferShift",
+    "newRelation"
+   ],
+   "svgPath": "assets/images/colleague/colleague.layer3.svg"
+  }
+ ],
+ "finalAnimation": {
+  "mode": "svg_frame_sequence",
+  "durationMs": 1800,
+  "loop": false,
+  "fill": "forwards",
+  "summaryKo": "두 사람이 들고 있던 조각을 동시에 보드 중앙에 밀어 넣고, 조각이 맞물리면 함께 짧게 고개를 끄덕인다.",
+  "allowedObjectIds": [
+   "initialRelation",
+   "transferShift",
+   "newRelation"
+  ],
+  "frames": [
+   {
+    "offset": 0.0,
+    "svgPath": "assets/motion_frames/colleague/frame_00.svg",
+    "sha256": "2eece9794775061cc5d593db99d6f07e1a75a1aa22f9f7a08481a872dae51b05"
+   },
+   {
+    "offset": 0.05,
+    "svgPath": "assets/motion_frames/colleague/frame_01.svg",
+    "sha256": "2eece9794775061cc5d593db99d6f07e1a75a1aa22f9f7a08481a872dae51b05"
+   },
+   {
+    "offset": 0.1,
+    "svgPath": "assets/motion_frames/colleague/frame_02.svg",
+    "sha256": "2eece9794775061cc5d593db99d6f07e1a75a1aa22f9f7a08481a872dae51b05"
+   },
+   {
+    "offset": 0.15,
+    "svgPath": "assets/motion_frames/colleague/frame_03.svg",
+    "sha256": "54b5ce090447e5ac1003f4cd11d6fc4b2efcf1b1059ec9a893e2cbd567c3b11e"
+   },
+   {
+    "offset": 0.2,
+    "svgPath": "assets/motion_frames/colleague/frame_04.svg",
+    "sha256": "68b5b7bba25fc26f27241ab17a2d74d1b0440f0b1130d2099845cfddf5257736"
+   },
+   {
+    "offset": 0.25,
+    "svgPath": "assets/motion_frames/colleague/frame_05.svg",
+    "sha256": "13e809d030095f2bc2700a9c418ff0413828738aa17b8f4787936eb3323e4da8"
+   },
+   {
+    "offset": 0.3,
+    "svgPath": "assets/motion_frames/colleague/frame_06.svg",
+    "sha256": "3ce14d9c573f4043e135560a1a5f9e0e3776b3c46b82e079df01155c8950b030"
+   },
+   {
+    "offset": 0.35,
+    "svgPath": "assets/motion_frames/colleague/frame_07.svg",
+    "sha256": "d00951018c8b952b31614bf695b80a797505afa7a2a5a6a465c0b94329a33fce"
+   },
+   {
+    "offset": 0.4,
+    "svgPath": "assets/motion_frames/colleague/frame_08.svg",
+    "sha256": "97d2aee7a635cd513152d6a76df70afc72b107260f2ea86d3c59e97e7618d2f1"
+   },
+   {
+    "offset": 0.45,
+    "svgPath": "assets/motion_frames/colleague/frame_09.svg",
+    "sha256": "1d0fb9dd8874b45675efe86abe3c18a2b2dc62115177c12ffac6c9dbc4d6bbea"
+   },
+   {
+    "offset": 0.5,
+    "svgPath": "assets/motion_frames/colleague/frame_10.svg",
+    "sha256": "587e2ec7b09e9779592a6ed19d859166b3bad10288efdc374a9971cd06519426"
+   },
+   {
+    "offset": 0.55,
+    "svgPath": "assets/motion_frames/colleague/frame_11.svg",
+    "sha256": "2a0910601552f3d5cb69b38e0b74d71382b927fb9e8c80dc70bef9b257f7e2ac"
+   },
+   {
+    "offset": 0.6,
+    "svgPath": "assets/motion_frames/colleague/frame_12.svg",
+    "sha256": "3f7f7943b22361408e68f05a1a6666d7d76b33b17f54318f717c6fb78ed189c8"
+   },
+   {
+    "offset": 0.65,
+    "svgPath": "assets/motion_frames/colleague/frame_13.svg",
+    "sha256": "2792989ecd5ba922905eb149251d0a46d7afaf513cd97851337e2ee7f556b472"
+   },
+   {
+    "offset": 0.7,
+    "svgPath": "assets/motion_frames/colleague/frame_14.svg",
+    "sha256": "666d84b10fb62002e565a8238a739a0425070c9be79200736c827baf1950969c"
+   },
+   {
+    "offset": 0.75,
+    "svgPath": "assets/motion_frames/colleague/frame_15.svg",
+    "sha256": "666d84b10fb62002e565a8238a739a0425070c9be79200736c827baf1950969c"
+   },
+   {
+    "offset": 0.8,
+    "svgPath": "assets/motion_frames/colleague/frame_16.svg",
+    "sha256": "666d84b10fb62002e565a8238a739a0425070c9be79200736c827baf1950969c"
+   },
+   {
+    "offset": 0.85,
+    "svgPath": "assets/motion_frames/colleague/frame_17.svg",
+    "sha256": "11c30f213f00cd97ee42e2e175fa66c3b0205bced3915ce4a4c6c8a6981f77f2"
+   },
+   {
+    "offset": 0.9,
+    "svgPath": "assets/motion_frames/colleague/frame_18.svg",
+    "sha256": "9ee86846e4aa27a44a3dd19dcadf5bd66fa7abd0fb8a420783ef67dabd0bd4fc"
+   },
+   {
+    "offset": 0.95,
+    "svgPath": "assets/motion_frames/colleague/frame_19.svg",
+    "sha256": "5f2b5ac66b051718d17b6636f748760f8da6fafc58ae7198a9c1c8aad7ee7207"
+   },
+   {
+    "offset": 1.0,
+    "svgPath": "assets/motion_frames/colleague/frame_20.svg",
+    "sha256": "d3733849c8491a11ec5f5300ae425962a6bb5441d753522fa1634f3341577703"
+   }
+  ],
+  "tracks": []
+ },
+ "reducedMotion": {
+  "mode": "final_frame",
+  "finalSvgPath": "assets/images/colleague/colleague.final.svg",
+  "highlightMs": 120
+ },
+ "integrity": {
+  "sourceWordpackSha256": "50a84f3d40a0b44eb64f8f703f05562d641191258bb59a029c03986b94f23ebd",
+  "semanticContentSha256": "8d643d84ca2fb24c9a3e80421beba4635ad8229c98dd3fcd8a79b3db8f8bb835",
+  "masterSvgSha256": "2eece9794775061cc5d593db99d6f07e1a75a1aa22f9f7a08481a872dae51b05",
+  "layerSvgSha256": [
+   "7ee37e3a638a7bba10051302ef6d86dfbc9cc20c993544ae4b6aba6945392e56",
+   "f1ed6b2bf48d089041d6ebd19df7890941511281fabb949ecbcd66f092e0b900",
+   "2eece9794775061cc5d593db99d6f07e1a75a1aa22f9f7a08481a872dae51b05"
+  ],
+  "finalSvgSha256": "d3733849c8491a11ec5f5300ae425962a6bb5441d753522fa1634f3341577703",
+  "audioSpecSha256": "5fbd6c6e4f4004ce282f743559377272dc0296253f9f70bd786ec9835a73e32c"
+ }
+}

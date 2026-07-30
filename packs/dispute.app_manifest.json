@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.dispute.core.v1",
+  "word": "dispute",
+  "wordpack_version": "2.1.0",
+  "status": "preview",
+  "wordpack_path": "dispute.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/dispute.motion.json",
+    "fallback_svg_path": "assets/images/dispute/dispute.master.svg",
+    "artboard": "dispute",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/dispute/dispute.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/dispute/dispute.chunk1.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/dispute/dispute.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "dispute.app_wordpack.json",
+      "bytes": 4105,
+      "sha256": "59a5b5d1a247efb51c8833f1cfd93325023383f5877a9571e1ce5f27e45f2612"
+    }
+  ]
+}
