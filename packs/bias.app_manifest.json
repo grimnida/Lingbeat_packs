@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.bias.core.v1",
+  "word": "bias",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "bias.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/bias.motion.json",
+    "fallback_svg_path": "assets/images/bias/bias.master.svg",
+    "artboard": "bias",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/bias/bias.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/bias/bias.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "bias.app_wordpack.json",
+      "bytes": 3987,
+      "sha256": "e4d884bec965abfce3faa504050c3076537e438e7d113e70b59ee4d5fb9101d2"
+    }
+  ]
+}

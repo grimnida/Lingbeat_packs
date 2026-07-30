@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.habitat.core.v1",
   "word": "habitat",
-  "wordpack_version": "2.1.0",
+  "wordpack_version": "2.2.0",
   "status": "preview",
   "wordpack_path": "habitat.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/habitat/habitat.chunk1.mp3"
+        "path": "assets/audio_tts/habitat/habitat.full.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "habitat.app_wordpack.json",
-      "bytes": 4209,
-      "sha256": "afbbf471bd884becbe540d722ab6ab131c03cf2f3f25a958a9753fe4681b9578"
+      "bytes": 4242,
+      "sha256": "64344d98bce829dc7e67261400157459ffb60cad8babaa17b5037266011f523a"
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.vague.core.v1",
+  "word": "vague",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "vague.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/vague.motion.json",
+    "fallback_svg_path": "assets/images/vague/vague.master.svg",
+    "artboard": "vague",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/vague/vague.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/vague/vague.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "vague.app_wordpack.json",
+      "bytes": 3941,
+      "sha256": "5c099cd45cca6d8403834ea33873f7cd4509ae2d1b59ee071025659767c96119"
+    }
+  ]
+}

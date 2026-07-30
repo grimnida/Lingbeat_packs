@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.constant.core.v1",
+  "word": "constant",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "constant.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/constant.motion.json",
+    "fallback_svg_path": "assets/images/constant/constant.master.svg",
+    "artboard": "constant",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/constant/constant.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/constant/constant.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/constant/constant.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "constant.app_wordpack.json",
+      "bytes": 4244,
+      "sha256": "c4a2a9fb5fcbc61d7af3c4dee785beb27a5d71d0ae2b8316f62a07dd0e952061"
+    }
+  ]
+}

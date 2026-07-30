@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.regulate.core.v1",
+  "word": "regulate",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "규제하다",
+    "accepted_meanings_ko": [
+      "규제하다"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈrɛɡjəˌleɪt",
+    "full_audio_asset_id": "assets/audio_tts/regulate/regulate.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈrɛɡ",
+        "cumulative_spelling": "reg",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈrɛɡjə",
+        "cumulative_spelling": "regu",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˈrɛɡjəˌleɪt",
+        "cumulative_spelling": "regulate",
+        "audio_asset_id": "assets/audio_tts/regulate/regulate.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/regulate/regulate.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "매연 콸콸 뿜는 공장(건물+굴뚝 2개) → 손이 빨간 '규제' 도장을 서류에 쾅! → 연기가 눈에 띄게 줄고 하늘이 탁한 회색에서 파랗게 변하며 새 1마리 등장. 연기량 게이지(좌측)는 빨강→초록으로 이동하며 아래쪽 화살표로 '감소' 방향을 분명히 한다. 결론: 맑아진 공장 + 초록 체크.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 28% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 57% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 70% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "연기가 너무 심해!",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "regulate",
+    "spelling_chunks": [
+      "reg",
+      "regu",
+      "regulate"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/regulate/regulate.master.svg",
+    "motionRecipePath": "motion_recipes/regulate.motion.json",
+    "audioSpecPath": "assets/audio_tts/regulate/regulate.full.mp3",
+    "assetStatus": "generated"
+  }
+}

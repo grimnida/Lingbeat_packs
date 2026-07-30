@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.thrive.core.v1",
+  "word": "thrive",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "thrive.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/thrive.motion.json",
+    "fallback_svg_path": "assets/images/thrive/thrive.master.svg",
+    "artboard": "thrive",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/thrive/thrive.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/thrive/thrive.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "thrive.app_wordpack.json",
+      "bytes": 4004,
+      "sha256": "cd9425ff8490569c6988af7e4de611d2183d872339a12ac965c743b24b335cd8"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.regulate.core.v1",
+  "word": "regulate",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "regulate.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/regulate.motion.json",
+    "fallback_svg_path": "assets/images/regulate/regulate.master.svg",
+    "artboard": "regulate",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/regulate/regulate.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/regulate/regulate.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/regulate/regulate.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/regulate/regulate.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "regulate.app_wordpack.json",
+      "bytes": 4507,
+      "sha256": "fdb550b3b44b505de2cf79d00e2135a51b36ca4be46394499305006fd6acdbbb"
+    }
+  ]
+}

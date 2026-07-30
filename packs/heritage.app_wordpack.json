@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.heritage.core.v1",
+  "word": "heritage",
+  "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "noun",
+    "core_meaning_ko": "유산",
+    "accepted_meanings_ko": [
+      "유산"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈhɛrətədʒ",
+    "full_audio_asset_id": "assets/audio_tts/heritage/heritage.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈhɛrə",
+        "cumulative_spelling": "her",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈhɛrətədʒ",
+        "cumulative_spelling": "heritage",
+        "audio_asset_id": "assets/audio_tts/heritage/heritage.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/heritage/heritage.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "첫 프레임부터 한국 전통 3층 석탑(석굴암·불국사 느낌)이 화면 중앙을 가득 채운다. 서사 없음 — 상황을 전개시키지 않는다. 대신 카메라가 천천히 아래(기단)에서 위(상륜부)로 훑어 올라가며 경외감을 만든다(패닝). 구성: 기단 + 3층 몸돌·지붕돌(회색 돌 질감 + 이끼 점) + 상륜부(보주) + 금빛 광선 6줄기(b",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 18% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 52% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 68% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "아주 옛날부터 전해 내려온…",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "heritage",
+    "spelling_chunks": [
+      "her",
+      "heritage"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/heritage/heritage.master.svg",
+    "motionRecipePath": "motion_recipes/heritage.motion.json",
+    "audioSpecPath": "assets/audio_tts/heritage/heritage.full.mp3",
+    "assetStatus": "generated"
+  }
+}

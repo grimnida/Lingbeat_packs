@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.stroke.core.v1",
+  "word": "stroke",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "stroke.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/stroke.motion.json",
+    "fallback_svg_path": "assets/images/stroke/stroke.master.svg",
+    "artboard": "stroke",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/stroke/stroke.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/stroke/stroke.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "stroke.app_wordpack.json",
+      "bytes": 3951,
+      "sha256": "ea1d9cbc1093ecaed64351fea41303c3617b78659671f5fcce58a3781725c67c"
+    }
+  ]
+}

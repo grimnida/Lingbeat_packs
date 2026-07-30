@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.strain.core.v1",
+  "word": "strain",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "strain.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/strain.motion.json",
+    "fallback_svg_path": "assets/images/strain/strain.master.svg",
+    "artboard": "strain",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/strain/strain.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/strain/strain.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "strain.app_wordpack.json",
+      "bytes": 3938,
+      "sha256": "6d629e75c3c5b5b117d3b774e2af5fc4b6ad830ef83514094bc20128ee55ea40"
+    }
+  ]
+}

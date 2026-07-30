@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/coincide/coincide.chunk1.mp3"
+        "path": "assets/audio_tts/coincide/coincide.full.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/coincide/coincide.chunk2.mp3"
+        "path": "assets/audio_tts/coincide/coincide.full.mp3"
       },
       {
         "order": 3,

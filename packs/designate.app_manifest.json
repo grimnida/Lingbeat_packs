@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.designate.core.v1",
+  "word": "designate",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "designate.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/designate.motion.json",
+    "fallback_svg_path": "assets/images/designate/designate.master.svg",
+    "artboard": "designate",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/designate/designate.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/designate/designate.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/designate/designate.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/designate/designate.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "designate.app_wordpack.json",
+      "bytes": 4332,
+      "sha256": "a1dcafb2c333bb0f80001cf31fc9aa2f4905f290fe457695954eb0f7d738489c"
+    }
+  ]
+}

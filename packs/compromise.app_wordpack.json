@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.compromise.core.v1",
+  "word": "compromise",
+  "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "noun",
+    "core_meaning_ko": "타협",
+    "accepted_meanings_ko": [
+      "타협"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈkɑmprəˌmaɪz",
+    "full_audio_asset_id": "assets/audio_tts/compromise/compromise.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈkɑm",
+        "cumulative_spelling": "com",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈkɑmprə",
+        "cumulative_spelling": "compro",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˈkɑmprəˌmaɪz",
+        "cumulative_spelling": "compromise",
+        "audio_asset_id": "assets/audio_tts/compromise/compromise.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/compromise/compromise.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "레시피(specs.md '## compromise'): 템플릿 precede(가로 대치). 밧줄 줄다리기: 좌우 화면 밖 손 2개가 밧줄(길이 600)을 당김, 중앙 리본이 좌우로 크게 왔다갔다 → 양쪽이 조금씩 힘을 풀어 리본이 정중앙에 정지 → 밧줄 위로 두 손이 만나 악수(손 두 개 겹침+반짝). SAY1 '서로 안",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 19% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 38% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 68% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "서로 안 지려고 하네!",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "compromise",
+    "spelling_chunks": [
+      "com",
+      "compro",
+      "compromise"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/compromise/compromise.master.svg",
+    "motionRecipePath": "motion_recipes/compromise.motion.json",
+    "audioSpecPath": "assets/audio_tts/compromise/compromise.full.mp3",
+    "assetStatus": "generated"
+  }
+}

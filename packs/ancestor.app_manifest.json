@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.ancestor.core.v1",
+  "word": "ancestor",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "ancestor.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/ancestor.motion.json",
+    "fallback_svg_path": "assets/images/ancestor/ancestor.master.svg",
+    "artboard": "ancestor",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/ancestor/ancestor.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/ancestor/ancestor.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/ancestor/ancestor.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/ancestor/ancestor.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "ancestor.app_wordpack.json",
+      "bytes": 4491,
+      "sha256": "3ad69abe4e77c0e0e169b4b47c24f06274a621e4d2c24a3288212b6f01778898"
+    }
+  ]
+}

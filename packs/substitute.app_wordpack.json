@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.substitute.core.v1",
+  "word": "substitute",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "adjective",
+    "core_meaning_ko": "대체하다",
+    "accepted_meanings_ko": [
+      "대체하다"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈsʌbstəˌtuːt",
+    "full_audio_asset_id": "assets/audio_tts/substitute/substitute.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈsʌb",
+        "cumulative_spelling": "sub",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈsʌbstə",
+        "cumulative_spelling": "substi",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˈsʌbstəˌtuːt",
+        "cumulative_spelling": "substitute",
+        "audio_asset_id": "assets/audio_tts/substitute/substitute.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/substitute/substitute.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "빨간 공이 트랙을 구르다 금이 가서 멈춘다. 대기석(점선 박스)의 파란 공이 통통 튀어 들어와 그 자리를 차지하고, 빨간 공은 대기석으로 물러난다 (둘의 위치 교환을 곡선 화살표 2개로 표시). 파란 공 투입 시 말풍선 '내가 대신할게!'(파란 공 밀착)가 뜬다. 파란 공이 이어서 힘차게 계속 구른다. 결론: 새로 뛰는 ",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 14% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 48% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 75% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "금 가서 더 못 가겠어!",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "substitute",
+    "spelling_chunks": [
+      "sub",
+      "substi",
+      "substitute"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/substitute/substitute.master.svg",
+    "motionRecipePath": "motion_recipes/substitute.motion.json",
+    "audioSpecPath": "assets/audio_tts/substitute/substitute.full.mp3",
+    "assetStatus": "generated"
+  }
+}

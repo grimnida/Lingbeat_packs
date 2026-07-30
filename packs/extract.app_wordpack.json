@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.extract.core.v1",
+  "word": "extract",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "추출하다",
+    "accepted_meanings_ko": [
+      "추출하다"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈɛkˌstrækt",
+    "full_audio_asset_id": "assets/audio_tts/extract/extract.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈɛk",
+        "cumulative_spelling": "ex",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈɛkˌstrækt",
+        "cumulative_spelling": "extract",
+        "audio_asset_id": "assets/audio_tts/extract/extract.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/extract/extract.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "레시피(오너 확정, 2026-07-29): 큰 오렌지(r140)를 손이 착즙기에 올려 꾹 누른다(3연타) → 아래 유리컵으로 주스가 쪼르륵 → 컵이 주황으로 차오르고 오렌지는 껍질만 남는다. undermine.py 의 구조(타이밍/say/assert/팔 그리기/ scene/__main__)를 그대로 가져와 내용만 바꾼다.",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 22% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 54% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 70% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "꾹 눌러 짜면…",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "extract",
+    "spelling_chunks": [
+      "ex",
+      "extract"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/extract/extract.master.svg",
+    "motionRecipePath": "motion_recipes/extract.motion.json",
+    "audioSpecPath": "assets/audio_tts/extract/extract.full.mp3",
+    "assetStatus": "generated"
+  }
+}

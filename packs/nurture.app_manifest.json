@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.nurture.core.v1",
+  "word": "nurture",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "nurture.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/nurture.motion.json",
+    "fallback_svg_path": "assets/images/nurture/nurture.master.svg",
+    "artboard": "nurture",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/nurture/nurture.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/nurture/nurture.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/nurture/nurture.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "nurture.app_wordpack.json",
+      "bytes": 4270,
+      "sha256": "dd9f8120f7163e4b7d205b36b725d23870f3af8f5bba39776b9e8b2700acda89"
+    }
+  ]
+}

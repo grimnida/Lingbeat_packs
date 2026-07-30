@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.profound.core.v1",
+  "word": "profound",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "profound.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/profound.motion.json",
+    "fallback_svg_path": "assets/images/profound/profound.master.svg",
+    "artboard": "profound",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/profound/profound.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/profound/profound.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/profound/profound.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "profound.app_wordpack.json",
+      "bytes": 4274,
+      "sha256": "43ab050bc426fe62752211b6ad2f3e11b7b1f48cfe1332810ab5c8edf01f36ad"
+    }
+  ]
+}

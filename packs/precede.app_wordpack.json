@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.precede.core.v1",
+  "word": "precede",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "~에 앞서다",
+    "accepted_meanings_ko": [
+      "~에 앞서다"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "prɪˈsiːd",
+    "full_audio_asset_id": "assets/audio_tts/precede/precede.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "prɪ",
+        "cumulative_spelling": "pre",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "prɪˈsiːd",
+        "cumulative_spelling": "precede",
+        "audio_asset_id": "assets/audio_tts/precede/precede.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/precede/precede.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "경주 트랙 위 공 두 개(사람 전신 금지 규칙 회피). 파란 공 A 가 처음부터 끝까지 빨간 공 B 보다 앞서 달려 결승선을 먼저 통과한다. 결론: 트랙+A 공+깃대 되살림(흰 halo) + B 에서 A 로 향하는 굵은 빨간 화살표. 화면 검수 반영 (수정 4건): 1) 공 반지름 2배(r=80). 시작 A=210/B=4",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 19% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 38% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 68% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "파란 공이 앞서 가!",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "precede",
+    "spelling_chunks": [
+      "pre",
+      "precede"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/precede/precede.master.svg",
+    "motionRecipePath": "motion_recipes/precede.motion.json",
+    "audioSpecPath": "assets/audio_tts/precede/precede.full.mp3",
+    "assetStatus": "generated"
+  }
+}

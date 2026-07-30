@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.famine.core.v1",
+  "word": "famine",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "famine.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/famine.motion.json",
+    "fallback_svg_path": "assets/images/famine/famine.master.svg",
+    "artboard": "famine",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/famine/famine.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/famine/famine.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "famine.app_wordpack.json",
+      "bytes": 3958,
+      "sha256": "5ae87317dd4277493039a4602bad557de0ed12f0bc38889abdd2aec7abf14480"
+    }
+  ]
+}

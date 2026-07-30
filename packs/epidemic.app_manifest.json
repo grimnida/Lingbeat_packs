@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.epidemic.core.v1",
+  "word": "epidemic",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "epidemic.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/epidemic.motion.json",
+    "fallback_svg_path": "assets/images/epidemic/epidemic.master.svg",
+    "artboard": "epidemic",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/epidemic/epidemic.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/epidemic/epidemic.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/epidemic/epidemic.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/epidemic/epidemic.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "epidemic.app_wordpack.json",
+      "bytes": 4501,
+      "sha256": "423e86bc73d26a2bd23adb7ed239798acd13c11bfddf08bd2779c5f5d03a7549"
+    }
+  ]
+}

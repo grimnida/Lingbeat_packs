@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/coherent/coherent.chunk1.mp3"
+        "path": "assets/audio_tts/coherent/coherent.full.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/coherent/coherent.chunk2.mp3"
+        "path": "assets/audio_tts/coherent/coherent.full.mp3"
       },
       {
         "order": 3,

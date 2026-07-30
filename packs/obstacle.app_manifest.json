@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.obstacle.core.v1",
+  "word": "obstacle",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "obstacle.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/obstacle.motion.json",
+    "fallback_svg_path": "assets/images/obstacle/obstacle.master.svg",
+    "artboard": "obstacle",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/obstacle/obstacle.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/obstacle/obstacle.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/obstacle/obstacle.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/obstacle/obstacle.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "obstacle.app_wordpack.json",
+      "bytes": 4500,
+      "sha256": "78c75e77832cf1eb0f5bc899ece099a924aee5f0f37b02a3f016c80978c2e678"
+    }
+  ]
+}

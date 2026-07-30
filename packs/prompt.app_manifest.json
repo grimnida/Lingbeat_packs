@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.prompt.core.v1",
+  "word": "prompt",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "prompt.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/prompt.motion.json",
+    "fallback_svg_path": "assets/images/prompt/prompt.master.svg",
+    "artboard": "prompt",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/prompt/prompt.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/prompt/prompt.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "prompt.app_wordpack.json",
+      "bytes": 3887,
+      "sha256": "8a5c04d0f805054673725a358fd356182938e1de7d23003fff7608e227f377b4"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.trace.core.v1",
+  "word": "trace",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "trace.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/trace.motion.json",
+    "fallback_svg_path": "assets/images/trace/trace.master.svg",
+    "artboard": "trace",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/trace/trace.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/trace/trace.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "trace.app_wordpack.json",
+      "bytes": 3995,
+      "sha256": "797a6b3b8e7952d75924ddce6e8ad2b46f884f06e8fd4587d18d8e0a439a7865"
+    }
+  ]
+}

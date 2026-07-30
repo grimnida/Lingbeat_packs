@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.immune.core.v1",
+  "word": "immune",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "immune.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/immune.motion.json",
+    "fallback_svg_path": "assets/images/immune/immune.master.svg",
+    "artboard": "immune",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/immune/immune.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/immune/immune.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/immune/immune.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "immune.app_wordpack.json",
+      "bytes": 4021,
+      "sha256": "d6e9a804bc3fba968046c1f532122e24677a5c3be3b73f22dd715beb30520fb4"
+    }
+  ]
+}

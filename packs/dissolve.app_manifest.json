@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.dissolve.core.v1",
+  "word": "dissolve",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "dissolve.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/dissolve.motion.json",
+    "fallback_svg_path": "assets/images/dissolve/dissolve.master.svg",
+    "artboard": "dissolve",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/dissolve/dissolve.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/dissolve/dissolve.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/dissolve/dissolve.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "dissolve.app_wordpack.json",
+      "bytes": 4170,
+      "sha256": "a334d1b21b0552133a5fbf20a69bad1e4ab273d11de62af93a56d1f819c79d8d"
+    }
+  ]
+}

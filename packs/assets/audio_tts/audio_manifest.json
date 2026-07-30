@@ -1,123 +1,376 @@
 {
   "engine": "kokoro-onnx",
-  "voice": "af_bella",
+  "voice": "af_heart",
   "dialect": "en-US",
-  "speed": 1.0,
-  "assetClass": "tts_neural_full_and_ipa_cumulative_chunks",
+  "speed": 0.72,
+  "assetClass": "tts_neural_full_word_only",
   "humanListeningApproved": false,
-  "noteKo": "v0.6.8: 누적 chunk 발음 = 누적 IPA 직접 합성(af_bella 1.0). 마지막 chunk 는 full alias. v0.6.7: 음성 af_bella·속도 1.0 네이티브 재생성. 절단 chunk 음원 전량 폐기(오발음 원인) — 전 chunk full alias, 앱은 전체 발음 1회 재생.",
+  "noteKo": "v0.4: 전체 단어 음원만 사용 (chunk 재생 없음). Piper 음원 전량 폐기.",
   "words": {
-    "accommodate": 0.87,
-    "adequate": 0.66,
-    "coherent": 0.7,
-    "coincide": 0.79,
-    "colleague": 0.7,
-    "conceal": 0.66,
-    "derive": 0.64,
-    "dispute": 0.73,
-    "distract": 0.75,
-    "eligible": 0.77,
-    "facilitate": 0.83,
-    "fluctuate": 0.77,
-    "habitat": 0.81,
-    "hence": 0.55,
-    "hypothesis": 0.87,
-    "incentive": 0.77,
-    "inherent": 0.73,
-    "legitimate": 0.75,
-    "phenomenon": 0.75,
-    "prejudice": 0.77,
-    "prevail": 0.7,
-    "rather": 0.64,
-    "retain": 0.66,
-    "skeptical": 0.77,
-    "undermine": 0.75
-  },
-  "chunkDurations": {
-    "accommodate": [
-      0.66,
-      0.64
-    ],
-    "adequate": [
-      0.6
-    ],
-    "coherent": [
-      0.55,
-      0.68
-    ],
-    "coincide": [
-      0.6,
-      0.62
-    ],
-    "colleague": [
-      0.53
-    ],
-    "conceal": [
-      0.55
-    ],
-    "derive": [
-      0.47
-    ],
-    "dispute": [
-      0.51
-    ],
-    "distract": [
-      0.51
-    ],
-    "eligible": [
-      0.53,
-      0.73
-    ],
-    "facilitate": [
-      0.73,
-      0.64
-    ],
-    "fluctuate": [
-      0.58,
-      0.87
-    ],
-    "habitat": [
-      0.66
-    ],
-    "hence": [],
-    "hypothesis": [
-      0.79,
-      0.77
-    ],
-    "incentive": [
-      0.49,
-      0.62
-    ],
-    "inherent": [
-      0.49,
-      0.6
-    ],
-    "legitimate": [
-      0.7,
-      0.7
-    ],
-    "phenomenon": [
-      0.41,
-      0.68
-    ],
-    "prejudice": [
-      0.75
-    ],
-    "prevail": [
-      0.58
-    ],
-    "rather": [
-      0.62
-    ],
-    "retain": [
-      0.47
-    ],
-    "skeptical": [
-      0.58,
-      0.81
-    ],
-    "undermine": [
-      0.58
-    ]
+    "accommodate": {
+      "durationSeconds": 1.687,
+      "bytes": 14037,
+      "sha256": "ed16ca566ef72a9e79a8e87aaf245d7662b2113c53d797996fe556142cd9182b"
+    },
+    "adequate": {
+      "durationSeconds": 1.601,
+      "bytes": 12573,
+      "sha256": "282baf5c320a39e8e732ca320468bf9efead9b6766c12afe8e36460eb3052a49"
+    },
+    "aggressive": {
+      "durationSeconds": 1.708,
+      "bytes": 14493,
+      "sha256": "6a9d908523636ff836248bc4015468fb7ff4ea7931b0a5dea11dea17d0824b02"
+    },
+    "alternative": {
+      "durationSeconds": 1.367,
+      "bytes": 11781,
+      "sha256": "e1026c44a9155a9ed08c64404c7a825424a9be28a30776924d9c552b02faaf14"
+    },
+    "ancestor": {
+      "durationSeconds": 1.644,
+      "bytes": 14013,
+      "sha256": "b626cd14893a86468e7337ff9cdc2616159172f026dc64135b021ff9de7d9254"
+    },
+    "associate": {
+      "durationSeconds": 1.58,
+      "bytes": 12477,
+      "sha256": "e393c2c3a8873431c2c987181df2959c7ab828d6d609bbdd216b9729806a80e3"
+    },
+    "bias": {
+      "durationSeconds": 1.473,
+      "bytes": 11085,
+      "sha256": "7a2017ed82c3ce00cf9162d6324c949b424e6561fff56436e645851b993bf828"
+    },
+    "coherent": {
+      "durationSeconds": 1.431,
+      "bytes": 11853,
+      "sha256": "f14bc17e2944e101e89f42d7790acb24873d5c8b93508a54df0c2605a4a706e6"
+    },
+    "coincide": {
+      "durationSeconds": 1.537,
+      "bytes": 12741,
+      "sha256": "af9a1961f7a0a014c76d68a497177427292919585d64ad6c942d7b93cd817a84"
+    },
+    "collapse": {
+      "durationSeconds": 1.303,
+      "bytes": 10893,
+      "sha256": "34f95efd746facb7c815a71f14f1ca731915848aa1fed162ba7ad5831f8f739a"
+    },
+    "colleague": {
+      "durationSeconds": 1.537,
+      "bytes": 12333,
+      "sha256": "9a652a09a746ecfab00122ba8373d6e99978e6ba6b1589d2a8e7854fcbf96660"
+    },
+    "compromise": {
+      "durationSeconds": 1.537,
+      "bytes": 12909,
+      "sha256": "427ef262ad61e1a95ff264fd867a87d36b3c334fc88b798a1c3daa4e7f5bd8a4"
+    },
+    "conceal": {
+      "durationSeconds": 1.367,
+      "bytes": 10917,
+      "sha256": "71b17e52a2a74e49db4b0ef52ac598d63f86b462ca5cf9906cd815e7cb731dc2"
+    },
+    "conform": {
+      "durationSeconds": 1.452,
+      "bytes": 11277,
+      "sha256": "4f0f530bff62a18f266777721fe6f9833fa77c6dc4cb265c44606dfcf61bccff"
+    },
+    "constant": {
+      "durationSeconds": 1.452,
+      "bytes": 11637,
+      "sha256": "dbf8547510357de16967185918f7cf0a35b0d8f3a726025b53abac740aaf9ef4"
+    },
+    "convert": {
+      "durationSeconds": 1.324,
+      "bytes": 10965,
+      "sha256": "f6c647abead52257d0a5e869e238bf7011500e4a999df40ad608b1515acafd42"
+    },
+    "declare": {
+      "durationSeconds": 1.601,
+      "bytes": 13077,
+      "sha256": "eae09bf8fa57b38c7089d891bbafd1a8403c14f752643f7359c43f99e334ae4c"
+    },
+    "deliberate": {
+      "durationSeconds": 1.473,
+      "bytes": 12669,
+      "sha256": "2e35ce1bf4c0944856bc1c8e35ee44d58db7b8fae614472852c8a0050f86f852"
+    },
+    "derive": {
+      "durationSeconds": 1.452,
+      "bytes": 11829,
+      "sha256": "2b775ee3cd5c7acd8d64f6efa13c859f5b4502531e7538747c3550f6a5e0712c"
+    },
+    "designate": {
+      "durationSeconds": 1.516,
+      "bytes": 12381,
+      "sha256": "1b44c7320fd9b47aee12991a85d3de66c08124fa758a9975cd22cd534fe68aa3"
+    },
+    "discipline": {
+      "durationSeconds": 1.495,
+      "bytes": 12045,
+      "sha256": "808ca78f1838f5d4424979e27afcabc88a239208b457c12eed2debfeafde123a"
+    },
+    "dispute": {
+      "durationSeconds": 1.537,
+      "bytes": 12669,
+      "sha256": "b557e01de9e4c6069c857e4d0b3378e55346b664d05f928f13b5cab33eb5219b"
+    },
+    "dissolve": {
+      "durationSeconds": 1.601,
+      "bytes": 12741,
+      "sha256": "6cbfabc77bd3558c493857361309694a5ff69ecdc6ad9ed7d1e3f3b005953ea2"
+    },
+    "distract": {
+      "durationSeconds": 1.665,
+      "bytes": 13965,
+      "sha256": "9668fce0980bf951bbca3980898ef61250df61557c44e2e3802636e8f4f1c794"
+    },
+    "eligible": {
+      "durationSeconds": 1.537,
+      "bytes": 12645,
+      "sha256": "cfae0ad08c2a6ab865e458696167281b203c268e30106c4d249d63b813adb1ec"
+    },
+    "epidemic": {
+      "durationSeconds": 1.644,
+      "bytes": 13245,
+      "sha256": "6d7771f69e99e0b24e4d4e6f694c8eca279b4265f4e95428beae6eec88a3b694"
+    },
+    "extract": {
+      "durationSeconds": 1.644,
+      "bytes": 13509,
+      "sha256": "95b161b138e9dbcc98bfa37d141116360bde6b0ee196be546bcc09fc47b04c9b"
+    },
+    "facilitate": {
+      "durationSeconds": 1.687,
+      "bytes": 13821,
+      "sha256": "8a0707654bdbbc12825d5f4d6aa8706fe9cadbef3cbef2f0f79c5a9e626b6dc3"
+    },
+    "famine": {
+      "durationSeconds": 1.516,
+      "bytes": 11613,
+      "sha256": "71b14cd7221cd631f047d6f1fe11b9562c71a7a04e7e2e75be135e55dbaae988"
+    },
+    "feature": {
+      "durationSeconds": 1.559,
+      "bytes": 12093,
+      "sha256": "41a5aa1c4083a11650c5bdcd99b0400ceeb73355cdbc2fbc0bacc1ab98f92666"
+    },
+    "fluctuate": {
+      "durationSeconds": 1.644,
+      "bytes": 13581,
+      "sha256": "470cd7fcdd91fa5d167c97dcbdd3f0cd3e554727424b1d43f9683be450709ab7"
+    },
+    "grasp": {
+      "durationSeconds": 1.409,
+      "bytes": 10941,
+      "sha256": "fd56be7180afd4ff7e1b547e5fb97f67bda138143d1eb77b2dd0331751a94662"
+    },
+    "habitat": {
+      "durationSeconds": 1.58,
+      "bytes": 13629,
+      "sha256": "4b328a62d8541dc91dac4222a3531f5efcc04ef6efcaa0e70533acdceb6907c7"
+    },
+    "hence": {
+      "durationSeconds": 1.431,
+      "bytes": 10917,
+      "sha256": "4557f1de28e0f6d9fa12df2b6fbe81fe3f66c408c9f6c7456e928b5c0c0f4237"
+    },
+    "heritage": {
+      "durationSeconds": 1.687,
+      "bytes": 12813,
+      "sha256": "56256702e65506307026a58f60fde1cc931daaa938c8fd7a323216a5bf2fe5b2"
+    },
+    "hypothesis": {
+      "durationSeconds": 1.687,
+      "bytes": 14061,
+      "sha256": "8997ecc0b4ce735828f81bae943d532cb5b0801251115c7cf96210092ba7706e"
+    },
+    "immune": {
+      "durationSeconds": 1.559,
+      "bytes": 11829,
+      "sha256": "c2ab5c66ef7789ef8aaee1a62be2fc272e1f1d8e17a62aef64730b67dd26a167"
+    },
+    "incentive": {
+      "durationSeconds": 1.516,
+      "bytes": 13125,
+      "sha256": "a47ec16f71736512f060641f613e3291d8a70651a101cb3b6864f91af9336446"
+    },
+    "inherent": {
+      "durationSeconds": 1.495,
+      "bytes": 11853,
+      "sha256": "f43092c935f7b3b7344305833d56d6542ab7c245baeda995afecca29977cac3d"
+    },
+    "innate": {
+      "durationSeconds": 1.431,
+      "bytes": 11445,
+      "sha256": "ee87864eb73b6bdf2deb030a4e5bbe0d3f55a8410644a81bb6c4b0fc1c8f1700"
+    },
+    "intermediate": {
+      "durationSeconds": 1.601,
+      "bytes": 14325,
+      "sha256": "a7b5b273eaf99ed167abf5933eec02b5659d73e55b70779f2ee84034d0117a66"
+    },
+    "interrupt": {
+      "durationSeconds": 1.516,
+      "bytes": 12525,
+      "sha256": "d998d0563513868672334890431ab75375b0812933b4b9a3db159f3a2a4ce756"
+    },
+    "intimate": {
+      "durationSeconds": 1.409,
+      "bytes": 11709,
+      "sha256": "e1b1faec64708527cec98cedd23b57f9bf82aae5b9825d8a5e9203cfed826f53"
+    },
+    "legitimate": {
+      "durationSeconds": 1.665,
+      "bytes": 14565,
+      "sha256": "5b174e6c382e060b865a8c5ac11e0d16cb8b05efd9fcd87cc838c78fdfa5c470"
+    },
+    "nurture": {
+      "durationSeconds": 1.644,
+      "bytes": 13029,
+      "sha256": "2616878bd1891ba372b3021ad3d1588ed52b2bac30604417586f985c81de5129"
+    },
+    "obstacle": {
+      "durationSeconds": 1.623,
+      "bytes": 13605,
+      "sha256": "ec812ac2371bae15a2356fddc50a8c2008663264a23831e01e7c5929093178ed"
+    },
+    "paradox": {
+      "durationSeconds": 1.687,
+      "bytes": 13533,
+      "sha256": "9a2cd30b563720245ee03ee2e14256e7893332410c5d6d280177358f6ab7c49c"
+    },
+    "parallel": {
+      "durationSeconds": 1.537,
+      "bytes": 12021,
+      "sha256": "47d3288f8cdf4c336dea203cacd487d947a919790bbeee3f39c47a18a87669a6"
+    },
+    "phenomenon": {
+      "durationSeconds": 1.495,
+      "bytes": 12549,
+      "sha256": "8e3f0dcc4dcdae0d9c8bb039b4db4714848d0841661aa93432a8ec5024674e56"
+    },
+    "precede": {
+      "durationSeconds": 1.452,
+      "bytes": 11637,
+      "sha256": "f0f542d801ab15a436423f05412dc48079a766c426c40400b59f0d3ba320746b"
+    },
+    "prejudice": {
+      "durationSeconds": 1.644,
+      "bytes": 14613,
+      "sha256": "3636f43440b4e5725df6d04ac607fce0164dd5a2d80d6ce9c24fd0b492a10bcd"
+    },
+    "prevail": {
+      "durationSeconds": 1.431,
+      "bytes": 10725,
+      "sha256": "9ef5ded415baec9feac6e447963b947e647aaaad595cc2d33691ef411e6be37a"
+    },
+    "profound": {
+      "durationSeconds": 1.601,
+      "bytes": 12621,
+      "sha256": "8ae4ae3ff026488b4a85dfdb788b25693dd993daf26577590adeba0117909a14"
+    },
+    "prompt": {
+      "durationSeconds": 1.324,
+      "bytes": 10413,
+      "sha256": "70e16729193299457c15d2fa04d15e6dd540684735796004e093bf33e92a3af5"
+    },
+    "qualify": {
+      "durationSeconds": 1.644,
+      "bytes": 12909,
+      "sha256": "41f299c6ead78057e681747efe4c713adcb0b7e38617055eac9c53226b49f9f7"
+    },
+    "radical": {
+      "durationSeconds": 1.452,
+      "bytes": 11853,
+      "sha256": "7ddf34298fc51602443db30b1e7dca3357290d86fd479cd22c5b85819053df02"
+    },
+    "range": {
+      "durationSeconds": 1.495,
+      "bytes": 11349,
+      "sha256": "912811815f9571074d8d0ca64fafc8741f65d15dd01c975202598d90a356684f"
+    },
+    "rather": {
+      "durationSeconds": 1.345,
+      "bytes": 10005,
+      "sha256": "a87f391ad00ce7548cc89461b6fe26f15bf2a74e6cae1085af607eb48cd6a25e"
+    },
+    "regulate": {
+      "durationSeconds": 1.601,
+      "bytes": 13173,
+      "sha256": "6119263c73904c5ebec7911c8ac2b732c21b9d331ee05d2239d74d11bccd607b"
+    },
+    "retain": {
+      "durationSeconds": 1.367,
+      "bytes": 10893,
+      "sha256": "51112d219739852b7d2269a6915f95d6e65dbba80d7dae42109d999b12c8caf2"
+    },
+    "skeptical": {
+      "durationSeconds": 1.644,
+      "bytes": 13533,
+      "sha256": "a193a5e9bba174d7558df83080cccf15e3e461808d00130f61864e0cd3807660"
+    },
+    "specific": {
+      "durationSeconds": 1.729,
+      "bytes": 13653,
+      "sha256": "e2b2c4c43c3f9866cb958e495e442b81ae11810c77fad1fdc0c07fb7bd0fc06a"
+    },
+    "strain": {
+      "durationSeconds": 1.644,
+      "bytes": 12525,
+      "sha256": "60ef1e03d85e12dd69f537164832c3532fc7ff62d0035dde83a1d5822aa19fcf"
+    },
+    "strive": {
+      "durationSeconds": 1.58,
+      "bytes": 12237,
+      "sha256": "cfd079a37a9668edf6adb26258a677cb48ee08270a48d2ac8c741e40e821e475"
+    },
+    "stroke": {
+      "durationSeconds": 1.58,
+      "bytes": 11829,
+      "sha256": "812ebab844ad4b9690951f0e33a5b00ffcd7e4e96971807fe3f600ac49fde6db"
+    },
+    "substitute": {
+      "durationSeconds": 1.601,
+      "bytes": 13749,
+      "sha256": "9a149c2e592b32842aab954fe343bbac8fd6ae762b005e05f9c1d221abec9f28"
+    },
+    "suspend": {
+      "durationSeconds": 1.751,
+      "bytes": 13725,
+      "sha256": "4befe53c6f55e5582b7af74467713f0bbfee8f2bb7cecf384df714af01ad1ee9"
+    },
+    "thrive": {
+      "durationSeconds": 1.537,
+      "bytes": 11973,
+      "sha256": "59fb8683032cbbbdd0dd0a2e2882f4227ad3a31f9c0bf37f3dd20d446b08cad8"
+    },
+    "trace": {
+      "durationSeconds": 1.537,
+      "bytes": 11973,
+      "sha256": "9f7c2b25f83cf31716eb2ad6d001c1cf5f8ddcc88678029514d5b6791a35bf3e"
+    },
+    "undermine": {
+      "durationSeconds": 1.452,
+      "bytes": 12213,
+      "sha256": "08367b78a57d16f615da36cda08992d9d2c157a8afe92cdf783d5e7d3f7c36b4"
+    },
+    "vague": {
+      "durationSeconds": 1.495,
+      "bytes": 10797,
+      "sha256": "1781972465c3a88c1d2674b29889289c9f3c077e0e1c4c0486f698fcc6421ef1"
+    },
+    "vanish": {
+      "durationSeconds": 1.537,
+      "bytes": 11565,
+      "sha256": "6d9147d23c95dca985432ee33989bb39d396ccc6a97294937217c47c084748f9"
+    },
+    "withdraw": {
+      "durationSeconds": 1.601,
+      "bytes": 13053,
+      "sha256": "9a81d8420190ed1861970b06743088642c7696a26a295d7475023778151ccde2"
+    }
   }
 }

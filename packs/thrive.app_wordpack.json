@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.thrive.core.v1",
+  "word": "thrive",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "번창하다",
+    "accepted_meanings_ko": [
+      "번창하다"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈθraɪv",
+    "full_audio_asset_id": "assets/audio_tts/thrive/thrive.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈθraɪv",
+        "cumulative_spelling": "thrive",
+        "audio_asset_id": "assets/audio_tts/thrive/thrive.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/thrive/thrive.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "템플릿 dwindle(단계 변화) 을 역방향으로 뒤집는다 — 줄어드는 대신 자란다. 나무들 3그루가 동시에(중앙 크게 + 좌우 약간 작게) 3단계로 쑥쑥 자라 각각 빨간 열매를 맺는다. 중앙 나무는 새싹(60px)에서 큰 나무(높이 460)가 되고, 금빛 광선 6줄기가 중앙 나무에서 사방으로 퍼진다(명사·긍정의 금빛 규칙",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 25% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 52% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 68% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "쑥쑥 자란다!",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "thrive",
+    "spelling_chunks": [
+      "thrive"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/thrive/thrive.master.svg",
+    "motionRecipePath": "motion_recipes/thrive.motion.json",
+    "audioSpecPath": "assets/audio_tts/thrive/thrive.full.mp3",
+    "assetStatus": "generated"
+  }
+}

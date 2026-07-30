@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.parallel.core.v1",
+  "word": "parallel",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "parallel.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/parallel.motion.json",
+    "fallback_svg_path": "assets/images/parallel/parallel.master.svg",
+    "artboard": "parallel",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/parallel/parallel.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/parallel/parallel.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/parallel/parallel.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/parallel/parallel.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "parallel.app_wordpack.json",
+      "bytes": 4516,
+      "sha256": "d6c09c3e3ca7879614af3a01c9997bbce559c10ca44f0be0d8352c743d7b601a"
+    }
+  ]
+}

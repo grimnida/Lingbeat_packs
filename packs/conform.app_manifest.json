@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.conform.core.v1",
+  "word": "conform",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "conform.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/conform.motion.json",
+    "fallback_svg_path": "assets/images/conform/conform.master.svg",
+    "artboard": "conform",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/conform/conform.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/conform/conform.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/conform/conform.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "conform.app_wordpack.json",
+      "bytes": 4201,
+      "sha256": "cee7e0a2342d193c0455571ed78c4367f2c97a2ef0cc4ae636361f76d393f8c8"
+    }
+  ]
+}

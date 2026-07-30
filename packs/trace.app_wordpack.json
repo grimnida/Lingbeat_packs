@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "2.2.0",
+  "word_id": "linkling.trace.core.v1",
+  "word": "trace",
+  "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "noun",
+    "core_meaning_ko": "흔적",
+    "accepted_meanings_ko": [
+      "흔적"
+    ],
+    "excluded_meanings_ko": [],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈtreɪs",
+    "full_audio_asset_id": "assets/audio_tts/trace/trace.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈtreɪs",
+        "cumulative_spelling": "trace",
+        "audio_asset_id": "assets/audio_tts/trace/trace.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/trace/trace.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "앞부분에 곰 도상(갈색, 몸 크고 궁둥이 둥글게)이 눈밭 위를 걸어가며 발자국을 남기고 화면 오른쪽 밖으로 퇴장한다 → 남은 발자국 열(주인은 이미 사라짐) — 돋보기 든 손이 발자국 열을 따라 쓱 이동해 마지막 발자국 앞에 멈춘다. 결론: 마지막 발자국(돋보기 안에서 확대) 되살림 + 빨간 링. [마커: 곰] 모듈명을 ",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 17% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 38% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "agentAction",
+          "patientImpact",
+          "resultState"
+        ],
+        "description_ko": "서사 68% 시점의 장면",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "누가 지나갔지?",
+    "anchor_group_id": "agentAction"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "trace",
+    "spelling_chunks": [
+      "trace"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/trace/trace.master.svg",
+    "motionRecipePath": "motion_recipes/trace.motion.json",
+    "audioSpecPath": "assets/audio_tts/trace/trace.full.mp3",
+    "assetStatus": "generated"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.convert.core.v1",
+  "word": "convert",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "convert.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/convert.motion.json",
+    "fallback_svg_path": "assets/images/convert/convert.master.svg",
+    "artboard": "convert",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/convert/convert.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/convert/convert.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/convert/convert.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "convert.app_wordpack.json",
+      "bytes": 4212,
+      "sha256": "3183e91ec824861065fe31bd17f82ad1d628a2c2ca067df1e92bfa464192b636"
+    }
+  ]
+}

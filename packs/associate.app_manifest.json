@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.associate.core.v1",
+  "word": "associate",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "associate.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/associate.motion.json",
+    "fallback_svg_path": "assets/images/associate/associate.master.svg",
+    "artboard": "associate",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/associate/associate.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/associate/associate.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/associate/associate.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/associate/associate.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "associate.app_wordpack.json",
+      "bytes": 4516,
+      "sha256": "b11277a433d894af48aa2383bf4fec8e4ebc1384ed4365963b0a2448cc4ed52e"
+    }
+  ]
+}

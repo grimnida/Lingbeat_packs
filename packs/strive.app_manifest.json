@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.strive.core.v1",
+  "word": "strive",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "strive.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/strive.motion.json",
+    "fallback_svg_path": "assets/images/strive/strive.master.svg",
+    "artboard": "strive",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/strive/strive.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/strive/strive.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "strive.app_wordpack.json",
+      "bytes": 3829,
+      "sha256": "60db21df640ea73a16a36b92df32c8f27e584bef08cec2a15b2f10de0f27a91a"
+    }
+  ]
+}

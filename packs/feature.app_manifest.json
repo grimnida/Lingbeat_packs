@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.feature.core.v1",
+  "word": "feature",
+  "wordpack_version": "2.2.0",
+  "status": "preview",
+  "wordpack_path": "feature.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/feature.motion.json",
+    "fallback_svg_path": "assets/images/feature/feature.master.svg",
+    "artboard": "feature",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/feature/feature.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/feature/feature.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/feature/feature.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "feature.app_wordpack.json",
+      "bytes": 4207,
+      "sha256": "472eebfc49502784b4c77aaa8f8291131aeca2f0c38ad7a9ec48ead75ba6bacd"
+    }
+  ]
+}
