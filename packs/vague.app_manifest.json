@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.vague.core.v1",
   "word": "vague",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "vague.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "vague.app_wordpack.json",
       "bytes": 3941,
-      "sha256": "5c099cd45cca6d8403834ea33873f7cd4509ae2d1b59ee071025659767c96119"
+      "sha256": "31e8ba1879664c4e4f161cd6ad33815d79f675b8e5161302eec859d07ccb4faa"
     }
   ]
 }

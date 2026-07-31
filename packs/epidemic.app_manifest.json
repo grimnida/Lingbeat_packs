@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.epidemic.core.v1",
   "word": "epidemic",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "epidemic.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/epidemic/epidemic.full.mp3"
+        "path": "assets/audio_tts/epidemic/epidemic.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/epidemic/epidemic.full.mp3"
+        "path": "assets/audio_tts/epidemic/epidemic.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "epidemic.app_wordpack.json",
-      "bytes": 4501,
-      "sha256": "423e86bc73d26a2bd23adb7ed239798acd13c11bfddf08bd2779c5f5d03a7549"
+      "bytes": 4591,
+      "sha256": "f4341eaf03ff8bf56df0af3669a67c2c753d9046279b3fc35e11a6999a4add83"
     }
   ]
 }

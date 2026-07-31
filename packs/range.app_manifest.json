@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.range.core.v1",
   "word": "range",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "range.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "range.app_wordpack.json",
       "bytes": 3967,
-      "sha256": "1b861ad710ecf3184c48efb79c70ca71e3db0c7dd112ddfd4813ba145782da3f"
+      "sha256": "b49bd47417fb640c1cb10e6e4fefb8af7dce2340d07c2e8013c38ab837364bf4"
     }
   ]
 }

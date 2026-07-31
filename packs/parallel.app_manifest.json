@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.parallel.core.v1",
   "word": "parallel",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "parallel.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/parallel/parallel.full.mp3"
+        "path": "assets/audio_tts/parallel/parallel.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/parallel/parallel.full.mp3"
+        "path": "assets/audio_tts/parallel/parallel.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "parallel.app_wordpack.json",
-      "bytes": 4516,
-      "sha256": "d6c09c3e3ca7879614af3a01c9997bbce559c10ca44f0be0d8352c743d7b601a"
+      "bytes": 4606,
+      "sha256": "02639cf215a8ee0dfc87a9a6e761067e67ede18f864bf642266f0a65e5d80328"
     }
   ]
 }

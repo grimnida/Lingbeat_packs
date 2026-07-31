@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.precede.core.v1",
   "word": "precede",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "precede.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/precede/precede.full.mp3"
+        "path": "assets/audio_tts/precede/precede.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "precede.app_wordpack.json",
-      "bytes": 4225,
-      "sha256": "a5acf2413c8edcb45caa65bb628b5a4c1c0e968e6a022a91054441dd320b692d"
+      "bytes": 4268,
+      "sha256": "e98c3367d2444027aa279862cad3844f502f57ddd4dd0d5bc4615c57cf9419d8"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.famine.core.v1",
   "word": "famine",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "famine.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "famine.app_wordpack.json",
       "bytes": 3958,
-      "sha256": "5ae87317dd4277493039a4602bad557de0ed12f0bc38889abdd2aec7abf14480"
+      "sha256": "3d1c0b70cb71f31cbf7429a9f79cf77e59c96d527fe991885f5ae515eed43610"
     }
   ]
 }

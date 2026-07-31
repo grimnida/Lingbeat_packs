@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.suspend.core.v1",
   "word": "suspend",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "suspend.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/suspend/suspend.full.mp3"
+        "path": "assets/audio_tts/suspend/suspend.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "suspend.app_wordpack.json",
-      "bytes": 4044,
-      "sha256": "b2a08b261a535960d7b8546f07ed564a17e3d30974225f50aada2912123e7a52"
+      "bytes": 4087,
+      "sha256": "a1cba9fb60d3b85f6a341fa7377091e507bfa65473c7df975ce801f03392d20f"
     }
   ]
 }

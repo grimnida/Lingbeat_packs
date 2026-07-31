@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.famine.core.v1",
   "word": "famine",
   "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",

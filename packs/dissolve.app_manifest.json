@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.dissolve.core.v1",
   "word": "dissolve",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "dissolve.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/dissolve/dissolve.full.mp3"
+        "path": "assets/audio_tts/dissolve/dissolve.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "dissolve.app_wordpack.json",
-      "bytes": 4170,
-      "sha256": "a334d1b21b0552133a5fbf20a69bad1e4ab273d11de62af93a56d1f819c79d8d"
+      "bytes": 4215,
+      "sha256": "12f64d8c01d995649f5c09833c2de3ef9d3e05a0edd9141403f5e4a22c581ac7"
     }
   ]
 }

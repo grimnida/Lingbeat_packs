@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.prompt.core.v1",
   "word": "prompt",
   "template_id": "T03_REVEAL_CONTRAST",

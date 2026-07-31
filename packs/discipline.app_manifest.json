@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.discipline.core.v1",
   "word": "discipline",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "discipline.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/discipline/discipline.full.mp3"
+        "path": "assets/audio_tts/discipline/discipline.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/discipline/discipline.full.mp3"
+        "path": "assets/audio_tts/discipline/discipline.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "discipline.app_wordpack.json",
-      "bytes": 4497,
-      "sha256": "059055ff345cbb166af10cc54efcc4e97dbfcb08ef90d5f8fce01311c732e796"
+      "bytes": 4595,
+      "sha256": "237bf348e6f440138c4be90ab7a3973729c9fb1ea2f23320d464005ff302f279"
     }
   ]
 }

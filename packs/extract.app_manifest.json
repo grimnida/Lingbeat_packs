@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.extract.core.v1",
   "word": "extract",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "extract.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/extract/extract.full.mp3"
+        "path": "assets/audio_tts/extract/extract.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "extract.app_wordpack.json",
-      "bytes": 4213,
-      "sha256": "ca8039ae91272292c25203d27387564bc962c65028dc80f0d0cc3b865598dc08"
+      "bytes": 4256,
+      "sha256": "23c4ee6efb5d0aacc1649103c283655e585effb4b04f26269fe02cf075924301"
     }
   ]
 }

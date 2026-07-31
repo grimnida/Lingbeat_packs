@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.stroke.core.v1",
   "word": "stroke",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "stroke.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "stroke.app_wordpack.json",
       "bytes": 3951,
-      "sha256": "ea1d9cbc1093ecaed64351fea41303c3617b78659671f5fcce58a3781725c67c"
+      "sha256": "2f0756ba049101ed5ebf6e2e55317c25737a783f2a3cabbd416d0c07b2f4cde6"
     }
   ]
 }

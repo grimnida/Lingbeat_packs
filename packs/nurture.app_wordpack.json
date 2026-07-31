@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.nurture.core.v1",
   "word": "nurture",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -24,7 +24,7 @@
         "order": 1,
         "cumulative_ipa": "ˈnɜr",
         "cumulative_spelling": "nur",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/nurture/nurture.chunk1.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },

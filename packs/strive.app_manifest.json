@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.strive.core.v1",
   "word": "strive",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "strive.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "strive.app_wordpack.json",
       "bytes": 3829,
-      "sha256": "60db21df640ea73a16a36b92df32c8f27e584bef08cec2a15b2f10de0f27a91a"
+      "sha256": "31b835a4eb34cc08bc03717b850e341a4079a3673cc56b48c246521851b5ae15"
     }
   ]
 }

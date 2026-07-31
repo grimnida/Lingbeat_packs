@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.nurture.core.v1",
   "word": "nurture",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "nurture.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/nurture/nurture.full.mp3"
+        "path": "assets/audio_tts/nurture/nurture.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "nurture.app_wordpack.json",
-      "bytes": 4270,
-      "sha256": "dd9f8120f7163e4b7d205b36b725d23870f3af8f5bba39776b9e8b2700acda89"
+      "bytes": 4313,
+      "sha256": "8e365f90661687317e53713d846efbffb0dc0ff47aff0379cda01ec0d0f80714"
     }
   ]
 }

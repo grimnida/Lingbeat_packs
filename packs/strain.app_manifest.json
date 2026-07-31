@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.strain.core.v1",
   "word": "strain",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "strain.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "strain.app_wordpack.json",
       "bytes": 3938,
-      "sha256": "6d629e75c3c5b5b117d3b774e2af5fc4b6ad830ef83514094bc20128ee55ea40"
+      "sha256": "e7a6a9de23e2466a408cec13b5a40adb9c22fbc0d9bd1f2ce1a6d7115c41d2d2"
     }
   ]
 }

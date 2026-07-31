@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.designate.core.v1",
   "word": "designate",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "designate.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/designate/designate.full.mp3"
+        "path": "assets/audio_tts/designate/designate.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/designate/designate.full.mp3"
+        "path": "assets/audio_tts/designate/designate.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "designate.app_wordpack.json",
-      "bytes": 4332,
-      "sha256": "a1dcafb2c333bb0f80001cf31fc9aa2f4905f290fe457695954eb0f7d738489c"
+      "bytes": 4426,
+      "sha256": "7c90357150d441d679666773328b95b1fb6699c0a56e4d657a4cc3797ff48739"
     }
   ]
 }

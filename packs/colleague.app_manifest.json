@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.colleague.core.v1",
   "word": "colleague",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "colleague.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/colleague/colleague.full.mp3"
+        "path": "assets/audio_tts/colleague/colleague.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "colleague.app_wordpack.json",
-      "bytes": 4246,
-      "sha256": "56dd5335a7fefd9468c6ec8427c6e16a146532bdb621cfaa105d1ff9bbb07910"
+      "bytes": 4293,
+      "sha256": "7aba8234171715733f4163fe13c4cceb7f5d417db38b5ec7f9ab4e02ca6da94c"
     }
   ]
 }

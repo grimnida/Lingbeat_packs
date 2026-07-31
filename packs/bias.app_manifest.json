@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.bias.core.v1",
   "word": "bias",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "bias.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "bias.app_wordpack.json",
       "bytes": 3987,
-      "sha256": "e4d884bec965abfce3faa504050c3076537e438e7d113e70b59ee4d5fb9101d2"
+      "sha256": "0f94c771d6473c7b4d42bc33e258d4028f11fa0554d0a6d7d184d80e14cb4e7f"
     }
   ]
 }

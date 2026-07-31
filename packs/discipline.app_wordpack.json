@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.discipline.core.v1",
   "word": "discipline",
   "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",
@@ -24,7 +24,7 @@
         "order": 1,
         "cumulative_ipa": "ˈdɪ",
         "cumulative_spelling": "dis",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/discipline/discipline.chunk1.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -32,7 +32,7 @@
         "order": 2,
         "cumulative_ipa": "ˈdɪsə",
         "cumulative_spelling": "disci",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/discipline/discipline.chunk2.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },

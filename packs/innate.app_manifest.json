@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.innate.core.v1",
   "word": "innate",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "innate.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/innate/innate.full.mp3"
+        "path": "assets/audio_tts/innate/innate.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "innate.app_wordpack.json",
-      "bytes": 4145,
-      "sha256": "9e719ef769f64e94a4225f090377d4a903f6a426bb32b2b0311f5b236add0403"
+      "bytes": 4186,
+      "sha256": "037d07f666724da8ad2161b4360eb499b900a2ae90092b0f8af0a164e6f5255b"
     }
   ]
 }

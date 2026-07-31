@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.declare.core.v1",
   "word": "declare",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "declare.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/declare/declare.full.mp3"
+        "path": "assets/audio_tts/declare/declare.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "declare.app_wordpack.json",
-      "bytes": 4262,
-      "sha256": "f1e3ae0d11e6f83e8371ee6b19d1c1bbffdf710c7dcc9932a26903b39290e378"
+      "bytes": 4305,
+      "sha256": "cfe8534075003b298dd112bcaf375d743b95b6ac573281439e59b1a18e0c3acf"
     }
   ]
 }

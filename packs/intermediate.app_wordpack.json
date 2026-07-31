@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.intermediate.core.v1",
   "word": "intermediate",
   "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",
@@ -24,7 +24,7 @@
         "order": 1,
         "cumulative_ipa": "ˌɪntər",
         "cumulative_spelling": "in",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/intermediate/intermediate.chunk1.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -32,7 +32,7 @@
         "order": 2,
         "cumulative_ipa": "ˌɪntərˈmiː",
         "cumulative_spelling": "inter",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/intermediate/intermediate.chunk2.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },

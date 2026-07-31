@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.associate.core.v1",
   "word": "associate",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "associate.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/associate/associate.full.mp3"
+        "path": "assets/audio_tts/associate/associate.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/associate/associate.full.mp3"
+        "path": "assets/audio_tts/associate/associate.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "associate.app_wordpack.json",
-      "bytes": 4516,
-      "sha256": "b11277a433d894af48aa2383bf4fec8e4ebc1384ed4365963b0a2448cc4ed52e"
+      "bytes": 4610,
+      "sha256": "15965538b689ff04242333b6daf69052179186ab3a1516e6ff138c515d2778de"
     }
   ]
 }

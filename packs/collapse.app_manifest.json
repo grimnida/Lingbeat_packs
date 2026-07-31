@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.collapse.core.v1",
   "word": "collapse",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "collapse.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/collapse/collapse.full.mp3"
+        "path": "assets/audio_tts/collapse/collapse.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "collapse.app_wordpack.json",
-      "bytes": 4241,
-      "sha256": "2b3cafaa33837a69b66811a932a4566e1ce104db11f7c6f185eb23a4b6a33d5a"
+      "bytes": 4286,
+      "sha256": "8fe5b638e07ecb07dd671262ad0c97a4559ee89cee12779d858fc9c92adbf910"
     }
   ]
 }

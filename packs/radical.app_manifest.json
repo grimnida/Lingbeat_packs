@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.radical.core.v1",
   "word": "radical",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "radical.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/radical/radical.full.mp3"
+        "path": "assets/audio_tts/radical/radical.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/radical/radical.full.mp3"
+        "path": "assets/audio_tts/radical/radical.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "radical.app_wordpack.json",
-      "bytes": 4501,
-      "sha256": "d487096cc95148a8dd38fbe94a91988d751ab8e165954058d653c92ad2504746"
+      "bytes": 4587,
+      "sha256": "6395a184875e3fe04ef6d039e387e86e27ed81e19484c64c9feae22420dcc3f6"
     }
   ]
 }

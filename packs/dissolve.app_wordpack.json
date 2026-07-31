@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.dissolve.core.v1",
   "word": "dissolve",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -24,7 +24,7 @@
         "order": 1,
         "cumulative_ipa": "dɪ",
         "cumulative_spelling": "dis",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/dissolve/dissolve.chunk1.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },

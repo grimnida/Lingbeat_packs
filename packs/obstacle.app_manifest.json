@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.obstacle.core.v1",
   "word": "obstacle",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "obstacle.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/obstacle/obstacle.full.mp3"
+        "path": "assets/audio_tts/obstacle/obstacle.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/obstacle/obstacle.full.mp3"
+        "path": "assets/audio_tts/obstacle/obstacle.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "obstacle.app_wordpack.json",
-      "bytes": 4500,
-      "sha256": "78c75e77832cf1eb0f5bc899ece099a924aee5f0f37b02a3f016c80978c2e678"
+      "bytes": 4590,
+      "sha256": "ce853998a5d1f5dd4a59a12fb0dd28cb57c0e5df185f4b3dbc2aced07b62eeaa"
     }
   ]
 }

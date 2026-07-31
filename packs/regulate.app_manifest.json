@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.regulate.core.v1",
   "word": "regulate",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "regulate.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/regulate/regulate.full.mp3"
+        "path": "assets/audio_tts/regulate/regulate.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/regulate/regulate.full.mp3"
+        "path": "assets/audio_tts/regulate/regulate.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "regulate.app_wordpack.json",
-      "bytes": 4507,
-      "sha256": "fdb550b3b44b505de2cf79d00e2135a51b36ca4be46394499305006fd6acdbbb"
+      "bytes": 4597,
+      "sha256": "f887a1f6ccd80e677bbf92031a184be713fd9af3947c67d25491ce1258e673f4"
     }
   ]
 }

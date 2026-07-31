@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.trace.core.v1",
   "word": "trace",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "trace.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "trace.app_wordpack.json",
       "bytes": 3995,
-      "sha256": "797a6b3b8e7952d75924ddce6e8ad2b46f884f06e8fd4587d18d8e0a439a7865"
+      "sha256": "657136a9865456b49fe7927953f42cadc77e48b9977009c119b9a65146abc196"
     }
   ]
 }

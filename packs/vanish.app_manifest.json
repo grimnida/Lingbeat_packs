@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.vanish.core.v1",
   "word": "vanish",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "vanish.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/vanish/vanish.full.mp3"
+        "path": "assets/audio_tts/vanish/vanish.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "vanish.app_wordpack.json",
-      "bytes": 4242,
-      "sha256": "9649fa908b65e5c95aa0cb04bad7288928d66ee5b09ab19fdd1f9d2936b23e08"
+      "bytes": 4283,
+      "sha256": "c752d004a9eace5cb0b2988bc4daf86e9e2cfa78d3f5008807c98eafc4d9b8d0"
     }
   ]
 }

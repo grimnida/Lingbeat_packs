@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.alternative.core.v1",
   "word": "alternative",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "alternative.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/alternative/alternative.full.mp3"
+        "path": "assets/audio_tts/alternative/alternative.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/alternative/alternative.full.mp3"
+        "path": "assets/audio_tts/alternative/alternative.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "alternative.app_wordpack.json",
-      "bytes": 4569,
-      "sha256": "8f040ae4f86fd76db4eba13a774ee4911ade71f1e2a8427ea6fac0d31c2f924e"
+      "bytes": 4671,
+      "sha256": "db60e58d20d043c7a559b67b989885087dd1373a8c24e371ba61bf4f57a9f84c"
     }
   ]
 }

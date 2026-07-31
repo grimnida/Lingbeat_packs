@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.thrive.core.v1",
   "word": "thrive",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "thrive.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "thrive.app_wordpack.json",
       "bytes": 4004,
-      "sha256": "cd9425ff8490569c6988af7e4de611d2183d872339a12ac965c743b24b335cd8"
+      "sha256": "71c994aa6645896cc4169fce6f9b690cabd8a18eb4c7400a2fac7a00c180e967"
     }
   ]
 }

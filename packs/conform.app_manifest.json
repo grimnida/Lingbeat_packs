@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.conform.core.v1",
   "word": "conform",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "conform.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/conform/conform.full.mp3"
+        "path": "assets/audio_tts/conform/conform.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "conform.app_wordpack.json",
-      "bytes": 4201,
-      "sha256": "cee7e0a2342d193c0455571ed78c4367f2c97a2ef0cc4ae636361f76d393f8c8"
+      "bytes": 4244,
+      "sha256": "5499f200cb18a0dd8b1da66aef3d04615b851768f53ae9c8c61404d2cbc96162"
     }
   ]
 }

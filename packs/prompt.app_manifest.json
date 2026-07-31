@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.prompt.core.v1",
   "word": "prompt",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "prompt.app_wordpack.json",
   "scene": {
@@ -26,7 +26,7 @@
     {
       "path": "prompt.app_wordpack.json",
       "bytes": 3887,
-      "sha256": "8a5c04d0f805054673725a358fd356182938e1de7d23003fff7608e227f377b4"
+      "sha256": "cff52b328771f0a8c0e2f97a873bbb4569ca9e437ec181fd0bc2dec7137c97ea"
     }
   ]
 }

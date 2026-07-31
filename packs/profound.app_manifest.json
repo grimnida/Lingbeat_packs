@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.profound.core.v1",
   "word": "profound",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "profound.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/profound/profound.full.mp3"
+        "path": "assets/audio_tts/profound/profound.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "profound.app_wordpack.json",
-      "bytes": 4274,
-      "sha256": "43ab050bc426fe62752211b6ad2f3e11b7b1f48cfe1332810ab5c8edf01f36ad"
+      "bytes": 4319,
+      "sha256": "bd9391fbdec763d7c3859de79b7487eebc09da771a182854900efd697ae02fd0"
     }
   ]
 }

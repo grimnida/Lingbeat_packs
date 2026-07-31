@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.specific.core.v1",
   "word": "specific",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "specific.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/specific/specific.full.mp3"
+        "path": "assets/audio_tts/specific/specific.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/specific/specific.full.mp3"
+        "path": "assets/audio_tts/specific/specific.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "specific.app_wordpack.json",
-      "bytes": 4472,
-      "sha256": "4607d48985a2453724e0e6d235ac210109ef8a1e90efeb11b556ec7397a3de63"
+      "bytes": 4562,
+      "sha256": "f11bcaf1b2abd6b9ca8b09f95f50971dbf0cc4d3a5eca612020f9c409d966081"
     }
   ]
 }

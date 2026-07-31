@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.paradox.core.v1",
   "word": "paradox",
   "template_id": "T01_STATE_CHANGE_SINGLE_SCENE",
@@ -24,7 +24,7 @@
         "order": 1,
         "cumulative_ipa": "ˈpɛrə",
         "cumulative_spelling": "para",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/paradox/paradox.chunk1.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.constant.core.v1",
   "word": "constant",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "constant.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/constant/constant.full.mp3"
+        "path": "assets/audio_tts/constant/constant.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "constant.app_wordpack.json",
-      "bytes": 4244,
-      "sha256": "c4a2a9fb5fcbc61d7af3c4dee785beb27a5d71d0ae2b8316f62a07dd0e952061"
+      "bytes": 4289,
+      "sha256": "2e7618f5d6e4a7ec7ffcb00410ce98b994f8a6966f42b5da6871a43c790a9f94"
     }
   ]
 }

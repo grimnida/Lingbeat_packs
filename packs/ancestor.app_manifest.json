@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.ancestor.core.v1",
   "word": "ancestor",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "ancestor.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/ancestor/ancestor.full.mp3"
+        "path": "assets/audio_tts/ancestor/ancestor.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/ancestor/ancestor.full.mp3"
+        "path": "assets/audio_tts/ancestor/ancestor.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "ancestor.app_wordpack.json",
-      "bytes": 4491,
-      "sha256": "3ad69abe4e77c0e0e169b4b47c24f06274a621e4d2c24a3288212b6f01778898"
+      "bytes": 4581,
+      "sha256": "ebc62e3c98d312a6517748bced9d7425ca4b94d80e70c5202b40fa143970a371"
     }
   ]
 }

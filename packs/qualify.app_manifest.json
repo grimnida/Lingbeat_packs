@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.qualify.core.v1",
   "word": "qualify",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "qualify.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/qualify/qualify.full.mp3"
+        "path": "assets/audio_tts/qualify/qualify.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/qualify/qualify.full.mp3"
+        "path": "assets/audio_tts/qualify/qualify.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "qualify.app_wordpack.json",
-      "bytes": 4531,
-      "sha256": "74e34a60941aa6adf70e715bac0d6576bead699da1fd4f3fbf67c9f4ddbbbaab"
+      "bytes": 4617,
+      "sha256": "022d164aadb351bd4bdadbf4895d1cb2c357553b06531d5b22f911056150e8a6"
     }
   ]
 }

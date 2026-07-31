@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.grasp.core.v1",
   "word": "grasp",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",

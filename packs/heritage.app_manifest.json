@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.heritage.core.v1",
   "word": "heritage",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "heritage.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/heritage/heritage.full.mp3"
+        "path": "assets/audio_tts/heritage/heritage.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "heritage.app_wordpack.json",
-      "bytes": 4298,
-      "sha256": "d4048399f4baefe9d545cae6afd538adab720a252506c543b9ee39fcc852f639"
+      "bytes": 4343,
+      "sha256": "d117d35c241bdba413019c923a60d39775724f40d9e47a602b54479d41802eb6"
     }
   ]
 }

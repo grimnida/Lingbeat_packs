@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.withdraw.core.v1",
   "word": "withdraw",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "withdraw.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/withdraw/withdraw.full.mp3"
+        "path": "assets/audio_tts/withdraw/withdraw.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "withdraw.app_wordpack.json",
-      "bytes": 4230,
-      "sha256": "fb4e0d4991790a68f29a1989c3474cc9402d6bda628c8ef31de54ee4eb9f938b"
+      "bytes": 4275,
+      "sha256": "eaa05127654b4c3c127a90b2625a0c3d50fd8e8df41023f346774efb1f2f57a5"
     }
   ]
 }

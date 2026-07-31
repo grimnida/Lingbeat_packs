@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.immune.core.v1",
   "word": "immune",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "immune.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/immune/immune.full.mp3"
+        "path": "assets/audio_tts/immune/immune.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "immune.app_wordpack.json",
-      "bytes": 4021,
-      "sha256": "d6e9a804bc3fba968046c1f532122e24677a5c3be3b73f22dd715beb30520fb4"
+      "bytes": 4062,
+      "sha256": "b2931a775410eac8f42435c5727a2f6bb3716865fde64491067071a925ccb70b"
     }
   ]
 }

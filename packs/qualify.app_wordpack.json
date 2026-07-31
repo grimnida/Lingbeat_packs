@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "word_id": "linkling.qualify.core.v1",
   "word": "qualify",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -24,7 +24,7 @@
         "order": 1,
         "cumulative_ipa": "ˈkwɑ",
         "cumulative_spelling": "qual",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/qualify/qualify.chunk1.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -32,7 +32,7 @@
         "order": 2,
         "cumulative_ipa": "ˈkwɑlə",
         "cumulative_spelling": "quali",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/qualify/qualify.chunk2.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.paradox.core.v1",
   "word": "paradox",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "paradox.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/paradox/paradox.full.mp3"
+        "path": "assets/audio_tts/paradox/paradox.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "paradox.app_wordpack.json",
-      "bytes": 4281,
-      "sha256": "a79cf77c5a3bdd85e6053a6bc0269ef344b3be7e541ab2a76e487b47353847d5"
+      "bytes": 4324,
+      "sha256": "200a994dac10668c3a8b10b1987f90b6722cf303498f4fd7d8ce41820089bdb8"
     }
   ]
 }

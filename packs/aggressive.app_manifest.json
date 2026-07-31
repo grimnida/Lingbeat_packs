@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.aggressive.core.v1",
   "word": "aggressive",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "aggressive.app_wordpack.json",
   "scene": {
@@ -18,11 +18,11 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/aggressive/aggressive.full.mp3"
+        "path": "assets/audio_tts/aggressive/aggressive.chunk1.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/aggressive/aggressive.full.mp3"
+        "path": "assets/audio_tts/aggressive/aggressive.chunk2.mp3"
       },
       {
         "order": 3,
@@ -33,8 +33,8 @@
   "files": [
     {
       "path": "aggressive.app_wordpack.json",
-      "bytes": 4549,
-      "sha256": "b9d277195f6741048409c802b78038f2c6533770477eebd115a8206d1fe13dbd"
+      "bytes": 4647,
+      "sha256": "9e92ae17e7fedc8c4066c0b7391b0c1910594dd6bb29b3ef85b5b760cef1cd72"
     }
   ]
 }

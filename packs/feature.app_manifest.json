@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.feature.core.v1",
   "word": "feature",
-  "wordpack_version": "2.2.0",
+  "wordpack_version": "2.2.1",
   "status": "preview",
   "wordpack_path": "feature.app_wordpack.json",
   "scene": {
@@ -18,7 +18,7 @@
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/feature/feature.full.mp3"
+        "path": "assets/audio_tts/feature/feature.chunk1.mp3"
       },
       {
         "order": 2,
@@ -29,8 +29,8 @@
   "files": [
     {
       "path": "feature.app_wordpack.json",
-      "bytes": 4207,
-      "sha256": "472eebfc49502784b4c77aaa8f8291131aeca2f0c38ad7a9ec48ead75ba6bacd"
+      "bytes": 4250,
+      "sha256": "978e4cf9747b9c407b92eb13ec35aa75b87f720375b9aea3f978c4a9b01215cb"
     }
   ]
 }
