@@ -1,357 +1,357 @@
 {
-  "schema_version": "1.0.0",
-  "catalog_version": "2.3.0-app.1",
-  "generated_at": "2026-07-31T05:30:00+00:00",
-  "packs": [
-    {
-      "word_id": "linkling.aggressive.core.v1",
-      "word": "aggressive",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "aggressive.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.alternative.core.v1",
-      "word": "alternative",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "alternative.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.ancestor.core.v1",
-      "word": "ancestor",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "ancestor.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.associate.core.v1",
-      "word": "associate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "associate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.bias.core.v1",
-      "word": "bias",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "bias.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.collapse.core.v1",
-      "word": "collapse",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "collapse.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.colleague.core.v1",
-      "word": "colleague",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "colleague.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.compromise.core.v1",
-      "word": "compromise",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "compromise.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.conform.core.v1",
-      "word": "conform",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "conform.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.constant.core.v1",
-      "word": "constant",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "constant.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.convert.core.v1",
-      "word": "convert",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "convert.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.declare.core.v1",
-      "word": "declare",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "declare.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.deliberate.core.v1",
-      "word": "deliberate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "deliberate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.designate.core.v1",
-      "word": "designate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "designate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.discipline.core.v1",
-      "word": "discipline",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "discipline.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.dissolve.core.v1",
-      "word": "dissolve",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "dissolve.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.epidemic.core.v1",
-      "word": "epidemic",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "epidemic.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.extract.core.v1",
-      "word": "extract",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "extract.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.famine.core.v1",
-      "word": "famine",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "famine.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.feature.core.v1",
-      "word": "feature",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "feature.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.grasp.core.v1",
-      "word": "grasp",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "grasp.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.habitat.core.v1",
-      "word": "habitat",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "habitat.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.heritage.core.v1",
-      "word": "heritage",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "heritage.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.immune.core.v1",
-      "word": "immune",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "immune.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.innate.core.v1",
-      "word": "innate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "innate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.intermediate.core.v1",
-      "word": "intermediate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "intermediate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.interrupt.core.v1",
-      "word": "interrupt",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "interrupt.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.intimate.core.v1",
-      "word": "intimate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "intimate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.nurture.core.v1",
-      "word": "nurture",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "nurture.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.obstacle.core.v1",
-      "word": "obstacle",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "obstacle.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.paradox.core.v1",
-      "word": "paradox",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "paradox.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.parallel.core.v1",
-      "word": "parallel",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "parallel.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.precede.core.v1",
-      "word": "precede",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "precede.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.profound.core.v1",
-      "word": "profound",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "profound.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.prompt.core.v1",
-      "word": "prompt",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "prompt.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.qualify.core.v1",
-      "word": "qualify",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "qualify.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.radical.core.v1",
-      "word": "radical",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "radical.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.range.core.v1",
-      "word": "range",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "range.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.regulate.core.v1",
-      "word": "regulate",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "regulate.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.specific.core.v1",
-      "word": "specific",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "specific.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.strain.core.v1",
-      "word": "strain",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "strain.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.strive.core.v1",
-      "word": "strive",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "strive.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.stroke.core.v1",
-      "word": "stroke",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "stroke.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.substitute.core.v1",
-      "word": "substitute",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "substitute.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.suspend.core.v1",
-      "word": "suspend",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "suspend.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.thrive.core.v1",
-      "word": "thrive",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "thrive.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.trace.core.v1",
-      "word": "trace",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "trace.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.vague.core.v1",
-      "word": "vague",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "vague.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.vanish.core.v1",
-      "word": "vanish",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "vanish.app_manifest.json"
-    },
-    {
-      "word_id": "linkling.withdraw.core.v1",
-      "word": "withdraw",
-      "wordpack_version": "2.2.1",
-      "status": "preview",
-      "manifest_path": "withdraw.app_manifest.json"
-    }
-  ]
+ "schema_version": "1.0.0",
+ "catalog_version": "2.4.0-app.1",
+ "generated_at": "2026-07-31T05:30:00+00:00",
+ "packs": [
+  {
+   "word_id": "linkling.aggressive.core.v1",
+   "word": "aggressive",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "aggressive.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.alternative.core.v1",
+   "word": "alternative",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "alternative.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.ancestor.core.v1",
+   "word": "ancestor",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "ancestor.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.associate.core.v1",
+   "word": "associate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "associate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.bias.core.v1",
+   "word": "bias",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "bias.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.collapse.core.v1",
+   "word": "collapse",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "collapse.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.colleague.core.v1",
+   "word": "colleague",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "colleague.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.compromise.core.v1",
+   "word": "compromise",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "compromise.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.conform.core.v1",
+   "word": "conform",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "conform.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.constant.core.v1",
+   "word": "constant",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "constant.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.convert.core.v1",
+   "word": "convert",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "convert.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.declare.core.v1",
+   "word": "declare",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "declare.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.deliberate.core.v1",
+   "word": "deliberate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "deliberate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.designate.core.v1",
+   "word": "designate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "designate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.discipline.core.v1",
+   "word": "discipline",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "discipline.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.dissolve.core.v1",
+   "word": "dissolve",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "dissolve.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.epidemic.core.v1",
+   "word": "epidemic",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "epidemic.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.extract.core.v1",
+   "word": "extract",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "extract.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.famine.core.v1",
+   "word": "famine",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "famine.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.feature.core.v1",
+   "word": "feature",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "feature.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.grasp.core.v1",
+   "word": "grasp",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "grasp.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.habitat.core.v1",
+   "word": "habitat",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "habitat.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.heritage.core.v1",
+   "word": "heritage",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "heritage.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.immune.core.v1",
+   "word": "immune",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "immune.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.innate.core.v1",
+   "word": "innate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "innate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.intermediate.core.v1",
+   "word": "intermediate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "intermediate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.interrupt.core.v1",
+   "word": "interrupt",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "interrupt.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.intimate.core.v1",
+   "word": "intimate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "intimate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.nurture.core.v1",
+   "word": "nurture",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "nurture.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.obstacle.core.v1",
+   "word": "obstacle",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "obstacle.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.paradox.core.v1",
+   "word": "paradox",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "paradox.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.parallel.core.v1",
+   "word": "parallel",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "parallel.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.precede.core.v1",
+   "word": "precede",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "precede.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.profound.core.v1",
+   "word": "profound",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "profound.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.prompt.core.v1",
+   "word": "prompt",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "prompt.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.qualify.core.v1",
+   "word": "qualify",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "qualify.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.radical.core.v1",
+   "word": "radical",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "radical.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.range.core.v1",
+   "word": "range",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "range.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.regulate.core.v1",
+   "word": "regulate",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "regulate.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.specific.core.v1",
+   "word": "specific",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "specific.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.strain.core.v1",
+   "word": "strain",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "strain.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.strive.core.v1",
+   "word": "strive",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "strive.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.stroke.core.v1",
+   "word": "stroke",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "stroke.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.substitute.core.v1",
+   "word": "substitute",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "substitute.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.suspend.core.v1",
+   "word": "suspend",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "suspend.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.thrive.core.v1",
+   "word": "thrive",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "thrive.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.trace.core.v1",
+   "word": "trace",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "trace.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.vague.core.v1",
+   "word": "vague",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "vague.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.vanish.core.v1",
+   "word": "vanish",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "vanish.app_manifest.json"
+  },
+  {
+   "word_id": "linkling.withdraw.core.v1",
+   "word": "withdraw",
+   "wordpack_version": "2.4.0",
+   "status": "preview",
+   "manifest_path": "withdraw.app_manifest.json"
+  }
+ ]
 }
