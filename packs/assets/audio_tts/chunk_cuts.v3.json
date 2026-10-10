@@ -1,0 +1,702 @@
+{
+ "version": "v3",
+ "source": "Kokoro-82M af_heart speed 0.72 — 기존 음원과 같은 조건으로 무손실 재합성",
+ "note": "시작 잡음(BOS 구간의 딸깍 소리·앞 목소리) 제거. 조각 끝 = 음소 경계(Kokoro 음소 시간 + pocketsphinx 정렬 + 소리 지표). 모음·공명음으로 끝나는 조각은 자연 감쇠 꼬리(PSOLA 80ms). 앱은 이 파일을 읽지 않는다 (재현·검수용).",
+ "words": {
+  "aggressive": {
+   "start_s": 0.525,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɐɡ",
+     "end_s": 0.717,
+     "rule": "release",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ɐɡɹˈɛs",
+     "end_s": 1.072,
+     "rule": "fric-end",
+     "natural_tail": false
+    }
+   ]
+  },
+  "alternative": {
+   "start_s": 0.502,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɔːl",
+     "end_s": 0.688,
+     "rule": "closure",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ɔːltˈɜː",
+     "end_s": 0.938,
+     "rule": "vow→son",
+     "natural_tail": true
+    }
+   ]
+  },
+  "ancestor": {
+   "start_s": 0.58,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˈæn",
+     "end_s": 0.816,
+     "rule": "fric-onset",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ˈænsɛs",
+     "end_s": 1.156,
+     "rule": "fric→closure",
+     "natural_tail": false
+    }
+   ]
+  },
+  "associate": {
+   "start_s": 0.525,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɐs",
+     "end_s": 0.794,
+     "rule": "fric-end",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ɐsˈoʊ",
+     "end_s": 0.946,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "bias": {
+   "start_s": 0.591,
+   "start_rule": "burst",
+   "cuts": []
+  },
+  "collapse": {
+   "start_s": 0.539,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kəl",
+     "end_s": 0.714,
+     "rule": "son→vow",
+     "natural_tail": true
+    }
+   ]
+  },
+  "colleague": {
+   "start_s": 0.533,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kˈɑːl",
+     "end_s": 0.84,
+     "rule": "son→vow",
+     "natural_tail": true
+    }
+   ]
+  },
+  "compromise": {
+   "start_s": 0.511,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kˈɑːm",
+     "end_s": 0.764,
+     "rule": "closure",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "kˈɑːmpɹə",
+     "end_s": 0.912,
+     "rule": "vow→son",
+     "natural_tail": true
+    }
+   ]
+  },
+  "conform": {
+   "start_s": 0.545,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kən",
+     "end_s": 0.748,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "constant": {
+   "start_s": 0.541,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kˈɑːn",
+     "end_s": 0.842,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "convert": {
+   "start_s": 0.543,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kən",
+     "end_s": 0.764,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "declare": {
+   "start_s": 0.575,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "dᵻ",
+     "end_s": 0.67,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "deliberate": {
+   "start_s": 0.551,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "dᵻ",
+     "end_s": 0.662,
+     "rule": "vow→son",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "dᵻlˈɪb",
+     "end_s": 0.945,
+     "rule": "release",
+     "natural_tail": false
+    }
+   ]
+  },
+  "designate": {
+   "start_s": 0.585,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "dˈɛz",
+     "end_s": 0.858,
+     "rule": "fric-end",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "dˈɛzɪɡ",
+     "end_s": 0.989,
+     "rule": "release",
+     "natural_tail": false
+    }
+   ]
+  },
+  "discipline": {
+   "start_s": 0.555,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "dˈɪs",
+     "end_s": 0.814,
+     "rule": "fric-end",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "dˈɪsɪ",
+     "end_s": 0.846,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "dissolve": {
+   "start_s": 0.579,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "dɪs",
+     "end_s": 0.84,
+     "rule": "fric-end",
+     "natural_tail": false
+    }
+   ]
+  },
+  "epidemic": {
+   "start_s": 0.524,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˌɛpɪ",
+     "end_s": 0.816,
+     "rule": "closure",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ˌɛpɪdˈɛm",
+     "end_s": 1.066,
+     "rule": "son→vow",
+     "natural_tail": true
+    }
+   ]
+  },
+  "extract": {
+   "start_s": 0.554,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˈɛks",
+     "end_s": 0.87,
+     "rule": "fric→closure",
+     "natural_tail": false
+    }
+   ]
+  },
+  "famine": {
+   "start_s": 0.556,
+   "start_rule": "frication",
+   "cuts": []
+  },
+  "feature": {
+   "start_s": 0.57,
+   "start_rule": "frication",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "fˈiː",
+     "end_s": 0.782,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "grasp": {
+   "start_s": 0.569,
+   "start_rule": "burst",
+   "cuts": []
+  },
+  "habitat": {
+   "start_s": 0.574,
+   "start_rule": "h-breath",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "hˈæbɪ",
+     "end_s": 0.894,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "heritage": {
+   "start_s": 0.616,
+   "start_rule": "h-breath",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "hˈɛɹ",
+     "end_s": 0.877,
+     "rule": "flow(t0)",
+     "natural_tail": true
+    }
+   ]
+  },
+  "immune": {
+   "start_s": 0.578,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɪm",
+     "end_s": 0.73,
+     "rule": "flow(t0)",
+     "natural_tail": true
+    }
+   ]
+  },
+  "innate": {
+   "start_s": 0.558,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɪn",
+     "end_s": 0.718,
+     "rule": "flow(t0)",
+     "natural_tail": true
+    }
+   ]
+  },
+  "intermediate": {
+   "start_s": 0.54,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˌɪn",
+     "end_s": 0.698,
+     "rule": "closure",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ˌɪntɚ",
+     "end_s": 0.872,
+     "rule": "vow→son",
+     "natural_tail": true
+    }
+   ]
+  },
+  "interrupt": {
+   "start_s": 0.582,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˈɪn",
+     "end_s": 0.756,
+     "rule": "closure",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ˈɪntɚ",
+     "end_s": 0.916,
+     "rule": "flow(t0)",
+     "natural_tail": true
+    }
+   ]
+  },
+  "intimate": {
+   "start_s": 0.59,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˈɪn",
+     "end_s": 0.752,
+     "rule": "closure",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ˈɪntᵻ",
+     "end_s": 0.894,
+     "rule": "vow→son",
+     "natural_tail": true
+    }
+   ]
+  },
+  "nurture": {
+   "start_s": 0.575,
+   "start_rule": "token(n)",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "nˈɜː",
+     "end_s": 0.836,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "obstacle": {
+   "start_s": 0.592,
+   "start_rule": "vowel-rise",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ˈɑːb",
+     "end_s": 0.864,
+     "rule": "release",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ˈɑːbstə",
+     "end_s": 1.066,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "paradox": {
+   "start_s": 0.521,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "pˈæɹə",
+     "end_s": 0.848,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "parallel": {
+   "start_s": 0.517,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "pˈæɹ",
+     "end_s": 0.794,
+     "rule": "flow(t0)",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "pˈæɹəl",
+     "end_s": 0.916,
+     "rule": "son→vow",
+     "natural_tail": true
+    }
+   ]
+  },
+  "precede": {
+   "start_s": 0.537,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "pɹɪ",
+     "end_s": 0.676,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "profound": {
+   "start_s": 0.543,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "pɹə",
+     "end_s": 0.672,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "prompt": {
+   "start_s": 0.529,
+   "start_rule": "burst",
+   "cuts": []
+  },
+  "qualify": {
+   "start_s": 0.517,
+   "start_rule": "burst",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "kwˈɔl",
+     "end_s": 0.814,
+     "rule": "son→vow",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "kwˈɔlᵻ",
+     "end_s": 0.902,
+     "rule": "fric-onset",
+     "natural_tail": true
+    }
+   ]
+  },
+  "radical": {
+   "start_s": 0.55,
+   "start_rule": "token(ɹ)",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɹˈæd",
+     "end_s": 0.879,
+     "rule": "release",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ɹˈædɪ",
+     "end_s": 0.938,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "range": {
+   "start_s": 0.575,
+   "start_rule": "token(ɹ)",
+   "cuts": []
+  },
+  "regulate": {
+   "start_s": 0.55,
+   "start_rule": "token(ɹ)",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "ɹˈɛɡ",
+     "end_s": 0.877,
+     "rule": "release",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "ɹˈɛɡjʊ",
+     "end_s": 1.006,
+     "rule": "vow→son",
+     "natural_tail": true
+    }
+   ]
+  },
+  "specific": {
+   "start_s": 0.594,
+   "start_rule": "frication",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "spə",
+     "end_s": 0.758,
+     "rule": "fric-onset",
+     "natural_tail": true
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "spəsˈɪf",
+     "end_s": 1.1,
+     "rule": "fric-end",
+     "natural_tail": false
+    }
+   ]
+  },
+  "strain": {
+   "start_s": 0.556,
+   "start_rule": "frication",
+   "cuts": []
+  },
+  "strive": {
+   "start_s": 0.564,
+   "start_rule": "frication",
+   "cuts": []
+  },
+  "stroke": {
+   "start_s": 0.57,
+   "start_rule": "frication",
+   "cuts": []
+  },
+  "substitute": {
+   "start_s": 0.568,
+   "start_rule": "frication",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "sˈʌb",
+     "end_s": 0.842,
+     "rule": "release",
+     "natural_tail": false
+    },
+    {
+     "order": 2,
+     "prefix_ipa": "sˈʌbstɪ",
+     "end_s": 1.064,
+     "rule": "closure",
+     "natural_tail": true
+    }
+   ]
+  },
+  "suspend": {
+   "start_s": 0.584,
+   "start_rule": "frication",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "səs",
+     "end_s": 0.854,
+     "rule": "fric→closure",
+     "natural_tail": false
+    }
+   ]
+  },
+  "thrive": {
+   "start_s": 0.602,
+   "start_rule": "frication",
+   "cuts": []
+  },
+  "trace": {
+   "start_s": 0.561,
+   "start_rule": "burst",
+   "cuts": []
+  },
+  "vague": {
+   "start_s": 0.55,
+   "start_rule": "token(v)",
+   "cuts": []
+  },
+  "vanish": {
+   "start_s": 0.575,
+   "start_rule": "token(v)",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "vˈæn",
+     "end_s": 0.908,
+     "rule": "son→vow",
+     "natural_tail": true
+    }
+   ]
+  },
+  "withdraw": {
+   "start_s": 0.55,
+   "start_rule": "token(w)",
+   "cuts": [
+    {
+     "order": 1,
+     "prefix_ipa": "wɪθ",
+     "end_s": 0.842,
+     "rule": "fric→closure",
+     "natural_tail": false
+    }
+   ]
+  }
+ }
+}
