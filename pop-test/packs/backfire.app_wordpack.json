@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test",
+  "word_id": "linkling.backfire.core.v1",
+  "word": "backfire",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "역효과를 낳다",
+    "accepted_meanings_ko": [
+      "역효과를 낳다",
+      "역효과가 나다",
+      "의도와 반대로 되다",
+      "자업자득이 되다"
+    ],
+    "excluded_meanings_ko": [
+      "실패하다",
+      "훔치다",
+      "놀라다",
+      "뒤집다",
+      "후회하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈbækfaɪər",
+    "full_audio_asset_id": "assets/audio_tts/backfire/backfire.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈbæk",
+        "cumulative_spelling": "back",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈbækfaɪ",
+        "cumulative_spelling": "backfi",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˈbækfaɪər",
+        "cumulative_spelling": "backfire",
+        "audio_asset_id": "assets/audio_tts/backfire/backfire.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/backfire/backfire.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 남의 물고기를 노려 던진 낚싯바늘이 양동이 쇠 테두리에 \"팅\" 튕겨 되날아와, 가로등 팔에 걸친 제 낚싯줄로 던진 사람을 낚아 올림] 3인칭: 부두 왼쪽 끝에 가로등 · 소년 (남색 의자 · 남색 양동이 · 빨간 낚싯대) 과 아저씨 (모래색 의자 · 은회색 양동이) 가 나란히 낚시 → 아저씨가 황금 물고기를 낚아 자기 은회색 양동이에 첨벙 → 소년의 남색 양동이는 텅, 소년이 고개를 돌려 봄 → 아저씨가 일어나 화면 밖으로 → 모두 멈춘 채 \"저 물고기를 내 걸로!!!\" (2초) → 1인칭: 내 두 손이 빨간 낚싯대로 그 양동이를 겨눔 → \"휙!\" 던짐 → 3인칭: 바늘이 높이 떴다가 은회색 양동이 쇠 테두리에 \"팅!\" (테두리 확대 · 흰 불꽃 · 양동이 덜컹 · 물고기 가만히) → 카메라가 바늘을 따라감: 튕긴 바늘이 줄을 끌며 왼쪽 위로 크게 휘어 되날아와 가로등 팔 위로 넘어가며 줄이 팔에 걸침 → 팔 너머로 떨어져 소년 후드에 걸림 (후드 가까이 0.75초) → 소년이 홱 들려 제 낚싯줄에 매달리는 순간 화면이 확 다가가며 주황 · 숯색 톱니 집중선 · 톱니 별 (부정 강조), 부두 · 가로등 · 의자는 회색 → 매달려 흔들림 (황금 물고기는 남의 양동이에 그대로) → 멈춤 → 화면이 가로등 머리까지 조금 물러남 → 소년의 꾀 (빨간 낚싯대 · 바늘 + 팔에 걸친 낚싯줄) 윤곽 표시 (끝까지) → 머리 없는 굵은 막대가 낚싯대 끝 (던진 곳) 에서 은회색 양동이 쇠 테두리로 뻗어 V 로 꺾여 (튕긴 곳) 오른쪽 하늘로 올라 가로등 팔 위를 넘어 소년 후드 (걸린 곳) 까지 이어지며, 팔 위 하늘에 \"역효과를 낳다\" 가 따라 나옴 → 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 막대 + 뜻 — 자동사라 대상 표시 없음 · 막대 = 던진 곳 → 되돌아와 걸린 곳)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "HIDDEN_OR_INITIAL"
+        ],
+        "group_ids": [
+          "ground",
+          "o_stool",
+          "o_bucket"
+        ],
+        "description_ko": "주인 (아저씨) 이 비운 자리 — 빈 모래색 의자 + 은회색 양동이",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "REVEAL"
+        ],
+        "group_ids": [
+          "ground",
+          "o_stool",
+          "o_bucket",
+          "lamp",
+          "b_stool",
+          "b_bucket",
+          "lnA",
+          "lnB",
+          "boy"
+        ],
+        "description_ko": "그 양동이를 노린 소년이 튕겨 온 제 바늘에 후드가 걸려, 가로등 팔에 걸친 제 낚싯줄에 매달림 — 제 남색 양동이는 여전히 빔",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "CONTRAST_CONFIRMED"
+        ],
+        "group_ids": [
+          "ground",
+          "o_stool",
+          "o_bucket",
+          "lamp",
+          "b_stool",
+          "b_bucket",
+          "lnA",
+          "lnB",
+          "boy",
+          "fish",
+          "link"
+        ],
+        "description_ko": "황금 물고기는 남의 양동이에 그대로 — 소년의 꾀 (낚싯대 · 줄) 윤곽 표시와 던진 곳 → 테두리 → 팔 위 → 후드로 돌아오는 막대",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 19740,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "역효과가 났어!!!",
+    "anchor_group_id": "boy"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "backfire",
+    "spelling_chunks": [
+      "back",
+      "backfi",
+      "backfire"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/backfire/backfire.master.svg",
+    "motionRecipePath": "motion_recipes/backfire.motion.json",
+    "audioSpecPath": "assets/audio_tts/backfire/backfire.full.mp3",
+    "assetStatus": "generated"
+  }
+}

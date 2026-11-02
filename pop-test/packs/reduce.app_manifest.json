@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.reduce.core.v1",
+  "word": "reduce",
+  "wordpack_version": "3.3.0-v7-test",
+  "status": "preview",
+  "wordpack_path": "reduce.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/reduce.motion.json",
+    "fallback_svg_path": "assets/images/reduce/reduce.master.svg",
+    "artboard": "reduce",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/reduce/reduce.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/reduce/reduce.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/reduce/reduce.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/reduce/reduce.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "reduce.app_wordpack.json",
+      "bytes": 6180,
+      "sha256": "742bb066d6a3c6f59f24b0fb31e0e8b4bf0fbd302930d181557ab4f706f4ec60"
+    }
+  ]
+}

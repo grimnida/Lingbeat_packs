@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.present.core.v1",
+  "word": "present",
+  "wordpack_version": "3.3.0-v7-test",
+  "status": "preview",
+  "wordpack_path": "present.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/present.motion.json",
+    "fallback_svg_path": "assets/images/present/present.master.svg",
+    "artboard": "present",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/present/present.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/present/present.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/present/present.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/present/present.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "present.app_wordpack.json",
+      "bytes": 5685,
+      "sha256": "5a1df5d5841324ca5c6f618fd3376ff0c12cb9fabf7b88765016d8858f32eea6"
+    }
+  ]
+}

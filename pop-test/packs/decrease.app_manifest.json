@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.decrease.core.v1",
+  "word": "decrease",
+  "wordpack_version": "3.0.3-v7-test",
+  "status": "preview",
+  "wordpack_path": "decrease.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/decrease.motion.json",
+    "fallback_svg_path": "assets/images/decrease/decrease.master.svg",
+    "artboard": "decrease",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/decrease/decrease.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/decrease/decrease.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/decrease/decrease.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/decrease/decrease.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "decrease.app_wordpack.json",
+      "bytes": 6945,
+      "sha256": "7fd39d2d96494f2ddea032a79734bed68bcc2b80cac4c0b651f913a12d0b854a"
+    }
+  ]
+}

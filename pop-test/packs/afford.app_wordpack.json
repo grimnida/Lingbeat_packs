@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.2.0-v7-test",
+  "word_id": "linkling.afford.core.v1",
+  "word": "afford",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "~할 여유가 있다",
+    "accepted_meanings_ko": [
+      "~할 여유가 있다",
+      "(돈을) 감당할 수 있다",
+      "형편이 되다"
+    ],
+    "excluded_meanings_ko": [
+      "사다",
+      "지불하다",
+      "돈을 쓰다",
+      "비용이 들다",
+      "모으다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "əˈfɔːrd",
+    "full_audio_asset_id": "assets/audio_tts/afford/afford.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ə",
+        "cumulative_spelling": "af",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "əˈfɔː",
+        "cumulative_spelling": "affo",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "əˈfɔːrd",
+        "cumulative_spelling": "afford",
+        "audio_asset_id": "assets/audio_tts/afford/afford.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/afford/afford.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 손바닥만 한 지갑 입구에 큰 빨간 탁자가 다리를 들이밀다 막혀 튕겨 나감] 1인칭: 내 두 손의 보라 지갑 (속에 '$' 지폐 + 빈 공간), 앞 진열대에 손잡이에 '$20' 표를 단 찻주전자 · 윗판에 '$900' 표를 단 빨간 탁자 → 찻주전자가 표와 함께 휙 날아오며 작아져 지갑 속으로 쏙 — 빈자리가 남음 → 지갑 확대 · 중간 말풍선 \"살 여유가 있어\" (꼬리 = 아래, 나) → 탁자가 다가오며 커져 지갑 입구에 앞다리를 들이밀고 세 번 밀어 넣음 — 세 번째에 입구가 옆으로 터질 듯 한껏 늘어나고 두 손이 벌어진 순간 화면이 확 다가가며 집중선 · 반짝임, 진열대는 회색 → 잠깐 멈춤 → 윗판이 못 들어가 탁자가 입구에서 오른쪽 위로 튕겨 나가 진열대 앞 바닥으로 떨어져 콩 멈춤 (지갑 입구는 제자리, 지갑 속 지폐 · 찻주전자 그대로) → 쉼 → 지갑을 쥔 내 두 손 + 지갑 윤곽 표시 (끝까지) → 굵은 화살표가 지갑 입구 오른쪽에서 오른손 위를 지나 바닥의 탁자로 뻗으며 화살표 위에 \"살 여유가 없다\" 가 따라 나옴 → 머리가 닿는 순간 탁자 + $900 가격표 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "hand_l",
+          "hand_r",
+          "wallet",
+          "money",
+          "teapot2",
+          "dollar"
+        ],
+        "description_ko": "1인칭 내 두 손의 보라 지갑 — '$' 지폐 · 찻주전자 · 빈 공간",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "hand_l",
+          "hand_r",
+          "wallet",
+          "money",
+          "teapot2",
+          "dollar",
+          "shelf"
+        ],
+        "description_ko": "앞 진열대",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "hand_l",
+          "hand_r",
+          "wallet",
+          "money",
+          "teapot2",
+          "dollar",
+          "shelf",
+          "table0",
+          "link"
+        ],
+        "description_ko": "$900 탁자가 지갑 입구에 막혀 튕겨 나가 바닥에 떨어짐 + 내 두 손 · 지갑 (윤곽 표시) → 화살표 → 탁자 + $900 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 16260,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "살 여유가 없어!!!",
+    "anchor_group_id": "wallet"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "afford",
+    "spelling_chunks": [
+      "af",
+      "affo",
+      "afford"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/afford/afford.master.svg",
+    "motionRecipePath": "motion_recipes/afford.motion.json",
+    "audioSpecPath": "assets/audio_tts/afford/afford.full.mp3",
+    "assetStatus": "generated"
+  }
+}

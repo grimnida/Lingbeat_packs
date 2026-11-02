@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test",
+  "word_id": "linkling.predict.core.v1",
+  "word": "predict",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "예측하다",
+    "accepted_meanings_ko": [
+      "예측하다",
+      "예상하다",
+      "예보하다",
+      "예견하다",
+      "내다보다"
+    ],
+    "excluded_meanings_ko": [
+      "짐작하다",
+      "확인하다",
+      "경고하다",
+      "일으키다",
+      "준비하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "prɪˈdɪkt",
+    "full_audio_asset_id": "assets/audio_tts/predict/predict.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "prɪ",
+        "cumulative_spelling": "pre",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "prɪˈdɪ",
+        "cumulative_spelling": "predi",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "prɪˈdɪkt",
+        "cumulative_spelling": "predict",
+        "audio_asset_id": "assets/audio_tts/predict/predict.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/predict/predict.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭: 창가에서 내 손에 든 보라 휴대폰 — 맨 위 \"2:00\", 아래 화면 가득 \"3시\" 예보 그림 (어두운 하늘 · 해를 덮은 먹구름 · 쏟아지는 비 · 나무 · 물웅덩이). 창밖은 파란 하늘에 해가 쨍쨍 → 모든 것이 멈춘 채 휴대폰이 말풍선 \"3시에 비가 옵니다\" → 창밖 왼쪽 끝에서 짙은 먹구름이 해 쪽으로 다가오며 하늘이 어두워지고 시계가 2:15 → 2:30 → 2:45 → \"3:00\" 이 되는 바로 그 순간 먹구름이 해를 덮고 비가 쏴아 쏟아지며 화면이 창으로 확 다가가고 흰 집중선, 벽 · 창틀은 회색 (잠시 멈춤) → 물웅덩이가 커짐 → 휴대폰 \"3시\" 그림이 톡 (그림 = 창밖) → 비만 계속 내리고 멈춤 → 휴대폰 보라 케이스 윤곽 표시 (끝까지) → 굵은 화살표가 \"3시\" 그림 옆에서 오른쪽 벽을 따라 올라 창밖 먹구름으로 뻗으며 화살표 위에 \"예측하다\" 가 따라 나옴 → 머리가 먹구름에 닿고 먹구름 윤곽 표시 → 셋 다 남은 채 멈춤 (비는 계속) (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "wall",
+          "sky",
+          "sun",
+          "tree",
+          "road",
+          "frame",
+          "phone",
+          "cell3",
+          "clock"
+        ],
+        "description_ko": "내 손의 보라 휴대폰이 \"3시\" 에 비 오는 장면 그림을 미리 보여 줌",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "wall",
+          "sky",
+          "sun",
+          "tree",
+          "road",
+          "frame",
+          "phone",
+          "cell3",
+          "clock",
+          "cloud"
+        ],
+        "description_ko": "창밖 왼쪽 하늘에서 진짜 먹구름이 와서 해를 덮음",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "wall",
+          "sky",
+          "sun",
+          "tree",
+          "road",
+          "frame",
+          "phone",
+          "cell3",
+          "clock",
+          "cloud",
+          "rain",
+          "puddle",
+          "link"
+        ],
+        "description_ko": "3시에 정말 세찬 비 · 물웅덩이 — 휴대폰 (윤곽 표시) → 굵은 화살표 → 창밖 먹구름 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 14900,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "예측했어!!!",
+    "anchor_group_id": "phone"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "predict",
+    "spelling_chunks": [
+      "pre",
+      "predi",
+      "predict"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/predict/predict.master.svg",
+    "motionRecipePath": "motion_recipes/predict.motion.json",
+    "audioSpecPath": "assets/audio_tts/predict/predict.full.mp3",
+    "assetStatus": "generated"
+  }
+}

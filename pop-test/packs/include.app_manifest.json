@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.include.core.v1",
+  "word": "include",
+  "wordpack_version": "3.1.0-v7-test",
+  "status": "preview",
+  "wordpack_path": "include.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/include.motion.json",
+    "fallback_svg_path": "assets/images/include/include.master.svg",
+    "artboard": "include",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/include/include.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/include/include.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/include/include.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/include/include.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "include.app_wordpack.json",
+      "bytes": 6113,
+      "sha256": "63fa2074b597c7954bc027106e76c1cd1e0a580b21e547dcb7aa21613e58241f"
+    }
+  ]
+}

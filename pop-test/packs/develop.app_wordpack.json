@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test",
+  "word_id": "linkling.develop.core.v1",
+  "word": "develop",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "발전시키다, 개발하다",
+    "accepted_meanings_ko": [
+      "발전시키다",
+      "개발하다",
+      "발달하다",
+      "발전하다",
+      "키우다",
+      "성장시키다"
+    ],
+    "excluded_meanings_ko": [
+      "조립하다",
+      "짓다",
+      "개선하다",
+      "향상시키다",
+      "진화하다",
+      "발명하다",
+      "업그레이드하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "dɪˈveləp",
+    "full_audio_asset_id": "assets/audio_tts/develop/develop.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "dɪ",
+        "cumulative_spelling": "de",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "dɪˈvel",
+        "cumulative_spelling": "devel",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "dɪˈveləp",
+        "cumulative_spelling": "develop",
+        "audio_asset_id": "assets/audio_tts/develop/develop.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/develop/develop.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭으로 바로 위에서 내려다본 내 나무 책상 — 왼쪽 아래에서 오른쪽 위로 비스듬히 지나가는 검회색 컨베이어 벨트 (가로 살 · 은색 레일) · 왼쪽 위 큰 연도 달력 2023 · 화면 아래 드라이버를 쥔 노란 소매의 내 오른손 → 벨트가 지나가며 작은 흰 종이비행기 (코끝 하늘색) 가 왼쪽 아래 화면 밖에서 실려 들어옴 · 달력 2024 → 손이 화면 아래 (내 쪽) 로 내려가 부품을 하나씩 집어 와 (드라이버는 손바닥에 쥔 채 손끝으로 부품 끝을 집음) 벨트 위 종이비행기 코 바로 앞에 놓음 — 둥근 몸통은 놓기만, 곧은 날개 + 꼬리 날개 · 프로펠러는 놓은 뒤 드라이버 끝을 이음매 (오른쪽 날개 뿌리 · 코와 몸통 사이) 에 대어 돌려 조임 → 1.6배 흰 프로펠러 비행기 완성 톡 · 달력 2025 → \"한 단계 더!\" · 벨트가 다시 지나가 두 대가 함께 앞으로 실려 감 → 같은 방법으로 프로펠러 비행기 코 앞에 (길쭉한 몸통 → 뒤로 젖힌 날개 + 엔진 둘 → 뾰족한 코 + 남색 조종석 창 — 마지막 코는 천천히 가져와 꾹꾹 세 번) → 2.8배 흰 제트 여객기 완성 톡과 함께 달력 2026 — 화면이 확 다가가며 노란 집중선 · 반짝임, 벨트 · 책상은 회색 → 멈춤 → 손이 화면 아래 가운데 빈 책상으로 물러남 → 내 오른손 (드라이버 · 노란 소매) 윤곽 표시 (끝까지) → 굵은 화살표가 손에서 오른쪽으로 나가 위로 휘어 벨트 위 비행기 셋 (종이 → 프로펠러 → 제트) 을 감싼 고리의 제트기 오른쪽 (엔진 · 날개 뿌리 곁) 에 제트기 가운데를 향해 닿으며 화살표 선 위에 \"발전시키다\" 가 따라 나옴 → 비행기 셋 한 고리 윤곽 표시 → 두꺼운 둘째 화살표가 종이비행기 위에서 프로펠러 비행기 위를 지나 제트기 위까지 뻗음 → 달력 2026 과 함께 모두 남아 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "desk",
+          "belt",
+          "cal",
+          "paper",
+          "hand"
+        ],
+        "description_ko": "1인칭 내 책상 위 컨베이어 벨트 — 드라이버를 쥔 노란 소매 내 오른손 · 작은 흰 종이비행기 · 큰 연도 달력",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "desk",
+          "belt",
+          "cal",
+          "paper",
+          "hand",
+          "prop"
+        ],
+        "description_ko": "벨트 위 종이비행기 코 앞에 이어진 1.6배 흰 프로펠러 비행기 (한 단계 더)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "desk",
+          "belt",
+          "cal",
+          "paper",
+          "hand",
+          "prop",
+          "jet",
+          "link"
+        ],
+        "description_ko": "2.8배 흰 제트 여객기까지 비스듬히 올라가는 계단 (2023 → 2026) + 화살표 내 손 (윤곽 표시) → 비행기 셋 (한 고리 윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 19270,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "발전시켰어!!!",
+    "anchor_group_id": "hand"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "develop",
+    "spelling_chunks": [
+      "de",
+      "devel",
+      "develop"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/develop/develop.master.svg",
+    "motionRecipePath": "motion_recipes/develop.motion.json",
+    "audioSpecPath": "assets/audio_tts/develop/develop.full.mp3",
+    "assetStatus": "generated"
+  }
+}

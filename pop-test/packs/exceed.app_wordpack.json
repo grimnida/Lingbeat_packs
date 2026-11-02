@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.2.0-v7-test",
+  "word_id": "linkling.exceed.core.v1",
+  "word": "exceed",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "초과하다, 넘어서다",
+    "accepted_meanings_ko": [
+      "초과하다",
+      "넘다",
+      "넘어서다",
+      "능가하다"
+    ],
+    "excluded_meanings_ko": [
+      "무게를 달다",
+      "넘치다",
+      "늘리다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪkˈsiːd",
+    "full_audio_asset_id": "assets/audio_tts/exceed/exceed.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪk",
+        "cumulative_spelling": "ex",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪkˈsiː",
+        "cumulative_spelling": "exce",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ɪkˈsiːd",
+        "cumulative_spelling": "exceed",
+        "audio_asset_id": "assets/audio_tts/exceed/exceed.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/exceed/exceed.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "옆에서 본 바닥 · 고양이 세 마리 높이에 굵은 단색 파란 막대가 화면 왼쪽 끝에서 오른쪽 끝까지 가로로 → 주황 고양이 셋이 화면 왼쪽에서 0.6초 간격으로 들어와 막대 앞 바닥 가운데에 차곡차곡 겹쳐 앉음 — 셋째가 앉자 탑 꼭대기 = 막대 높이 (잠깐 멈춤) → 넷째가 천천히 들어와 탑 꼭대기 (막대 위) 에 낮게 사뿐 올라앉음 — 그 순간 화면이 넷째 · 막대로 확 다가가며 흰 집중선, 아래 고양이 셋은 연회색 · 바닥 · 바탕은 회색 (1.5초 머묾, 아무것도 안 움직임) → 다섯째 · 여섯째 · 일곱째가 막대 위로 올라앉음 (밝은 고양이 넷) → 막대 위 고양이 넷 윤곽 표시 → 굵은 화살표가 위쪽 고양이 얼굴 옆에서 오른쪽으로 고르게 솟았다가 막대 윗면에 위에서 내려앉으며 화살표 선을 따라 \"초과하다\" 가 나옴 → 머리가 닿는 순간 파란 막대 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "HIDDEN_OR_INITIAL"
+        ],
+        "group_ids": [
+          "floor",
+          "bar"
+        ],
+        "description_ko": "바닥 위 고양이 세 마리 높이의 파란 막대 (한계)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "REVEAL"
+        ],
+        "group_ids": [
+          "floor",
+          "bar",
+          "cat0"
+        ],
+        "description_ko": "고양이 세 마리 탑 — 꼭대기가 막대 높이",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "CONTRAST_CONFIRMED"
+        ],
+        "group_ids": [
+          "floor",
+          "bar",
+          "cat1",
+          "cat2",
+          "cat3",
+          "cat4",
+          "cat5",
+          "cat6",
+          "cat7",
+          "link"
+        ],
+        "description_ko": "고양이 일곱 마리 탑이 막대를 넘음 — 막대 위 넷 (초과분, 윤곽 표시) 만 주황이고 아래 셋은 연회색, 막대 위 넷 → 화살표 → 파란 막대 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15150,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "초과했어!!!",
+    "anchor_group_id": "bar"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "exceed",
+    "spelling_chunks": [
+      "ex",
+      "exce",
+      "exceed"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/exceed/exceed.master.svg",
+    "motionRecipePath": "motion_recipes/exceed.motion.json",
+    "audioSpecPath": "assets/audio_tts/exceed/exceed.full.mp3",
+    "assetStatus": "generated"
+  }
+}

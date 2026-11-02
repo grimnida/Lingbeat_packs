@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.3.0-v7-test",
+  "word_id": "linkling.incorporate.core.v1",
+  "word": "incorporate",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "(B를 C에) 넣어 합치다, 통합하다",
+    "accepted_meanings_ko": [
+      "통합하다",
+      "넣어 합치다",
+      "포함시키다",
+      "편입하다",
+      "합치다",
+      "하나로 합치다",
+      "결합하다"
+    ],
+    "excluded_meanings_ko": [
+      "붙이다",
+      "끼워 넣다",
+      "섞다",
+      "흡수하다",
+      "빚다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪnˈkɔːrpəreɪt",
+    "full_audio_asset_id": "assets/audio_tts/incorporate/incorporate.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪn",
+        "cumulative_spelling": "in",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪnˈkɔːr",
+        "cumulative_spelling": "incor",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ɪnˈkɔːrpəreɪt",
+        "cumulative_spelling": "incorporate",
+        "audio_asset_id": "assets/audio_tts/incorporate/incorporate.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/incorporate/incorporate.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭: 내려다본 책상 위 연한 나무 판 — 큰 하늘색 클레이 덩이 · 오른쪽 한 뼘 떨어져 노란 덩이 (지름 4분의 3) → 화면 아래 오른쪽에서 보라 소매 내 오른손이 올라와 모은 검지 · 중지 끝을 노란 덩이 옆에 댐 → 손이 멈춘 채 손등에서 나온 말풍선 \"이것도 넣자!\" → 말풍선이 사라지고 두 손가락이 노란 덩이를 왼쪽으로 천천히 쭉 밀어 하늘색 덩이 옆구리에 꾹 — 노랑 절반이 쑥 파묻힘 → 손끝이 이음매를 위에서 아래로 한 번 쓱 → 이음매가 사라지고 둥근 큰 덩이 하나 (처음 하늘색의 1.4배 · 오른쪽 5분의 2 노랑 · 두 색은 섞이지 않음) — 그 순간 화면이 덩이로 확 다가가 노랑 집중선 · 반짝임, 덩이 · 손 말고 회색, 1.5초 머묾 → 손을 떼고 오른쪽 아래로 물러남 (화면이 덩이 · 손으로 조금 다가감) → 내 오른손 윤곽 표시 (끝까지) → 굵은 화살표가 손끝 위에서 솟았다가 덩이 오른쪽 위 옆구리로 곧게 들어가며 화살표 선을 따라 \"통합하다\" 가 나옴 → 머리가 닿는 순간 덩이 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "desk",
+          "board"
+        ],
+        "description_ko": "책상 위 나무 판 — 처음엔 하늘색 · 노란 클레이 두 덩이가 따로",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "desk",
+          "board",
+          "merged"
+        ],
+        "description_ko": "하나가 된 큰 덩이 (처음 하늘색의 1.4배, 오른쪽 5분의 2 노랑 — 섞이지 않음)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "desk",
+          "board",
+          "merged",
+          "hand",
+          "link"
+        ],
+        "description_ko": "덩이에서 떨어져 오른쪽 아래로 물러난 보라 소매 내 오른손 (윤곽 표시) → 굵은 화살표 → 하나가 된 큰 덩이 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15500,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "통합했어!!!",
+    "anchor_group_id": "merged"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "incorporate",
+    "spelling_chunks": [
+      "in",
+      "incor",
+      "incorporate"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/incorporate/incorporate.master.svg",
+    "motionRecipePath": "motion_recipes/incorporate.motion.json",
+    "audioSpecPath": "assets/audio_tts/incorporate/incorporate.full.mp3",
+    "assetStatus": "generated"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.contain.core.v1",
+  "word": "contain",
+  "wordpack_version": "3.4.0-v7-test",
+  "status": "preview",
+  "wordpack_path": "contain.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/contain.motion.json",
+    "fallback_svg_path": "assets/images/contain/contain.master.svg",
+    "artboard": "contain",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/contain/contain.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/contain/contain.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/contain/contain.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/contain/contain.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "contain.app_wordpack.json",
+      "bytes": 5744,
+      "sha256": "3bb6706ae339fdbf2b3d1f992644eda41bb0082366a8c86458a74921843d8e99"
+    }
+  ]
+}

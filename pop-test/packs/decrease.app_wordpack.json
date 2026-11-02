@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.0.3-v7-test",
+  "word_id": "linkling.decrease.core.v1",
+  "word": "decrease",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "감소하다, 줄어들다",
+    "accepted_meanings_ko": [
+      "감소하다",
+      "줄어들다",
+      "줄다",
+      "적어지다",
+      "작아지다"
+    ],
+    "excluded_meanings_ko": [
+      "떠나다",
+      "흩어지다",
+      "사라지다",
+      "남다",
+      "모이다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "dɪˈkriːs",
+    "full_audio_asset_id": "assets/audio_tts/decrease/decrease.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "dɪ",
+        "cumulative_spelling": "de",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "dɪˈkriː",
+        "cumulative_spelling": "decre",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "dɪˈkriːs",
+        "cumulative_spelling": "decrease",
+        "audio_asset_id": "assets/audio_tts/decrease/decrease.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/decrease/decrease.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 손잡고 돌던 스무 명의 큰 원이, 하늘이 노을에서 밤으로 바뀌는 동안 아이들이 몇 명씩 떠나 가로등 아래 넷의 작은 원으로 오므라듦 — 둘레 모래밭은 텅 빔] 조금 위에서 내려다본 놀이터 모래밭 · 밝은 오후 (파란 하늘) · 아이 스무 명이 손잡고 화면 가로 80% 큰 원으로 천천히 돎 · 뒤쪽 벤치에 책가방 줄 · 꺼진 가로등 → 하늘이 노을로 · 원 양옆에서 넷이 손을 놓고 손을 흔든 뒤 가방을 메고 화면 밖으로 뜀 → 남은 아이들이 곧바로 손을 잡아 원이 오므라듦 (열여섯) → 여섯이 또 떠남 → 원이 절반 (열) → 밤 · 가로등이 켜짐 · 여섯이 또 떠남 → 가로등 불빛 아래 넷의 작은 원 (처음의 5분의 1) · 벤치엔 가방 넷 → 그 순간 화면이 작은 원으로 확 다가가며 흰 집중선, 아이 넷 말고 회색 · 넷이 멈춘 채 오래 머묾 → 물러남 · 넷은 손잡은 채 천천히 돎 → 화면이 작은 원 쪽으로 다가감 → 남은 넷의 발이 놓인 작은 원에 고리 표시 (원 자체, 끝까지) · 처음 스무 명 큰 원 자리에 점선 고리 → 머리 없는 굵은 막대가 점선 큰 원 오른쪽에서 작은 원 오른쪽까지 뻗으며 막대 아래 \"줄어들다\" → 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 막대 + 뜻 — 자동사라 대상 표시 없음 · 막대 = 처음 큰 원 → 지금 작은 원)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "HIDDEN_OR_INITIAL"
+        ],
+        "group_ids": [
+          "pdefs",
+          "sky",
+          "sand",
+          "lamp",
+          "bench",
+          "bag0",
+          "bag1",
+          "bag2",
+          "bag3",
+          "bag4",
+          "bag5",
+          "bag6",
+          "bag7",
+          "bag8",
+          "bag9",
+          "bag10",
+          "bag11",
+          "bag12",
+          "bag13",
+          "bag14",
+          "bag15",
+          "bag16",
+          "bag17",
+          "bag18",
+          "bag19",
+          "ring20"
+        ],
+        "description_ko": "밝은 오후 모래밭 — 아이 스무 명이 손잡은 큰 원 · 벤치에 책가방 스물 · 꺼진 가로등",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "REVEAL"
+        ],
+        "group_ids": [
+          "pdefs",
+          "sky",
+          "night",
+          "sand",
+          "gnight",
+          "light",
+          "lamp",
+          "lampon",
+          "bench",
+          "bag0",
+          "bag10",
+          "bag8",
+          "bag17"
+        ],
+        "description_ko": "밤 — 큰 원이 있던 모래밭은 텅 비고 벤치엔 가방 넷 · 가로등이 켜짐",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "CONTRAST_CONFIRMED"
+        ],
+        "group_ids": [
+          "pdefs",
+          "sky",
+          "night",
+          "sand",
+          "gnight",
+          "light",
+          "bigring",
+          "lamp",
+          "lampon",
+          "bench",
+          "bag0",
+          "bag10",
+          "bag8",
+          "bag17",
+          "k0",
+          "k5",
+          "k10",
+          "k15",
+          "link"
+        ],
+        "description_ko": "가로등 불빛 아래 남은 넷이 손잡은 작은 원 (원 자체에 고리 표시) — 처음 큰 원 자리 (점선) 에서 작은 원까지 막대",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 13150,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "줄어들었어!!!",
+    "anchor_group_id": "k0"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "decrease",
+    "spelling_chunks": [
+      "de",
+      "decre",
+      "decrease"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/decrease/decrease.master.svg",
+    "motionRecipePath": "motion_recipes/decrease.motion.json",
+    "audioSpecPath": "assets/audio_tts/decrease/decrease.full.mp3",
+    "assetStatus": "generated"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.consume-2.core.v1",
+  "word": "consume",
+  "wordpack_version": "1.4.0-v7-test",
+  "status": "preview",
+  "wordpack_path": "consume-2.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/consume-2.motion.json",
+    "fallback_svg_path": "assets/images/consume-2/consume-2.master.svg",
+    "artboard": "consume-2",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/consume-2/consume-2.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/consume-2/consume-2.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/consume-2/consume-2.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/consume-2/consume-2.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "consume-2.app_wordpack.json",
+      "bytes": 6824,
+      "sha256": "e049cb47227ff81e3df9d8cb3c54fcb9ae0ee4857b5b386cbbec735432cddac2"
+    }
+  ]
+}

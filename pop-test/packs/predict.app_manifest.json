@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.predict.core.v1",
+  "word": "predict",
+  "wordpack_version": "3.1.0-v7-test",
+  "status": "preview",
+  "wordpack_path": "predict.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/predict.motion.json",
+    "fallback_svg_path": "assets/images/predict/predict.master.svg",
+    "artboard": "predict",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/predict/predict.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/predict/predict.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/predict/predict.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/predict/predict.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "predict.app_wordpack.json",
+      "bytes": 6051,
+      "sha256": "8cf9c95e21763fe6623369d3879867f66e92f9e36dc168bf972907c22d158053"
+    }
+  ]
+}

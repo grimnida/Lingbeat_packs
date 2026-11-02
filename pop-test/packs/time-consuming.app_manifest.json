@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.time-consuming.core.v1",
+  "word": "time-consuming",
+  "wordpack_version": "3.1.2-v7-test",
+  "status": "preview",
+  "wordpack_path": "time-consuming.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/time-consuming.motion.json",
+    "fallback_svg_path": "assets/images/time-consuming/time-consuming.master.svg",
+    "artboard": "time-consuming",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/time-consuming/time-consuming.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/time-consuming/time-consuming.full.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/time-consuming/time-consuming.full.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/time-consuming/time-consuming.full.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "time-consuming.app_wordpack.json",
+      "bytes": 6340,
+      "sha256": "2f31f0f8eb6ae86a7593a2094ce3bab59771473cfb5c4d53a1c4a31d35e2f33d"
+    }
+  ]
+}

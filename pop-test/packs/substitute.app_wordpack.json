@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.3.0-v7-test",
+  "word_id": "linkling.substitute.core.v1",
+  "word": "substitute",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "대체하다, 대신하다",
+    "accepted_meanings_ko": [
+      "대체하다",
+      "대신하다",
+      "대신 맡다",
+      "대신 일하다",
+      "대리하다",
+      "교체하다"
+    ],
+    "excluded_meanings_ko": [
+      "돕다",
+      "반주하다",
+      "공연하다",
+      "흉내 내다",
+      "따르다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈsʌbstɪtuːt",
+    "full_audio_asset_id": "assets/audio_tts/substitute/substitute.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈsʌb",
+        "cumulative_spelling": "sub",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈsʌbstɪ",
+        "cumulative_spelling": "substi",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˈsʌbstɪtuːt",
+        "cumulative_spelling": "substitute",
+        "audio_asset_id": "assets/audio_tts/substitute/substitute.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/substitute/substitute.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[평범한 장면 + 결과 극대화] 옆에서 본 무대 — 뚜껑을 연 검은 그랜드 피아노 앞 의자에 오른팔에 흰 깁스를 한 남색 원피스 소녀가 앉아 있음 → 깁스를 내려다보며 고개를 작게 저음 → 일어나 왼쪽으로 비켜 섬 → 빈 의자 → 같은 또래 노란 원피스 소녀가 오른쪽에서 걸어와 의자 앞에 섬 · \"내가 대신 칠게!\" → 그 의자에 앉아 건반을 쾅 (화면이 두 소녀로 확 다가가며 흰 집중선, 벽과 바닥은 회색 · 잠시 멈춤) — 큰 흰 음표가 하나씩 솟아 흘러감 → 모두 멈춤 → 화면이 두 소녀 쪽으로 다가감 → 앉아서 치는 노란 소녀 윤곽 표시 (끝까지) → 굵은 화살표가 노란 소녀 머리 위에서 두 머리 위로 활처럼 넘어 깁스한 소녀 머리에 닿으며 화살표 위에 \"대신하다\" 가 따라 나옴 → 깁스 소녀 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "room",
+          "piano",
+          "bench",
+          "ys"
+        ],
+        "description_ko": "노란 원피스 소녀가 무대 그랜드 피아노 의자에 앉아 건반에 손을 올림",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "room",
+          "piano",
+          "bench",
+          "ys",
+          "n_stand"
+        ],
+        "description_ko": "원래 반주자 — 오른팔에 흰 깁스를 한 남색 원피스 소녀가 의자에서 비켜 서서 바라봄",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "room",
+          "piano",
+          "bench",
+          "ys",
+          "n_stand",
+          "notes",
+          "link"
+        ],
+        "description_ko": "노란 소녀가 대신 연주 — 건반 위 두 손 (음표는 화면 오른쪽 밖으로 흘러감) + 노란 소녀에서 깁스한 소녀로 굵은 화살표",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 17250,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "대신했어!!!",
+    "anchor_group_id": "ys"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "substitute",
+    "spelling_chunks": [
+      "sub",
+      "substi",
+      "substitute"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/substitute/substitute.master.svg",
+    "motionRecipePath": "motion_recipes/substitute.motion.json",
+    "audioSpecPath": "assets/audio_tts/substitute/substitute.full.mp3",
+    "assetStatus": "generated"
+  }
+}

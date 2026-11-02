@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.2.0-v7-test",
+  "word_id": "linkling.involve.core.v1",
+  "word": "involve",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "관련시키다, 참여시키다",
+    "accepted_meanings_ko": [
+      "포함하다",
+      "수반하다",
+      "참여시키다",
+      "관련시키다",
+      "끌어들이다",
+      "연루시키다"
+    ],
+    "excluded_meanings_ko": [
+      "참가하다",
+      "초대하다",
+      "끌어당기다",
+      "둘러싸다",
+      "끌다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪnˈvɑːlv",
+    "full_audio_asset_id": "assets/audio_tts/involve/involve.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪn",
+        "cumulative_spelling": "in",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪnˈvɑːl",
+        "cumulative_spelling": "invol",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ɪnˈvɑːlv",
+        "cumulative_spelling": "involve",
+        "audio_asset_id": "assets/audio_tts/involve/involve.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/involve/involve.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "위에서 비스듬히 본 모래색 운동장 — 빨간 단체티 여섯이 손을 맞잡고 원을 그리며 천천히 돎 · 원 밖 오른쪽 두 걸음 떨어진 곳에 남색 교복 소년이 혼자 서서 봄 → 원이 돌기를 멈추고 여섯이 손을 맞잡은 채 다 함께 소년 쪽으로 두 걸음 옆걸음 (소년은 제자리) → 소년 앞에서 맞잡은 손이 풀려 원이 열리고 열린 두 끝의 두 학생이 소년 양옆으로 와 소년의 두 손을 잡음 → 일곱 사람의 원으로 닫힘 (소년의 두 발은 처음 자리) → 원이 다시 돌고 소년도 같은 박자로 옆걸음해 4분의 1 바퀴 → 원 뒤쪽 가운데 → 일곱이 맞잡은 손을 머리 위로 높이 들며 껑충 · 화면이 다가가 원이 화면 폭의 4분의 3 → 그대로 멈춤 (화면이 조금 물러남) → 빨간 여섯과 맞잡은 손 바깥쪽을 감싼 띠 (소년 자리만 끊김, 끝까지) → 굵은 화살표가 띠 왼쪽 위 바깥에서 나가 학생들 머리 위로 낮게 휘어 소년 머리 위로 뻗으며 화살표 위에 \"관련시키다\" 가 따라 나옴 → 머리가 닿는 순간 소년 윤곽 표시 → 셋 다 남은 채 멈춤 · (표시 v7: 일곱이 맞잡은 손을 들고 껑충 뛴 꼭대기에서 화면이 확 다가가며 집중선 · 반짝임 · 멈춤, 운동장은 회색 · 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "ground"
+        ],
+        "description_ko": "위에서 비스듬히 본 모래색 운동장",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "ground",
+          "boy"
+        ],
+        "description_ko": "원 뒤쪽 가운데의 남색 교복 소년 — 두 손을 높이 듦",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "ground",
+          "boy",
+          "ring6",
+          "link"
+        ],
+        "description_ko": "빨간 단체티 여섯의 원이 소년의 두 손을 맞잡아 일곱 사람의 원 — 띠 (윤곽 표시) → 원 바깥 화살표 → 소년 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 14500,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "참여시켰어!!!",
+    "anchor_group_id": "boy"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "involve",
+    "spelling_chunks": [
+      "in",
+      "invol",
+      "involve"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/involve/involve.master.svg",
+    "motionRecipePath": "motion_recipes/involve.motion.json",
+    "audioSpecPath": "assets/audio_tts/involve/involve.full.mp3",
+    "assetStatus": "generated"
+  }
+}

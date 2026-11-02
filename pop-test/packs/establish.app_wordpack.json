@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test",
+  "word_id": "linkling.establish.core.v1",
+  "word": "establish",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "확립하다, 설립하다",
+    "accepted_meanings_ko": [
+      "확립하다",
+      "설립하다",
+      "세우다",
+      "수립하다",
+      "굳게 자리 잡게 하다",
+      "창설하다"
+    ],
+    "excluded_meanings_ko": [
+      "짓다",
+      "건설하다",
+      "발달시키다",
+      "고치다",
+      "누르다",
+      "만들다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪˈstæblɪʃ",
+    "full_audio_asset_id": "assets/audio_tts/establish/establish.full.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪ",
+        "cumulative_spelling": "es",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪˈstæb",
+        "cumulative_spelling": "estab",
+        "audio_asset_id": "",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ɪˈstæblɪʃ",
+        "cumulative_spelling": "establish",
+        "audio_asset_id": "assets/audio_tts/establish/establish.full.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/establish/establish.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 세상 크기 — 언덕에 세운 작은 박물관의 기초 말뚝이 지구 반지름 절반 깊이까지 박혀 멈춤] 텅 빈 초록 언덕 꼭대기 → 위에서 두 손이 작은 박물관 (세모 지붕 · 기둥 넷 · 돌계단) 의 지붕 양 끝을 집은 채 내려옴 → 언덕에 \"쿵\" 한 번에 세워 놓음 → 그 순간 계단 앞면에 설립 연도 판 \"EST. 2026\" 이 탁 찍힘 · 계단 밑 빨간 기초 말뚝이 땅속으로 쑥 박혀 들어감 · 화면이 물러나 지구 단면 → 말뚝이 점점 느려져 지구 반지름 절반쯤 (황토 핵 바로 위) 에서 멈춤 (화면이 박물관 · 말뚝으로 확 다가가며 집중선 · 반짝임, 언덕 · 지구는 회색) → 두 손이 지붕을 놓고 위로 조금 올라감 · 손을 떼도 박물관이 혼자 꼿꼿이 섬 → 화면이 박물관 · 두 손 · 박힌 말뚝 쪽에 머묾 → 오른손 윤곽 표시 (끝까지) → 굵은 화살표가 손에서 박물관 오른쪽 옆으로 내려와 계단 밑에서 왼쪽으로 꺾여 계단 바로 밑 말뚝에 닿으며 화살표 위에 \"설립하다\" 가 따라 나옴 → 박물관과 말뚝을 한 번에 두른 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "hill",
+          "earth"
+        ],
+        "description_ko": "지구 위 텅 빈 초록 언덕 (아무것도 없던 곳)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "hill",
+          "earth",
+          "museum",
+          "hand_l",
+          "hand_r"
+        ],
+        "description_ko": "두 손이 작은 박물관 지붕을 집어 언덕에 세움",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "hill",
+          "earth",
+          "museum",
+          "hand_l",
+          "hand_r",
+          "stake",
+          "est",
+          "link"
+        ],
+        "description_ko": "설립 연도 판 EST. 2026 · 지구 속 깊이 박힌 빨간 기초 말뚝 — 오른손 (윤곽 표시) 에서 박물관 옆을 지나 계단 밑 말뚝으로 가는 화살표 · 박물관 + 말뚝 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 13000,
+      "final_keyframe_id": "final_hold"
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "설립했어!!!",
+    "anchor_group_id": "museum"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "establish",
+    "spelling_chunks": [
+      "es",
+      "estab",
+      "establish"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/establish/establish.master.svg",
+    "motionRecipePath": "motion_recipes/establish.motion.json",
+    "audioSpecPath": "assets/audio_tts/establish/establish.full.mp3",
+    "assetStatus": "generated"
+  }
+}
