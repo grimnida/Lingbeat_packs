@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.2.0-v7-test",
+  "wordpack_version": "3.2.0-v7-test-c1",
   "word_id": "linkling.afford.core.v1",
   "word": "afford",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -26,29 +26,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "əˈfɔːrd",
-    "full_audio_asset_id": "assets/audio_tts/afford/afford.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/afford/afford.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ə",
         "cumulative_spelling": "af",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/afford/afford.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "əˈfɔː",
-        "cumulative_spelling": "affo",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "əˈfɔːrd",
         "cumulative_spelling": "afford",
-        "audio_asset_id": "assets/audio_tts/afford/afford.full.mp3",
+        "audio_asset_id": "assets/audio_tts/afford/afford.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -87,7 +79,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "PATIENT_IMPACT"
@@ -111,7 +103,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "RESULT"
@@ -149,6 +141,10 @@
     "animation": {
       "duration_ms": 16260,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 5410,
+      "end": 10361
     }
   },
   "speech_bubble": {
@@ -161,7 +157,6 @@
     "full_spelling": "afford",
     "spelling_chunks": [
       "af",
-      "affo",
       "afford"
     ]
   },
@@ -170,7 +165,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/afford/afford.master.svg",
     "motionRecipePath": "motion_recipes/afford.motion.json",
-    "audioSpecPath": "assets/audio_tts/afford/afford.full.mp3",
+    "audioSpecPath": "assets/audio_tts/afford/afford.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

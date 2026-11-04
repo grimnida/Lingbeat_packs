@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.2-v7-test",
+  "wordpack_version": "3.1.2-v7-test-c1",
   "word_id": "linkling.time-consuming.core.v1",
   "word": "time-consuming",
   "template_id": "T03_REVEAL_CONTRAST",
@@ -26,29 +26,37 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ˈtaɪm kənˌsuːmɪŋ",
-    "full_audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ˈtaɪm",
         "cumulative_spelling": "time",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ˈtaɪm kənˌsuː",
-        "cumulative_spelling": "time-consu",
-        "audio_asset_id": "",
+        "cumulative_ipa": "ˈtaɪm kən",
+        "cumulative_spelling": "time-con",
+        "audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.chunk2.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 3,
+        "cumulative_ipa": "ˈtaɪm kənˌsuːm",
+        "cumulative_spelling": "time-consum",
+        "audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.chunk3.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 4,
         "cumulative_ipa": "ˈtaɪm kənˌsuːmɪŋ",
         "cumulative_spelling": "time-consuming",
-        "audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.full.mp3",
+        "audio_asset_id": "assets/audio_tts/time-consuming/time-consuming.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -107,7 +115,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 4
         },
         "semantic_roles": [
           "CONTRAST_CONFIRMED"
@@ -145,6 +153,10 @@
     "animation": {
       "duration_ms": 20300,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 7250,
+      "end": 11900
     }
   },
   "speech_bubble": {
@@ -157,7 +169,8 @@
     "full_spelling": "time-consuming",
     "spelling_chunks": [
       "time",
-      "time-consu",
+      "time-con",
+      "time-consum",
       "time-consuming"
     ]
   },
@@ -166,7 +179,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/time-consuming/time-consuming.master.svg",
     "motionRecipePath": "motion_recipes/time-consuming.motion.json",
-    "audioSpecPath": "assets/audio_tts/time-consuming/time-consuming.full.mp3",
+    "audioSpecPath": "assets/audio_tts/time-consuming/time-consuming.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

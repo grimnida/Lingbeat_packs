@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.establish.core.v1",
   "word": "establish",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "establish.app_wordpack.json",
   "scene": {
@@ -14,27 +14,42 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/establish/establish.full.mp3",
+    "full_path": "assets/audio_tts/establish/establish.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/establish/establish.full.mp3"
+        "path": "assets/audio_tts/establish/establish.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/establish/establish.full.mp3"
+        "path": "assets/audio_tts/establish/establish.chunk2.v4.mp3"
       },
       {
         "order": 3,
-        "path": "assets/audio_tts/establish/establish.full.mp3"
+        "path": "assets/audio_tts/establish/establish.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "establish.app_wordpack.json",
-      "bytes": 6028,
-      "sha256": "34907c62329ebfb33fb306b950b45c32bf336fbf7325acf25089b9adec0cd41e"
+      "bytes": 6210,
+      "sha256": "38725a2ebc412e5d62f2a56154113d991547396afc86edfeaed44a6490c2c19b"
+    },
+    {
+      "path": "assets/audio_tts/establish/establish.chunk1.v4.mp3",
+      "bytes": 2685,
+      "sha256": "e11c1fa3b6d99e321980a70025b437abf2d13e2edd6f33fc75ab28a44ab4aeea"
+    },
+    {
+      "path": "assets/audio_tts/establish/establish.chunk2.v4.mp3",
+      "bytes": 6621,
+      "sha256": "359aed006c9086238230c1004c93c969b83e6064b9d6c4054ceb8ed8624464ad"
+    },
+    {
+      "path": "assets/audio_tts/establish/establish.full.v4.mp3",
+      "bytes": 10317,
+      "sha256": "fce901620bf0f5912e556ca7d214e729bfde87f16ac9339c55298da6378edbfb"
     }
   ]
 }

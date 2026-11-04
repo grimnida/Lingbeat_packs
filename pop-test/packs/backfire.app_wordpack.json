@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.backfire.core.v1",
   "word": "backfire",
   "template_id": "T03_REVEAL_CONTRAST",
@@ -27,29 +27,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ˈbækfaɪər",
-    "full_audio_asset_id": "assets/audio_tts/backfire/backfire.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/backfire/backfire.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ˈbæk",
         "cumulative_spelling": "back",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/backfire/backfire.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ˈbækfaɪ",
-        "cumulative_spelling": "backfi",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "ˈbækfaɪər",
         "cumulative_spelling": "backfire",
-        "audio_asset_id": "assets/audio_tts/backfire/backfire.full.mp3",
+        "audio_asset_id": "assets/audio_tts/backfire/backfire.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -85,7 +77,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "REVEAL"
@@ -111,7 +103,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "CONTRAST_CONFIRMED"
@@ -151,6 +143,10 @@
     "animation": {
       "duration_ms": 19740,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 9291,
+      "end": 13940
     }
   },
   "speech_bubble": {
@@ -163,7 +159,6 @@
     "full_spelling": "backfire",
     "spelling_chunks": [
       "back",
-      "backfi",
       "backfire"
     ]
   },
@@ -172,7 +167,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/backfire/backfire.master.svg",
     "motionRecipePath": "motion_recipes/backfire.motion.json",
-    "audioSpecPath": "assets/audio_tts/backfire/backfire.full.mp3",
+    "audioSpecPath": "assets/audio_tts/backfire/backfire.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

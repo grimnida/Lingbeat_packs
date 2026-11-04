@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.2.0-v7-test",
+  "wordpack_version": "3.2.0-v7-test-c1",
   "word_id": "linkling.exceed.core.v1",
   "word": "exceed",
   "template_id": "T03_REVEAL_CONTRAST",
@@ -25,29 +25,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ɪkˈsiːd",
-    "full_audio_asset_id": "assets/audio_tts/exceed/exceed.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/exceed/exceed.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ɪk",
         "cumulative_spelling": "ex",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/exceed/exceed.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ɪkˈsiː",
-        "cumulative_spelling": "exce",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "ɪkˈsiːd",
         "cumulative_spelling": "exceed",
-        "audio_asset_id": "assets/audio_tts/exceed/exceed.full.mp3",
+        "audio_asset_id": "assets/audio_tts/exceed/exceed.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -82,7 +74,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "REVEAL"
@@ -102,7 +94,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "CONTRAST_CONFIRMED"
@@ -141,6 +133,10 @@
     "animation": {
       "duration_ms": 15150,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 1900,
+      "end": 6699
     }
   },
   "speech_bubble": {
@@ -153,7 +149,6 @@
     "full_spelling": "exceed",
     "spelling_chunks": [
       "ex",
-      "exce",
       "exceed"
     ]
   },
@@ -162,7 +157,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/exceed/exceed.master.svg",
     "motionRecipePath": "motion_recipes/exceed.motion.json",
-    "audioSpecPath": "assets/audio_tts/exceed/exceed.full.mp3",
+    "audioSpecPath": "assets/audio_tts/exceed/exceed.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

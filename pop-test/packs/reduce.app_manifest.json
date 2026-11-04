@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.reduce.core.v1",
   "word": "reduce",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "reduce.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/reduce/reduce.full.mp3",
+    "full_path": "assets/audio_tts/reduce/reduce.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/reduce/reduce.full.mp3"
+        "path": "assets/audio_tts/reduce/reduce.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/reduce/reduce.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/reduce/reduce.full.mp3"
+        "path": "assets/audio_tts/reduce/reduce.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "reduce.app_wordpack.json",
-      "bytes": 6180,
-      "sha256": "742bb066d6a3c6f59f24b0fb31e0e8b4bf0fbd302930d181557ab4f706f4ec60"
+      "bytes": 6069,
+      "sha256": "6d6947c26fc98fc047546d11c5b7d8336524aaddb27ff1b4be481cf51ff4d91e"
+    },
+    {
+      "path": "assets/audio_tts/reduce/reduce.chunk1.v4.mp3",
+      "bytes": 3597,
+      "sha256": "f875875a76ef2479ddf9da25945571d1fdaf03e9c8ee423195a5172ae8259ef2"
+    },
+    {
+      "path": "assets/audio_tts/reduce/reduce.full.v4.mp3",
+      "bytes": 8781,
+      "sha256": "7fd8eb968bb4072fb16851ba03b87f9baf6da880f7303bba5f686326b9adcceb"
     }
   ]
 }

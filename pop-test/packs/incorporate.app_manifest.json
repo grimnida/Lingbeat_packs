@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.incorporate.core.v1",
   "word": "incorporate",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "incorporate.app_wordpack.json",
   "scene": {
@@ -14,27 +14,51 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/incorporate/incorporate.full.mp3",
+    "full_path": "assets/audio_tts/incorporate/incorporate.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/incorporate/incorporate.full.mp3"
+        "path": "assets/audio_tts/incorporate/incorporate.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/incorporate/incorporate.full.mp3"
+        "path": "assets/audio_tts/incorporate/incorporate.chunk2.v4.mp3"
       },
       {
         "order": 3,
-        "path": "assets/audio_tts/incorporate/incorporate.full.mp3"
+        "path": "assets/audio_tts/incorporate/incorporate.chunk3.v4.mp3"
+      },
+      {
+        "order": 4,
+        "path": "assets/audio_tts/incorporate/incorporate.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "incorporate.app_wordpack.json",
-      "bytes": 5996,
-      "sha256": "8113cbcbc90bb63b9fbdc7d5d5ef2b434e50666aaf10f4a909c71762cc762788"
+      "bytes": 6491,
+      "sha256": "cadbea999a59af740ba871766047bb07a681575005ff21a138d3aa5d82d647db"
+    },
+    {
+      "path": "assets/audio_tts/incorporate/incorporate.chunk1.v4.mp3",
+      "bytes": 3237,
+      "sha256": "2c102099443954f639a900d9683ca4881dd11f71ac1228edee4d56c8fb95c9c9"
+    },
+    {
+      "path": "assets/audio_tts/incorporate/incorporate.chunk2.v4.mp3",
+      "bytes": 5685,
+      "sha256": "268683e0e7ff9f5d407cc437dc72bec2d3bc2d7121ef1ab228a636b1dc1e65f3"
+    },
+    {
+      "path": "assets/audio_tts/incorporate/incorporate.chunk3.v4.mp3",
+      "bytes": 7389,
+      "sha256": "0c274104d465811983031230eef714af4ca689f05e440a918bd5659a3d14c74a"
+    },
+    {
+      "path": "assets/audio_tts/incorporate/incorporate.full.v4.mp3",
+      "bytes": 12165,
+      "sha256": "c85787169c511cd50fd16bfc7eb5af3537948b3f2fbe3439d056599d565f4391"
     }
   ]
 }

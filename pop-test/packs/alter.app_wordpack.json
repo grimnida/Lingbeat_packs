@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.alter.core.v1",
   "word": "alter",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -29,29 +29,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ˈɔːltər",
-    "full_audio_asset_id": "assets/audio_tts/alter/alter.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/alter/alter.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ˈɔːl",
         "cumulative_spelling": "al",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/alter/alter.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ˈɔːlt",
-        "cumulative_spelling": "alt",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "ˈɔːltər",
         "cumulative_spelling": "alter",
-        "audio_asset_id": "assets/audio_tts/alter/alter.full.mp3",
+        "audio_asset_id": "assets/audio_tts/alter/alter.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -88,7 +80,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "PATIENT_IMPACT"
@@ -110,7 +102,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "RESULT"
@@ -147,6 +139,10 @@
     "animation": {
       "duration_ms": 15390,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 4042,
+      "end": 8643
     }
   },
   "speech_bubble": {
@@ -159,7 +155,6 @@
     "full_spelling": "alter",
     "spelling_chunks": [
       "al",
-      "alt",
       "alter"
     ]
   },
@@ -168,7 +163,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/alter/alter.master.svg",
     "motionRecipePath": "motion_recipes/alter.motion.json",
-    "audioSpecPath": "assets/audio_tts/alter/alter.full.mp3",
+    "audioSpecPath": "assets/audio_tts/alter/alter.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

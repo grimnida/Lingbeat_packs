@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.endure.core.v1",
   "word": "endure",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "endure.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/endure/endure.full.mp3",
+    "full_path": "assets/audio_tts/endure/endure.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/endure/endure.full.mp3"
+        "path": "assets/audio_tts/endure/endure.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/endure/endure.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/endure/endure.full.mp3"
+        "path": "assets/audio_tts/endure/endure.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "endure.app_wordpack.json",
-      "bytes": 6755,
-      "sha256": "e6724d15ed4ac27281342fddab1fac39415e471569e327977b5a1821c5c22fbd"
+      "bytes": 6644,
+      "sha256": "b39c4e016b3cab8b368906d3ebf6d0b2e1ab8ac0b0101876719c30ce416ee0ec"
+    },
+    {
+      "path": "assets/audio_tts/endure/endure.chunk1.v4.mp3",
+      "bytes": 3381,
+      "sha256": "99d81033614c3398bf5241e9f0b31f31b5c8bb6f5256ca08c6f0280cfe7f7019"
+    },
+    {
+      "path": "assets/audio_tts/endure/endure.full.v4.mp3",
+      "bytes": 7317,
+      "sha256": "5902b21886c0ef6dc50cc2903324df7961262af73b97a94320ea39d86b4a713a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.2.0-v7-test",
+  "wordpack_version": "3.2.0-v7-test-c1",
   "word_id": "linkling.recommend.core.v1",
   "word": "recommend",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -28,21 +28,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ˌrekəˈmend",
-    "full_audio_asset_id": "assets/audio_tts/recommend/recommend.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/recommend/recommend.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "cumulative_ipa": "ˌre",
-        "cumulative_spelling": "re",
-        "audio_asset_id": "",
+        "cumulative_ipa": "ˌrek",
+        "cumulative_spelling": "rec",
+        "audio_asset_id": "assets/audio_tts/recommend/recommend.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ˌrekəm",
+        "cumulative_ipa": "ˌrekə",
         "cumulative_spelling": "recom",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/recommend/recommend.chunk2.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -50,7 +50,7 @@
         "order": 3,
         "cumulative_ipa": "ˌrekəˈmend",
         "cumulative_spelling": "recommend",
-        "audio_asset_id": "assets/audio_tts/recommend/recommend.full.mp3",
+        "audio_asset_id": "assets/audio_tts/recommend/recommend.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -146,6 +146,10 @@
     "animation": {
       "duration_ms": 16600,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 2301,
+      "end": 8051
     }
   },
   "speech_bubble": {
@@ -157,7 +161,7 @@
   "spelling_and_grammar": {
     "full_spelling": "recommend",
     "spelling_chunks": [
-      "re",
+      "rec",
       "recom",
       "recommend"
     ]
@@ -167,7 +171,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/recommend/recommend.master.svg",
     "motionRecipePath": "motion_recipes/recommend.motion.json",
-    "audioSpecPath": "assets/audio_tts/recommend/recommend.full.mp3",
+    "audioSpecPath": "assets/audio_tts/recommend/recommend.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

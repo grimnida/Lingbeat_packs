@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.afford.core.v1",
   "word": "afford",
-  "wordpack_version": "3.2.0-v7-test",
+  "wordpack_version": "3.2.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "afford.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/afford/afford.full.mp3",
+    "full_path": "assets/audio_tts/afford/afford.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/afford/afford.full.mp3"
+        "path": "assets/audio_tts/afford/afford.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/afford/afford.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/afford/afford.full.mp3"
+        "path": "assets/audio_tts/afford/afford.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "afford.app_wordpack.json",
-      "bytes": 6054,
-      "sha256": "88927fcdc85cdf50222673d6920a0751736e8c5dc8426d4f83338736134c13c6"
+      "bytes": 5943,
+      "sha256": "79dceb723b66ca2a869ff948018755b8bc46f1180ed4a2571ad35ba322960e30"
+    },
+    {
+      "path": "assets/audio_tts/afford/afford.chunk1.v4.mp3",
+      "bytes": 2661,
+      "sha256": "1c3f39f982b942b565361e8e1f20a49c65b57557d214d64724d6a48f33afd37b"
+    },
+    {
+      "path": "assets/audio_tts/afford/afford.full.v4.mp3",
+      "bytes": 7653,
+      "sha256": "b6da8d410dbf20eaa2e47865249ab8d66de34a60c90cb56894b3d81a7df79593"
     }
   ]
 }

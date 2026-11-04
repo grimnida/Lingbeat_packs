@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.range.core.v1",
   "word": "range",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "range.app_wordpack.json",
   "scene": {
@@ -14,27 +14,24 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/range/range.full.mp3",
+    "full_path": "assets/audio_tts/range/range.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/range/range.full.mp3"
-      },
-      {
-        "order": 2,
-        "path": "assets/audio_tts/range/range.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/range/range.full.mp3"
+        "path": "assets/audio_tts/range/range.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "range.app_wordpack.json",
-      "bytes": 5439,
-      "sha256": "f9d209861c57acc11a50208a7672c82ed5f44df7c76bc5d8bf82b11196764048"
+      "bytes": 5056,
+      "sha256": "35e9cb47a2ff3365c893f160ef4000b318726008b45b3b872018e31d12b05fbb"
+    },
+    {
+      "path": "assets/audio_tts/range/range.full.v4.mp3",
+      "bytes": 7341,
+      "sha256": "a6fe7bd73f9b0018240121bcb5f33d0765dc20087a5034ecc03c92126c2e6164"
     }
   ]
 }

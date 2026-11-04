@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.bear.core.v1",
   "word": "bear",
-  "wordpack_version": "3.1.2-v7-test",
+  "wordpack_version": "3.1.2-v7-test-c1",
   "status": "preview",
   "wordpack_path": "bear.app_wordpack.json",
   "scene": {
@@ -14,27 +14,24 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/bear/bear.full.mp3",
+    "full_path": "assets/audio_tts/bear/bear.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/bear/bear.full.mp3"
-      },
-      {
-        "order": 2,
-        "path": "assets/audio_tts/bear/bear.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/bear/bear.full.mp3"
+        "path": "assets/audio_tts/bear/bear.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "bear.app_wordpack.json",
-      "bytes": 5892,
-      "sha256": "ef8ec070fe2616621cde609814822547dd2e748413a7e96feefdd8ff973545d5"
+      "bytes": 5518,
+      "sha256": "6ccb341a59cf08297edacb6538be5f3437730687e70ba50b6f9ffc4afa7714d0"
+    },
+    {
+      "path": "assets/audio_tts/bear/bear.full.v4.mp3",
+      "bytes": 5157,
+      "sha256": "b24ae4b8451026a10a86772a1de88f54b084966797f677991751b381ae2b7682"
     }
   ]
 }

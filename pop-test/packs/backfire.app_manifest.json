@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.backfire.core.v1",
   "word": "backfire",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "backfire.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/backfire/backfire.full.mp3",
+    "full_path": "assets/audio_tts/backfire/backfire.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/backfire/backfire.full.mp3"
+        "path": "assets/audio_tts/backfire/backfire.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/backfire/backfire.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/backfire/backfire.full.mp3"
+        "path": "assets/audio_tts/backfire/backfire.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "backfire.app_wordpack.json",
-      "bytes": 6951,
-      "sha256": "333596f6671f418d1c13716aaecacabded59b493297c236f35fb9939e4d08422"
+      "bytes": 6839,
+      "sha256": "24a70cc943306ddba61f2e43dd9611566a23b740e70a2a2b5e2f584c3dee3310"
+    },
+    {
+      "path": "assets/audio_tts/backfire/backfire.chunk1.v4.mp3",
+      "bytes": 3741,
+      "sha256": "f2e63ddc699259b0bb9d33e3390c8cf09a9d89a1f34e2354b562c051f0c38c1e"
+    },
+    {
+      "path": "assets/audio_tts/backfire/backfire.full.v4.mp3",
+      "bytes": 9093,
+      "sha256": "fa25d36b9637d3b9180d7d1fea72d700eec4c4c5b3126c3e47a2f899a8e0ec5c"
     }
   ]
 }

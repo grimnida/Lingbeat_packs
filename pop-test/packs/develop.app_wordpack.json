@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.develop.core.v1",
   "word": "develop",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -31,13 +31,13 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "dɪˈveləp",
-    "full_audio_asset_id": "assets/audio_tts/develop/develop.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/develop/develop.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "dɪ",
         "cumulative_spelling": "de",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/develop/develop.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -45,7 +45,7 @@
         "order": 2,
         "cumulative_ipa": "dɪˈvel",
         "cumulative_spelling": "devel",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/develop/develop.chunk2.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -53,7 +53,7 @@
         "order": 3,
         "cumulative_ipa": "dɪˈveləp",
         "cumulative_spelling": "develop",
-        "audio_asset_id": "assets/audio_tts/develop/develop.full.mp3",
+        "audio_asset_id": "assets/audio_tts/develop/develop.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -151,6 +151,10 @@
     "animation": {
       "duration_ms": 19270,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 6019,
+      "end": 10469
     }
   },
   "speech_bubble": {
@@ -172,7 +176,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/develop/develop.master.svg",
     "motionRecipePath": "motion_recipes/develop.motion.json",
-    "audioSpecPath": "assets/audio_tts/develop/develop.full.mp3",
+    "audioSpecPath": "assets/audio_tts/develop/develop.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

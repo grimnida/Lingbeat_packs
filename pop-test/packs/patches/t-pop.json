@@ -1,1 +1,156 @@
-{"schema_version": "1.0.0", "kind": "lingbeat.patch", "patch_id": "t-pop", "name": "새 화풍 OK 35단어 (시험 주소 · 11-02)", "day_size": 35, "open_rule": "full_day_only", "preload_days": 1, "days": [{"day": 1, "items": [{"word": "bear", "word_id": "linkling.bear.core.v1"}, {"word": "contain", "word_id": "linkling.contain.core.v1"}, {"word": "include", "word_id": "linkling.include.core.v1"}, {"word": "decrease", "word_id": "linkling.decrease.core.v1"}, {"word": "time-consuming", "word_id": "linkling.time-consuming.core.v1"}, {"word": "backfire", "word_id": "linkling.backfire.core.v1"}, {"word": "range", "word_id": "linkling.range.core.v1"}, {"word": "provide", "word_id": "linkling.provide.core.v1"}, {"word": "endure", "word_id": "linkling.endure.core.v1"}, {"word": "afford", "word_id": "linkling.afford.core.v1"}, {"word": "consume", "word_id": "linkling.consume.core.v1"}, {"word": "consume", "word_id": "linkling.consume-2.core.v1"}, {"word": "deal with", "word_id": "linkling.deal-with.core.v1"}, {"word": "substitute", "word_id": "linkling.substitute.core.v1"}, {"word": "compare", "word_id": "linkling.compare.core.v1"}, {"word": "exceed", "word_id": "linkling.exceed.core.v1"}, {"word": "incorporate", "word_id": "linkling.incorporate.core.v1"}, {"word": "receive", "word_id": "linkling.receive.core.v1"}, {"word": "reinforce", "word_id": "linkling.reinforce.core.v1"}, {"word": "establish", "word_id": "linkling.establish.core.v1"}, {"word": "alter", "word_id": "linkling.alter.core.v1"}, {"word": "develop", "word_id": "linkling.develop.core.v1"}, {"word": "require", "word_id": "linkling.require.core.v1"}, {"word": "present", "word_id": "linkling.present.core.v1"}, {"word": "enable", "word_id": "linkling.enable.core.v1"}, {"word": "involve", "word_id": "linkling.involve.core.v1"}, {"word": "achieve", "word_id": "linkling.achieve.core.v1"}, {"word": "boost", "word_id": "linkling.boost.core.v1"}, {"word": "enhance", "word_id": "linkling.enhance.core.v1"}, {"word": "extract", "word_id": "linkling.extract.core.v1"}, {"word": "increase", "word_id": "linkling.increase.core.v1"}, {"word": "maximize", "word_id": "linkling.maximize.core.v1"}, {"word": "predict", "word_id": "linkling.predict.core.v1"}, {"word": "recommend", "word_id": "linkling.recommend.core.v1"}, {"word": "reduce", "word_id": "linkling.reduce.core.v1"}]}]}
+{
+ "schema_version": "1.0.0",
+ "kind": "lingbeat.patch",
+ "patch_id": "t-pop",
+ "name": "새 화풍 35단어 — 클로즈업 · 조각 소리 (확인 ② · 11-04)",
+ "day_size": 35,
+ "open_rule": "full_day_only",
+ "preload_days": 1,
+ "days": [
+  {
+   "day": 1,
+   "items": [
+    {
+     "word": "bear",
+     "word_id": "linkling.bear.core.v1"
+    },
+    {
+     "word": "contain",
+     "word_id": "linkling.contain.core.v1"
+    },
+    {
+     "word": "include",
+     "word_id": "linkling.include.core.v1"
+    },
+    {
+     "word": "decrease",
+     "word_id": "linkling.decrease.core.v1"
+    },
+    {
+     "word": "time-consuming",
+     "word_id": "linkling.time-consuming.core.v1"
+    },
+    {
+     "word": "backfire",
+     "word_id": "linkling.backfire.core.v1"
+    },
+    {
+     "word": "range",
+     "word_id": "linkling.range.core.v1"
+    },
+    {
+     "word": "provide",
+     "word_id": "linkling.provide.core.v1"
+    },
+    {
+     "word": "endure",
+     "word_id": "linkling.endure.core.v1"
+    },
+    {
+     "word": "afford",
+     "word_id": "linkling.afford.core.v1"
+    },
+    {
+     "word": "consume",
+     "word_id": "linkling.consume.core.v1"
+    },
+    {
+     "word": "consume",
+     "word_id": "linkling.consume-2.core.v1"
+    },
+    {
+     "word": "deal with",
+     "word_id": "linkling.deal-with.core.v1"
+    },
+    {
+     "word": "substitute",
+     "word_id": "linkling.substitute.core.v1"
+    },
+    {
+     "word": "compare",
+     "word_id": "linkling.compare.core.v1"
+    },
+    {
+     "word": "exceed",
+     "word_id": "linkling.exceed.core.v1"
+    },
+    {
+     "word": "incorporate",
+     "word_id": "linkling.incorporate.core.v1"
+    },
+    {
+     "word": "receive",
+     "word_id": "linkling.receive.core.v1"
+    },
+    {
+     "word": "reinforce",
+     "word_id": "linkling.reinforce.core.v1"
+    },
+    {
+     "word": "establish",
+     "word_id": "linkling.establish.core.v1"
+    },
+    {
+     "word": "alter",
+     "word_id": "linkling.alter.core.v1"
+    },
+    {
+     "word": "develop",
+     "word_id": "linkling.develop.core.v1"
+    },
+    {
+     "word": "require",
+     "word_id": "linkling.require.core.v1"
+    },
+    {
+     "word": "present",
+     "word_id": "linkling.present.core.v1"
+    },
+    {
+     "word": "enable",
+     "word_id": "linkling.enable.core.v1"
+    },
+    {
+     "word": "involve",
+     "word_id": "linkling.involve.core.v1"
+    },
+    {
+     "word": "achieve",
+     "word_id": "linkling.achieve.core.v1"
+    },
+    {
+     "word": "boost",
+     "word_id": "linkling.boost.core.v1"
+    },
+    {
+     "word": "enhance",
+     "word_id": "linkling.enhance.core.v1"
+    },
+    {
+     "word": "extract",
+     "word_id": "linkling.extract.core.v1"
+    },
+    {
+     "word": "increase",
+     "word_id": "linkling.increase.core.v1"
+    },
+    {
+     "word": "maximize",
+     "word_id": "linkling.maximize.core.v1"
+    },
+    {
+     "word": "predict",
+     "word_id": "linkling.predict.core.v1"
+    },
+    {
+     "word": "recommend",
+     "word_id": "linkling.recommend.core.v1"
+    },
+    {
+     "word": "reduce",
+     "word_id": "linkling.reduce.core.v1"
+    }
+   ]
+  }
+ ]
+}

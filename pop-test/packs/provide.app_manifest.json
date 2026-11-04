@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.provide.core.v1",
   "word": "provide",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "provide.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/provide/provide.full.mp3",
+    "full_path": "assets/audio_tts/provide/provide.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/provide/provide.full.mp3"
+        "path": "assets/audio_tts/provide/provide.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/provide/provide.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/provide/provide.full.mp3"
+        "path": "assets/audio_tts/provide/provide.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "provide.app_wordpack.json",
-      "bytes": 6230,
-      "sha256": "1e61b34702b0aae134699171bafb71049bddd1842ddf03d89a15610f5932ddb9"
+      "bytes": 6117,
+      "sha256": "b3117a14f1d5c863c7c62dda63ca6e8e4fdbc246564c8a7835491ade6f1a32c8"
+    },
+    {
+      "path": "assets/audio_tts/provide/provide.chunk1.v4.mp3",
+      "bytes": 2973,
+      "sha256": "857e14b0e374833667bef224c253a0a4417f20523ecb400bef42a75ac989e6b1"
+    },
+    {
+      "path": "assets/audio_tts/provide/provide.full.v4.mp3",
+      "bytes": 8109,
+      "sha256": "df21ab4fdd6c1e7bfa530176374c0c6955af8e2800e4dd2c0a91915192c4a0c7"
     }
   ]
 }

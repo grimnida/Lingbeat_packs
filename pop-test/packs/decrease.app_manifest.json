@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.decrease.core.v1",
   "word": "decrease",
-  "wordpack_version": "3.0.3-v7-test",
+  "wordpack_version": "3.0.3-v7-test-c1",
   "status": "preview",
   "wordpack_path": "decrease.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/decrease/decrease.full.mp3",
+    "full_path": "assets/audio_tts/decrease/decrease.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/decrease/decrease.full.mp3"
+        "path": "assets/audio_tts/decrease/decrease.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/decrease/decrease.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/decrease/decrease.full.mp3"
+        "path": "assets/audio_tts/decrease/decrease.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "decrease.app_wordpack.json",
-      "bytes": 6945,
-      "sha256": "7fd39d2d96494f2ddea032a79734bed68bcc2b80cac4c0b651f913a12d0b854a"
+      "bytes": 6834,
+      "sha256": "11b3355f6d7948b09452bc30a5b414cdfbb46a1066026a571c610609b5472023"
+    },
+    {
+      "path": "assets/audio_tts/decrease/decrease.chunk1.v4.mp3",
+      "bytes": 3357,
+      "sha256": "6f8265c4c45a0fdcfb45a51f8c7e8152d93c3433dfe58b8be678d6b8d8bb092b"
+    },
+    {
+      "path": "assets/audio_tts/decrease/decrease.full.v4.mp3",
+      "bytes": 8589,
+      "sha256": "5adc675c852010c1c50c84887ef9565f2b820003740aee4d5c8d252ed40e1d2f"
     }
   ]
 }

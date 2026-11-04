@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "word_id": "linkling.incorporate.core.v1",
   "word": "incorporate",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -30,13 +30,13 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ɪnˈkɔːrpəreɪt",
-    "full_audio_asset_id": "assets/audio_tts/incorporate/incorporate.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/incorporate/incorporate.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ɪn",
         "cumulative_spelling": "in",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/incorporate/incorporate.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -44,15 +44,23 @@
         "order": 2,
         "cumulative_ipa": "ɪnˈkɔːr",
         "cumulative_spelling": "incor",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/incorporate/incorporate.chunk2.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 3,
+        "cumulative_ipa": "ɪnˈkɔːrpə",
+        "cumulative_spelling": "incorpo",
+        "audio_asset_id": "assets/audio_tts/incorporate/incorporate.chunk3.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 4,
         "cumulative_ipa": "ɪnˈkɔːrpəreɪt",
         "cumulative_spelling": "incorporate",
-        "audio_asset_id": "assets/audio_tts/incorporate/incorporate.full.mp3",
+        "audio_asset_id": "assets/audio_tts/incorporate/incorporate.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -107,7 +115,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 4
         },
         "semantic_roles": [
           "RESULT"
@@ -141,6 +149,10 @@
     "animation": {
       "duration_ms": 15500,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 3550,
+      "end": 8350
     }
   },
   "speech_bubble": {
@@ -154,6 +166,7 @@
     "spelling_chunks": [
       "in",
       "incor",
+      "incorpo",
       "incorporate"
     ]
   },
@@ -162,7 +175,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/incorporate/incorporate.master.svg",
     "motionRecipePath": "motion_recipes/incorporate.motion.json",
-    "audioSpecPath": "assets/audio_tts/incorporate/incorporate.full.mp3",
+    "audioSpecPath": "assets/audio_tts/incorporate/incorporate.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.endure.core.v1",
   "word": "endure",
   "template_id": "T03_REVEAL_CONTRAST",
@@ -29,29 +29,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ɪnˈdʊr",
-    "full_audio_asset_id": "assets/audio_tts/endure/endure.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/endure/endure.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ɪn",
         "cumulative_spelling": "en",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/endure/endure.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ɪnˈdʊ",
-        "cumulative_spelling": "endu",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "ɪnˈdʊr",
         "cumulative_spelling": "endure",
-        "audio_asset_id": "assets/audio_tts/endure/endure.full.mp3",
+        "audio_asset_id": "assets/audio_tts/endure/endure.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -95,7 +87,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "REVEAL"
@@ -129,7 +121,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "CONTRAST_CONFIRMED"
@@ -178,6 +170,10 @@
     "animation": {
       "duration_ms": 15650,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 4600,
+      "end": 9900
     }
   },
   "speech_bubble": {
@@ -190,7 +186,6 @@
     "full_spelling": "endure",
     "spelling_chunks": [
       "en",
-      "endu",
       "endure"
     ]
   },
@@ -199,7 +194,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/endure/endure.master.svg",
     "motionRecipePath": "motion_recipes/endure.motion.json",
-    "audioSpecPath": "assets/audio_tts/endure/endure.full.mp3",
+    "audioSpecPath": "assets/audio_tts/endure/endure.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

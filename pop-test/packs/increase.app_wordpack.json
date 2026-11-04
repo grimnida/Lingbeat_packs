@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.increase.core.v1",
   "word": "increase",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -30,29 +30,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ɪnˈkriːs",
-    "full_audio_asset_id": "assets/audio_tts/increase/increase.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/increase/increase.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ɪn",
         "cumulative_spelling": "in",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/increase/increase.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ɪnˈkriː",
-        "cumulative_spelling": "incre",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "ɪnˈkriːs",
         "cumulative_spelling": "increase",
-        "audio_asset_id": "assets/audio_tts/increase/increase.full.mp3",
+        "audio_asset_id": "assets/audio_tts/increase/increase.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -88,7 +80,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "PATIENT_IMPACT"
@@ -109,7 +101,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "RESULT"
@@ -145,6 +137,10 @@
     "animation": {
       "duration_ms": 16050,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 5499,
+      "end": 10299
     }
   },
   "speech_bubble": {
@@ -157,7 +153,6 @@
     "full_spelling": "increase",
     "spelling_chunks": [
       "in",
-      "incre",
       "increase"
     ]
   },
@@ -166,7 +161,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/increase/increase.master.svg",
     "motionRecipePath": "motion_recipes/increase.motion.json",
-    "audioSpecPath": "assets/audio_tts/increase/increase.full.mp3",
+    "audioSpecPath": "assets/audio_tts/increase/increase.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

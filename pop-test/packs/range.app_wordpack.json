@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "word_id": "linkling.range.core.v1",
   "word": "range",
   "template_id": "T03_REVEAL_CONTRAST",
@@ -28,29 +28,13 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "reɪndʒ",
-    "full_audio_asset_id": "assets/audio_tts/range/range.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/range/range.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "cumulative_ipa": "reɪ",
-        "cumulative_spelling": "ra",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 2,
-        "cumulative_ipa": "reɪn",
-        "cumulative_spelling": "ran",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "reɪndʒ",
         "cumulative_spelling": "range",
-        "audio_asset_id": "assets/audio_tts/range/range.full.mp3",
+        "audio_asset_id": "assets/audio_tts/range/range.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -85,7 +69,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "REVEAL"
@@ -108,7 +92,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 1
         },
         "semantic_roles": [
           "CONTRAST_CONFIRMED"
@@ -148,6 +132,10 @@
     "animation": {
       "duration_ms": 9550,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 0,
+      "end": 3650
     }
   },
   "speech_bubble": {
@@ -159,8 +147,6 @@
   "spelling_and_grammar": {
     "full_spelling": "range",
     "spelling_chunks": [
-      "ra",
-      "ran",
       "range"
     ]
   },
@@ -169,7 +155,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/range/range.master.svg",
     "motionRecipePath": "motion_recipes/range.motion.json",
-    "audioSpecPath": "assets/audio_tts/range/range.full.mp3",
+    "audioSpecPath": "assets/audio_tts/range/range.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

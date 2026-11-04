@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "word_id": "linkling.reduce.core.v1",
   "word": "reduce",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -31,29 +31,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "rɪˈduːs",
-    "full_audio_asset_id": "assets/audio_tts/reduce/reduce.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/reduce/reduce.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "rɪ",
         "cumulative_spelling": "re",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/reduce/reduce.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "rɪˈduː",
-        "cumulative_spelling": "redu",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "rɪˈduːs",
         "cumulative_spelling": "reduce",
-        "audio_asset_id": "assets/audio_tts/reduce/reduce.full.mp3",
+        "audio_asset_id": "assets/audio_tts/reduce/reduce.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -90,7 +82,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "PATIENT_IMPACT"
@@ -113,7 +105,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "RESULT"
@@ -150,6 +142,10 @@
     "animation": {
       "duration_ms": 18450,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 8100,
+      "end": 12699
     }
   },
   "speech_bubble": {
@@ -162,7 +158,6 @@
     "full_spelling": "reduce",
     "spelling_chunks": [
       "re",
-      "redu",
       "reduce"
     ]
   },
@@ -171,7 +166,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/reduce/reduce.master.svg",
     "motionRecipePath": "motion_recipes/reduce.motion.json",
-    "audioSpecPath": "assets/audio_tts/reduce/reduce.full.mp3",
+    "audioSpecPath": "assets/audio_tts/reduce/reduce.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.predict.core.v1",
   "word": "predict",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -28,29 +28,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "prɪˈdɪkt",
-    "full_audio_asset_id": "assets/audio_tts/predict/predict.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/predict/predict.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "prɪ",
         "cumulative_spelling": "pre",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/predict/predict.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "prɪˈdɪ",
-        "cumulative_spelling": "predi",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "prɪˈdɪkt",
         "cumulative_spelling": "predict",
-        "audio_asset_id": "assets/audio_tts/predict/predict.full.mp3",
+        "audio_asset_id": "assets/audio_tts/predict/predict.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -92,7 +84,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "PATIENT_IMPACT"
@@ -119,7 +111,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "RESULT"
@@ -161,6 +153,10 @@
     "animation": {
       "duration_ms": 14900,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 3201,
+      "end": 7851
     }
   },
   "speech_bubble": {
@@ -173,7 +169,6 @@
     "full_spelling": "predict",
     "spelling_chunks": [
       "pre",
-      "predi",
       "predict"
     ]
   },
@@ -182,7 +177,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/predict/predict.master.svg",
     "motionRecipePath": "motion_recipes/predict.motion.json",
-    "audioSpecPath": "assets/audio_tts/predict/predict.full.mp3",
+    "audioSpecPath": "assets/audio_tts/predict/predict.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

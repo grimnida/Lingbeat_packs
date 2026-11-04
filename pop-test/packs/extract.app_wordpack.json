@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.3.0-v7-test",
+  "wordpack_version": "3.3.0-v7-test-c1",
   "word_id": "linkling.extract.core.v1",
   "word": "extract",
   "template_id": "T03_REVEAL_CONTRAST",
@@ -26,29 +26,21 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ɪkˈstrækt",
-    "full_audio_asset_id": "assets/audio_tts/extract/extract.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/extract/extract.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ɪk",
         "cumulative_spelling": "ex",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/extract/extract.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
       {
         "order": 2,
-        "cumulative_ipa": "ɪkˈstræ",
-        "cumulative_spelling": "extra",
-        "audio_asset_id": "",
-        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
-        "is_full_word": false
-      },
-      {
-        "order": 3,
         "cumulative_ipa": "ɪkˈstrækt",
         "cumulative_spelling": "extract",
-        "audio_asset_id": "assets/audio_tts/extract/extract.full.mp3",
+        "audio_asset_id": "assets/audio_tts/extract/extract.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -83,7 +75,7 @@
         "order": 2,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 2
+          "chunk_order": 1
         },
         "semantic_roles": [
           "REVEAL"
@@ -102,7 +94,7 @@
         "order": 3,
         "unlock_trigger": {
           "type": "chunk_pass",
-          "chunk_order": 3
+          "chunk_order": 2
         },
         "semantic_roles": [
           "CONTRAST_CONFIRMED"
@@ -135,6 +127,10 @@
     "animation": {
       "duration_ms": 15450,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 4901,
+      "end": 9551
     }
   },
   "speech_bubble": {
@@ -147,7 +143,6 @@
     "full_spelling": "extract",
     "spelling_chunks": [
       "ex",
-      "extra",
       "extract"
     ]
   },
@@ -156,7 +151,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/extract/extract.master.svg",
     "motionRecipePath": "motion_recipes/extract.motion.json",
-    "audioSpecPath": "assets/audio_tts/extract/extract.full.mp3",
+    "audioSpecPath": "assets/audio_tts/extract/extract.full.v4.mp3",
     "assetStatus": "generated"
   }
 }

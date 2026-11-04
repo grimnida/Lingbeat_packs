@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "word_id": "linkling.consume.core.v1",
   "word": "consume",
-  "wordpack_version": "3.2.0-v7-test",
+  "wordpack_version": "3.2.0-v7-test-c1",
   "status": "preview",
   "wordpack_path": "consume.app_wordpack.json",
   "scene": {
@@ -14,27 +14,33 @@
     "max_layer_stage": 3
   },
   "audio": {
-    "full_path": "assets/audio_tts/consume/consume.full.mp3",
+    "full_path": "assets/audio_tts/consume/consume.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
-        "path": "assets/audio_tts/consume/consume.full.mp3"
+        "path": "assets/audio_tts/consume/consume.chunk1.v4.mp3"
       },
       {
         "order": 2,
-        "path": "assets/audio_tts/consume/consume.full.mp3"
-      },
-      {
-        "order": 3,
-        "path": "assets/audio_tts/consume/consume.full.mp3"
+        "path": "assets/audio_tts/consume/consume.full.v4.mp3"
       }
     ]
   },
   "files": [
     {
       "path": "consume.app_wordpack.json",
-      "bytes": 5683,
-      "sha256": "5824f828d4dfcfacdc3ae8e27794e4fac2340174937b69c8144645b2d62e840c"
+      "bytes": 5578,
+      "sha256": "d87d6533e3728f527646b545c12e7935ce5adc8ab661d90106a4c6f31cc5c6eb"
+    },
+    {
+      "path": "assets/audio_tts/consume/consume.chunk1.v4.mp3",
+      "bytes": 3309,
+      "sha256": "5e5b7eaf5437678013bd73432e9402d5f99a9ed31ee40c9b06cdfa877657c926"
+    },
+    {
+      "path": "assets/audio_tts/consume/consume.full.v4.mp3",
+      "bytes": 8613,
+      "sha256": "020b8786444ec2006c012d194dc246915cf6902eb3e816519af17baa8c03aa78"
     }
   ]
 }

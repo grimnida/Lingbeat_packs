@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "wordpack_version": "3.1.0-v7-test",
+  "wordpack_version": "3.1.0-v7-test-c1",
   "word_id": "linkling.reinforce.core.v1",
   "word": "reinforce",
   "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
@@ -33,13 +33,13 @@
   "pronunciation": {
     "dialect": "american",
     "ipa": "ˌriːɪnˈfɔːrs",
-    "full_audio_asset_id": "assets/audio_tts/reinforce/reinforce.full.mp3",
+    "full_audio_asset_id": "assets/audio_tts/reinforce/reinforce.full.v4.mp3",
     "chunks": [
       {
         "order": 1,
         "cumulative_ipa": "ˌriː",
         "cumulative_spelling": "re",
-        "audio_asset_id": "",
+        "audio_asset_id": "assets/audio_tts/reinforce/reinforce.chunk1.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -47,7 +47,8 @@
         "order": 2,
         "cumulative_ipa": "ˌriːɪn",
         "cumulative_spelling": "rein",
-        "audio_asset_id": "",
+        "display_spelling": "re·in",
+        "audio_asset_id": "assets/audio_tts/reinforce/reinforce.chunk2.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": false
       },
@@ -55,7 +56,8 @@
         "order": 3,
         "cumulative_ipa": "ˌriːɪnˈfɔːrs",
         "cumulative_spelling": "reinforce",
-        "audio_asset_id": "assets/audio_tts/reinforce/reinforce.full.mp3",
+        "display_spelling": "re·in·force",
+        "audio_asset_id": "assets/audio_tts/reinforce/reinforce.full.v4.mp3",
         "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
         "is_full_word": true
       }
@@ -149,6 +151,10 @@
     "animation": {
       "duration_ms": 25970,
       "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 13960,
+      "end": 19109
     }
   },
   "speech_bubble": {
@@ -170,7 +176,7 @@
     "renderBackend": "svg_motion",
     "imageSpecPath": "assets/images/reinforce/reinforce.master.svg",
     "motionRecipePath": "motion_recipes/reinforce.motion.json",
-    "audioSpecPath": "assets/audio_tts/reinforce/reinforce.full.mp3",
+    "audioSpecPath": "assets/audio_tts/reinforce/reinforce.full.v4.mp3",
     "assetStatus": "generated"
   }
 }
