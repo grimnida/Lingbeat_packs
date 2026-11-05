@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "word_id": "linkling.alter.core.v1",
+  "word": "alter",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "바꾸다, 달라지게 하다",
+    "accepted_meanings_ko": [
+      "바꾸다",
+      "달라지게 하다",
+      "변경하다",
+      "고치다",
+      "변형하다"
+    ],
+    "excluded_meanings_ko": [
+      "대체하다",
+      "교체하다",
+      "고르다",
+      "당기다",
+      "생산하다",
+      "멈추다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈɔːltər",
+    "full_audio_asset_id": "assets/audio_tts/alter/alter.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈɔːl",
+        "cumulative_spelling": "al",
+        "audio_asset_id": "assets/audio_tts/alter/alter.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈɔːltər",
+        "cumulative_spelling": "alter",
+        "audio_asset_id": "assets/audio_tts/alter/alter.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/alter/alter.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "위에서 비스듬히 내려다본 쿠키 공장 — 크림색 바닥 · 짙은 회색 벨트 (왼쪽 끝 턱) · 오른쪽 연회색 기계 · 기계 위 왼쪽으로 기운 레버 → 출구에서 황금빛 동그란 쿠키가 하나씩 나와 벨트를 타고 앞 쿠키 뒤에 붙어 섬 (동그라미 셋) → 빨간 장갑 손이 오른쪽 밖에서 들어와 레버 손잡이를 쥠 → 모든 움직임이 멈추고 장갑 손 주인이 \"모양을 바꿔야겠어\" → 레버를 천천히 오른쪽 끝까지 당겨 딸깍 → 바로 다음 쿠키부터 같은 색 · 같은 크기의 별 — 첫 별이 동그라미 줄 뒤에 붙는 순간 화면이 경계로 확 다가가며 흰 집중선 (바닥 · 벨트 · 기계는 회색) · 잠깐 멈춤 → 별 셋이 틈 없이 붙어 섬 · 넷째 별이 출구에 반쯤 · 벨트 멈춤 → 동그라미와 별이 만나는 곳 클로즈업 → 정리 화면 (장갑 손목 · 소매까지) — 장갑 손 윤곽 표시 (끝까지) → 굵은 화살표가 손에서 기계 위로 높이 솟아 왼쪽으로 넘어가 쿠키 줄 가운데로 내려오며 화살표 선 위에 \"바꾸다\" 가 따라 나옴 → 머리가 닿는 순간 쿠키 줄 전체 (동그라미 셋 + 별) 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "floor",
+          "belt",
+          "machine",
+          "lever"
+        ],
+        "description_ko": "쿠키 공장 — 벨트 · 쿠키 기계 · 기계 위 레버 (오른쪽 끝까지 넘어감)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "floor",
+          "belt",
+          "machine",
+          "lever",
+          "rounds"
+        ],
+        "description_ko": "기계에서 나와 벨트 위에 한 줄로 선 동그란 쿠키 셋 (바뀌기 전)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "floor",
+          "belt",
+          "machine",
+          "lever",
+          "rounds",
+          "hand",
+          "stars",
+          "link"
+        ],
+        "description_ko": "빨간 장갑 손이 레버를 당김 → 다음 쿠키부터 같은 크기의 별 셋 (넷째는 출구에 반쯤) — 장갑 손 (윤곽 표시) → 화살표 → 쿠키 줄 전체 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 15390,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 4042,
+      "end": 8643
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "바꿨어!!!",
+    "anchor_group_id": "stars"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "alter",
+    "spelling_chunks": [
+      "al",
+      "alter"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/alter/alter.master.svg",
+    "motionRecipePath": "motion_recipes/alter.motion.json",
+    "audioSpecPath": "assets/audio_tts/alter/alter.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

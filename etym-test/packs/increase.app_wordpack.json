@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "word_id": "linkling.increase.core.v1",
+  "word": "increase",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "(수 · 양을) 증가시키다, 늘리다",
+    "accepted_meanings_ko": [
+      "증가시키다",
+      "늘리다",
+      "증가하다",
+      "늘다",
+      "많아지게 하다",
+      "불리다"
+    ],
+    "excluded_meanings_ko": [
+      "채우다",
+      "만들어 내다",
+      "더하다",
+      "퍼뜨리다",
+      "모으다",
+      "세게 하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪnˈkriːs",
+    "full_audio_asset_id": "assets/audio_tts/increase/increase.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪn",
+        "cumulative_spelling": "in",
+        "audio_asset_id": "assets/audio_tts/increase/increase.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪnˈkriːs",
+        "cumulative_spelling": "increase",
+        "audio_asset_id": "assets/audio_tts/increase/increase.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/increase/increase.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭 (내 눈높이): 연한 단색 벽 앞 작은 나무 탁자 위 연보라 비눗방울 기계 (앞면 왼쪽 구멍 · 오른쪽 세로 홈과 눈금 1 ~ 5, 노란 손잡이는 맨 아래 1) — 화면 아래에서 남색 소매 내 오른손 검지가 올라와 손잡이 밑에 닿음 → 손잡이를 톡 한 번 누르자 구멍에서 비눗방울 하나가 나와 떠오름 → \"더 많이!\" → 손잡이를 2 · 3 · 4 · 5 로 톡톡 밀어 올리고, 올리는 그 순간마다 한 번에 나오는 비눗방울이 대여섯 → 열 → 스물 → 물줄기처럼 쉬지 않고 → 방이 천장까지 차는 순간 화면이 구멍 쪽으로 확 다가가며 집중선 · 반짝임, 벽 · 탁자 회색 → 비눗방울 수백 개가 방을 빽빽하게 메움 → 내 검지 · 손등 윤곽 표시 (끝까지) → 굵은 화살표가 손등 오른쪽에서 기계 오른쪽 빈 곳으로 휘어 올라가며 화살표 선을 따라 \"증가시키다\" 가 나옴 → 비눗방울 무리 아래 가장자리에 닿고 무리 전체 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "wall",
+          "table",
+          "machine"
+        ],
+        "description_ko": "벽 앞 탁자 위 비눗방울 기계 (눈금 1 ~ 5)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "wall",
+          "table",
+          "machine",
+          "bubbles"
+        ],
+        "description_ko": "구멍에서 쏟아져 방을 천장까지 메운 비눗방울 수백 개",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "wall",
+          "table",
+          "machine",
+          "bubbles",
+          "knob",
+          "finger",
+          "link"
+        ],
+        "description_ko": "손잡이를 맨 위 5 로 밀어 올린 내 검지 (윤곽 표시) → 굵은 화살표 → 방을 메운 비눗방울 무리 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 16050,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 5499,
+      "end": 10299
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "증가시켰어!!!",
+    "anchor_group_id": "bubbles"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "increase",
+    "spelling_chunks": [
+      "in",
+      "increase"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/increase/increase.master.svg",
+    "motionRecipePath": "motion_recipes/increase.motion.json",
+    "audioSpecPath": "assets/audio_tts/increase/increase.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

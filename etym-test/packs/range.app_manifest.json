@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.range.core.v1",
+  "word": "range",
+  "wordpack_version": "3.3.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "range.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/range.motion.json",
+    "fallback_svg_path": "assets/images/range/range.master.svg",
+    "artboard": "range",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/range/range.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/range/range.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "range.app_wordpack.json",
+      "bytes": 5056,
+      "sha256": "35e9cb47a2ff3365c893f160ef4000b318726008b45b3b872018e31d12b05fbb"
+    },
+    {
+      "path": "assets/audio_tts/range/range.full.v4.mp3",
+      "bytes": 7341,
+      "sha256": "a6fe7bd73f9b0018240121bcb5f33d0765dc20087a5034ecc03c92126c2e6164"
+    }
+  ]
+}

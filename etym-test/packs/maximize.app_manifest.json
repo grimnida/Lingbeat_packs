@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.maximize.core.v1",
+  "word": "maximize",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "maximize.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/maximize.motion.json",
+    "fallback_svg_path": "assets/images/maximize/maximize.master.svg",
+    "artboard": "maximize",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/maximize/maximize.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/maximize/maximize.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/maximize/maximize.chunk2.v4.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/maximize/maximize.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "maximize.app_wordpack.json",
+      "bytes": 5975,
+      "sha256": "b4422303e99e237a464711bfc2c67cf29a090d8d79949d19cad19e7ff095d881"
+    },
+    {
+      "path": "assets/audio_tts/maximize/maximize.chunk1.v4.mp3",
+      "bytes": 5997,
+      "sha256": "dcf6188df18f094913ecc47b16a5cfd9dc8ff01b6d3b2d6db7779e5c666dc18c"
+    },
+    {
+      "path": "assets/audio_tts/maximize/maximize.chunk2.v4.mp3",
+      "bytes": 6717,
+      "sha256": "7aa630783684dfe0c80b2f81ac5006578ca29ac8f0046b21d563163b0e388cf5"
+    },
+    {
+      "path": "assets/audio_tts/maximize/maximize.full.v4.mp3",
+      "bytes": 12141,
+      "sha256": "9cdf65558f567312be7e566c448b059273e57a7db785c983ad150b84823d200b"
+    }
+  ]
+}

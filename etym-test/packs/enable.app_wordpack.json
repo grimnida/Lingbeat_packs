@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.1-v7-test-c1",
+  "word_id": "linkling.enable.core.v1",
+  "word": "enable",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "가능하게 하다",
+    "accepted_meanings_ko": [
+      "가능하게 하다",
+      "~할 수 있게 하다",
+      "할 수 있게 해 주다"
+    ],
+    "excluded_meanings_ko": [
+      "돕다",
+      "들어 올리다",
+      "허락하다",
+      "강요하다",
+      "갖추게 하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪˈneɪbl",
+    "full_audio_asset_id": "assets/audio_tts/enable/enable.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪn",
+        "cumulative_spelling": "en",
+        "audio_asset_id": "assets/audio_tts/enable/enable.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪˈneɪ",
+        "cumulative_spelling": "ena",
+        "audio_asset_id": "assets/audio_tts/enable/enable.chunk2.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ɪˈneɪbl",
+        "cumulative_spelling": "enable",
+        "audio_asset_id": "assets/audio_tts/enable/enable.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/enable/enable.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 보라 날개를 단 돼지가 깊은 골짜기 위를 날아 건넘] 골짜기 바닥에서 높이 솟은 바위 기둥 위 작은 분홍 돼지 → 확대: 앞발을 허공에 내밀자 돌 부스러기가 기둥 옆을 따라 한참 아래로 → 움찔 물러섬 (못 건넘) → 위에서 손이 보라 날개를 등에 딱 달고 빠짐 → (2.2: 화면이 돼지 · 사이 골짜기 · 가고 싶은 앞 절벽을 한 화면에 — 돼지가 기둥 끝으로 가 앞 절벽을 봄 → 앞발을 내밀다 작은 돌 부스러기 → 크게 움찔 물러섬) 중간 말풍선 \"못 건너…\" (움찔 뒤) · 손 확대 화면: 위에서 손이 보라 날개 한 쌍을 들고 천천히 내려와 돼지 등에 얹고 잠깐 머문 뒤 빈손이 위로 빠짐 · 기둥 위에서 날개를 한 번 크게 퍼덕 → 돼지가 골짜기를 날아 화면 앞으로 점점 크게 (지나간 자리에 크림색 점선 자국) → 가까운 절벽에 네 발로 내려섬 (흙먼지) → 날개를 편 채 제자리에서 한 번 깡충 → 멈춤 → 착지한 날개 윤곽을 따라 표시가 그려지고 잠깐 머묾 → (날개 윤곽 표시는 끝까지) 굵은 화살표가 오른쪽 날개 끝에서 위로 솟아 돼지 머리 위로 휘어 내려오며 화살표 위에 \"가능하게 하다\" 가 따라 나옴 → 머리가 닿는 순간 돼지 (몸) 윤곽 표시 → 셋 다 남은 채 멈춤 · (표시 v7: 착지 순간 화면이 확 다가가며 집중선 · 반짝임, 골짜기 · 기둥 · 절벽은 회색 · 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "valley",
+          "pillar",
+          "near"
+        ],
+        "description_ko": "사방이 깎인 높은 바위 기둥 · 한참 아래 골짜기 바닥 · 화면 앞 가까운 절벽 (못 건너는 곳)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "valley",
+          "pillar",
+          "near",
+          "trail",
+          "pig"
+        ],
+        "description_ko": "보라 날개 (A) 를 단 돼지 (B) 가 골짜기를 날아 건너 가까운 절벽에 내려앉음 — 기둥 끝에서 이어진 크림색 점선 자국",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "valley",
+          "pillar",
+          "near",
+          "trail",
+          "pig",
+          "link"
+        ],
+        "description_ko": "착지한 돼지의 보라 날개 (윤곽 표시) → 날개 끝에서 위로 휘어 돼지 머리 위까지 굵은 화살표 → 돼지 (윤곽 표시) — 가능하게 함",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 18750,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 7901,
+      "end": 12851
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "가능하게 했어!!!",
+    "anchor_group_id": "pig"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "enable",
+    "spelling_chunks": [
+      "en",
+      "ena",
+      "enable"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/enable/enable.master.svg",
+    "motionRecipePath": "motion_recipes/enable.motion.json",
+    "audioSpecPath": "assets/audio_tts/enable/enable.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

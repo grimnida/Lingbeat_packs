@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.develop.core.v1",
+  "word": "develop",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "develop.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/develop.motion.json",
+    "fallback_svg_path": "assets/images/develop/develop.master.svg",
+    "artboard": "develop",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/develop/develop.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/develop/develop.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/develop/develop.chunk2.v4.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/develop/develop.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "develop.app_wordpack.json",
+      "bytes": 7122,
+      "sha256": "01f03156dd3710e2fba7d2939fab282cc76f4164ae9f7dd01000ee507f816be5"
+    },
+    {
+      "path": "assets/audio_tts/develop/develop.chunk1.v4.mp3",
+      "bytes": 2781,
+      "sha256": "4352ce3a191fc3ac38f61e487ad3833603d8e023940b96aaff5ab0ea1e07d84f"
+    },
+    {
+      "path": "assets/audio_tts/develop/develop.chunk2.v4.mp3",
+      "bytes": 5469,
+      "sha256": "ae310dc1d92a56adb0279f8d134e705f46dde92ef46b07f4f1e11f8a3e9eb2d4"
+    },
+    {
+      "path": "assets/audio_tts/develop/develop.full.v4.mp3",
+      "bytes": 7749,
+      "sha256": "94d6a612e13c1e0d6a6db7034e9651c45a887ce2d0830e52f52b2d290c001610"
+    }
+  ]
+}

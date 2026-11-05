@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.consume-2.core.v1",
+  "word": "consume",
+  "wordpack_version": "1.4.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "consume-2.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/consume-2.motion.json",
+    "fallback_svg_path": "assets/images/consume-2/consume-2.master.svg",
+    "artboard": "consume-2",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/consume-2/consume-2.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/consume-2/consume-2.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/consume-2/consume-2.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "consume-2.app_wordpack.json",
+      "bytes": 6723,
+      "sha256": "75e8706b232b0fff0654aae0316f7df80cdb63f20c8704843f2ac1066bccdec6"
+    },
+    {
+      "path": "assets/audio_tts/consume-2/consume-2.chunk1.v4.mp3",
+      "bytes": 3309,
+      "sha256": "5e5b7eaf5437678013bd73432e9402d5f99a9ed31ee40c9b06cdfa877657c926"
+    },
+    {
+      "path": "assets/audio_tts/consume-2/consume-2.full.v4.mp3",
+      "bytes": 8613,
+      "sha256": "020b8786444ec2006c012d194dc246915cf6902eb3e816519af17baa8c03aa78"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "word_id": "linkling.achieve.core.v1",
+  "word": "achieve",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "이루다, 달성하다",
+    "accepted_meanings_ko": [
+      "이루다",
+      "달성하다",
+      "성취하다",
+      "해내다",
+      "얻어 내다"
+    ],
+    "excluded_meanings_ko": [
+      "오르다",
+      "잡다",
+      "이기다",
+      "쫓다",
+      "이끌다",
+      "뛰어오르다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "əˈtʃiːv",
+    "full_audio_asset_id": "assets/audio_tts/achieve/achieve.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ə",
+        "cumulative_spelling": "a",
+        "audio_asset_id": "assets/audio_tts/achieve/achieve.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "əˈtʃiːv",
+        "cumulative_spelling": "achieve",
+        "audio_asset_id": "assets/audio_tts/achieve/achieve.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/achieve/achieve.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 밑창이 떨어진 자리마다 발자국이 공중에 굳어 계단이 됨] 구름 위 빨간 '목표' 깃발 · 땅의 작은 소녀가 올려다봄 \"저기까지!\" → 폴짝 뛸 때마다 노란 발자국이 공중에 '딱' 굳어 계단 7개 → 한 칸씩 올라 → 마지막 발자국에서 깃대로 몸을 날려 손을 뻗음 → 바짝 확대 · 손이 깃대를 꽉 쥠 (짧은 선 · 화면 흔들림) → 구름 위에서 깃대를 쑥 뽑아 두 손으로 머리 위로 번쩍 — 그 순간 화면이 확 다가가며 집중선 · 반짝임, 땅 · 구름은 회색 · 활짝 웃음 → 잠깐 멈춤 → 깃발 두 번 펄럭 → 소녀 몸 윤곽 표시 (끝까지) → 굵은 화살표가 소녀 머리 왼쪽 위에서 머리 위 하늘로 휘어 깃대 꼭대기를 넘어 '목표' 깃발로 뻗으며 화살표 위에 \"이루다\" 가 따라 나옴 → 깃발 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "ground",
+          "cloud",
+          "victory"
+        ],
+        "description_ko": "구름 위에서 깃대를 두 손으로 머리 위로 치켜든 소녀 (주어 = 소녀)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "ground",
+          "cloud",
+          "victory",
+          "vflag"
+        ],
+        "description_ko": "손에 든 빨간 '목표' 깃발",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "ground",
+          "cloud",
+          "victory",
+          "vflag",
+          "fp1",
+          "fp2",
+          "fp3",
+          "fp4",
+          "fp5",
+          "fp6",
+          "fp7",
+          "link"
+        ],
+        "description_ko": "아래 · 뒤로 이어진 노란 발자국 계단 + 소녀 (윤곽 표시) → 화살표 → '목표' 깃발 (윤곽 표시) (한 걸음씩 올라 목표를 이룸)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 16750,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 5399,
+      "end": 10350
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "이뤘어!!!",
+    "anchor_group_id": "vflag"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "achieve",
+    "spelling_chunks": [
+      "a",
+      "achieve"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/achieve/achieve.master.svg",
+    "motionRecipePath": "motion_recipes/achieve.motion.json",
+    "audioSpecPath": "assets/audio_tts/achieve/achieve.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

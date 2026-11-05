@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.2.0-v7-test-c1",
+  "word_id": "linkling.enhance.core.v1",
+  "word": "enhance",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "향상시키다, 높이다",
+    "accepted_meanings_ko": [
+      "향상시키다",
+      "높이다",
+      "강화하다",
+      "더 좋게 하다"
+    ],
+    "excluded_meanings_ko": [
+      "고치다",
+      "복원하다",
+      "늘리다",
+      "바꾸다",
+      "고르다",
+      "선명하게 하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ɪnˈhæns",
+    "full_audio_asset_id": "assets/audio_tts/enhance/enhance.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ɪn",
+        "cumulative_spelling": "en",
+        "audio_asset_id": "assets/audio_tts/enhance/enhance.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ɪnˈhæns",
+        "cumulative_spelling": "enhance",
+        "audio_asset_id": "assets/audio_tts/enhance/enhance.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/enhance/enhance.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭: 위에서 내려다본 책상 위 휴대폰에서 고양이 영상이 큰 네모 칸으로 뭉개진 채 재생 중 (고양이가 고개를 살짝 기울였다 돌아옴) · 큰 말풍선 \"화질이 아쉽네…\" (꼬리 = 화면 오른쪽 아래 = 나) → 말풍선이 사라진 뒤 내 오른손이 오른쪽 아래에서 들어와 톱니 단추 옆 → 검지가 톱니 단추를 톡 → 오른쪽에 화질 목록 1080p · 720p · 360p · 144p ✓ → 검지가 360p 를 톡 (빨간 물결 · 칸이 빨강 · ✓ 이동) → 0.45초 뒤 네모가 절반으로 서서히 바뀌고 눈 · 코 자리가 어두운 칸 → 720p 를 톡 → 0.45초 뒤 네모가 잘아지며 파란 눈 · 분홍 코 · 귀 속 분홍이 생김 → 1080p 를 톡 → 0.6초 뒤 네모가 서서히 걷히고 세로 눈동자 · 흰 빛 점 · 수염 · 털끝까지 또렷한 고양이 → 그 순간 화면이 고양이 얼굴로 확 다가가 1.5초 머묾 (노란 집중선 · 반짝임, 고양이 · 목록 · 손 말고 회색) → 정리: 1080p 칸을 누른 검지 · 손등 윤곽 표시 (끝까지) → 굵은 화살표가 검지 끝에서 위로 올라 휴대폰 위로 휘어 고양이 영상 칸 위로 뻗으며 화살표 선 위에 \"향상시키다\" 가 따라 나옴 → 고양이 영상 칸 둘레 표시 → 조금 가는 둘째 화살표가 목록의 144p 칸에서 1080p 칸으로 곧게 올라감 → 모두 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "desk",
+          "phone",
+          "list",
+          "hand"
+        ],
+        "description_ko": "내 검지가 화질 목록 맨 위 1080p 칸을 누름 (빨강 ✓)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "desk",
+          "phone",
+          "cat",
+          "bar",
+          "gear"
+        ],
+        "description_ko": "책상 위 휴대폰 — 큰 네모 칸으로 뭉개진 고양이 영상",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "desk",
+          "phone",
+          "cat",
+          "bar",
+          "gear",
+          "list",
+          "hand",
+          "link",
+          "link2"
+        ],
+        "description_ko": "털끝 · 수염 · 눈빛까지 또렷한 고양이 영상 + 검지 (윤곽 표시) → 굵은 화살표 → 고양이 영상 칸 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 18550,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 6400,
+      "end": 11050
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "향상시켰어!!!",
+    "anchor_group_id": "cat"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "enhance",
+    "spelling_chunks": [
+      "en",
+      "enhance"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/enhance/enhance.master.svg",
+    "motionRecipePath": "motion_recipes/enhance.motion.json",
+    "audioSpecPath": "assets/audio_tts/enhance/enhance.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

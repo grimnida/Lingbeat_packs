@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.2-v7-test-c1",
+  "word_id": "linkling.bear.core.v1",
+  "word": "bear",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "짊어지다",
+    "accepted_meanings_ko": [
+      "짊어지다",
+      "견디다",
+      "참다",
+      "버티다",
+      "감당하다",
+      "떠안다",
+      "부담하다"
+    ],
+    "excluded_meanings_ko": [
+      "지탱하다",
+      "나르다",
+      "들어 올리다",
+      "쌓다",
+      "떨어뜨리다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "beər",
+    "full_audio_asset_id": "assets/audio_tts/bear/bear.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "beər",
+        "cumulative_spelling": "bear",
+        "audio_asset_id": "assets/audio_tts/bear/bear.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/bear/bear.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "옆에서 본 창고 바닥 (연한 바닥 · 검은 바닥선): 가운데 갈색 머리 · 흰 셔츠 · 남색 바지 소년이 맨몸으로 차분히 서 있음 → 소년이 상체를 앞으로 숙여 두 손으로 무릎을 짚고 등을 평평하게 내줌 → 위에서 빨간 상자 하나가 천천히 내려와 등 위에 살며시 얹힘 → 상자가 하나씩 (갈수록 빨리) 내려와 등 위에 쌓여 더미가 소년 키의 세 배 · 쌓일수록 몸이 조금씩 눌림 → 상자 여덟 배만 한 커다란 빨간 상자가 천천히 내려와 더미 꼭대기에 살며시 얹힘 → 무게에 무릎이 천천히 깊이 굽음 · 잠깐 버팀 (다리가 가늘게 떨림) → 굽은 무릎을 천천히 펴 냄 → 다 편 순간 화면이 소년 다리 · 몸으로 확 다가감 · 흰 집중선, 바닥 · 벽 회색 (한동안 멈춤) → 화면이 천천히 물러나며 소년 등 위 더미 전체 (키의 여러 배) 가 드러남 · 소년은 꼿꼿 → 화면이 소년 쪽으로 돌아옴 → 소년 전신 윤곽 표시 (끝까지) → 굵은 화살표가 소년 엉덩이 뒤에서 바깥 빈 곳으로 휘어 올라가며 화살표 위에 \"짊어지다\" 가 따라 나옴 → 등 위 상자 더미 옆면에 닿고 더미 윤곽 표시 (화면 위로 이어짐) → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "room",
+          "boy"
+        ],
+        "description_ko": "등을 평평하게 숙이고 두 손으로 무릎을 짚은 소년",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "room",
+          "boy",
+          "b1"
+        ],
+        "description_ko": "소년 등에 얹힌 빨간 상자",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "room",
+          "boy",
+          "b1",
+          "b2",
+          "b3",
+          "b4",
+          "b5",
+          "b6",
+          "b7",
+          "b8",
+          "b9",
+          "b10",
+          "giant",
+          "link"
+        ],
+        "description_ko": "다리를 펴고 버틴 소년 (윤곽 표시) → 굵은 화살표 → 등 위 상자 더미 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 18250,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 4800,
+      "end": 9700
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "짊어졌어!!!",
+    "anchor_group_id": "boy"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "bear",
+    "spelling_chunks": [
+      "bear"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/bear/bear.master.svg",
+    "motionRecipePath": "motion_recipes/bear.motion.json",
+    "audioSpecPath": "assets/audio_tts/bear/bear.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

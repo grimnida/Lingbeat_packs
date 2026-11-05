@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "word_id": "linkling.provide.core.v1",
+  "word": "provide",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "제공하다, 마련해 주다",
+    "accepted_meanings_ko": [
+      "제공하다",
+      "마련해 주다",
+      "공급하다",
+      "지급하다",
+      "대 주다",
+      "주다"
+    ],
+    "excluded_meanings_ko": [
+      "빌려주다",
+      "배달하다",
+      "나누다",
+      "팔다",
+      "보호하다",
+      "나눠 주다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "prəˈvaɪd",
+    "full_audio_asset_id": "assets/audio_tts/provide/provide.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "prə",
+        "cumulative_spelling": "pro",
+        "audio_asset_id": "assets/audio_tts/provide/provide.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "prəˈvaɪd",
+        "cumulative_spelling": "provide",
+        "audio_asset_id": "assets/audio_tts/provide/provide.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/provide/provide.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "비 오는 하굣길 — 학교 1층 현관 옆 처마 아래 빈손 학생 둘이 쏟아지는 비를 봄 · 중간 말풍선 \"비 맞겠다…\" (꼬리 = 앞 학생 입) → 현관 유리문이 열리고 보라 카디건 여자 어른이 노란 우비가 수북한 흰 바구니를 왼팔에 끼고 나와 두 걸음 · 학생 둘이 뒤돌아봄 → 화면이 다가가 바구니에서 노란 우비를 한 벌씩 꺼내 앞 학생 · 뒤 학생의 빈손에 차례로 쥐여 주는 손이 크게 보임 (바구니는 여전히 수북) → 둘이 우비를 뒤집어써 머리부터 무릎까지 노랑이 되는 순간 화면이 건넨 여자 어른과 학생 둘로 확 다가가며 노랑 집중선 · 반짝임, 학교 · 비 · 마당은 회색 → 잠깐 멈춤 → 처마 밖으로 두 걸음 나가 세찬 빗속에 나란히 멈춰 섬 → 화면이 물러나 한눈에 · 비가 그 자리에서 멈춤 → 쉼 → 여자 어른 몸 윤곽 표시 → 굵은 화살표가 여자 어른 어깨에서 처마 아래로 높이 휘어 뒤 학생 우비로 뻗으며 화살표 위에 \"제공하다\" 가 따라 나옴 → 머리가 닿는 순간 우비 두 벌 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 — 빗속 학생 둘 — 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "sky",
+          "ground",
+          "school",
+          "doorway",
+          "awning",
+          "teacher",
+          "basket"
+        ],
+        "description_ko": "학교 1층 현관 앞, 노란 우비가 수북한 흰 바구니를 낀 보라 카디건 여자 어른",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "sky",
+          "ground",
+          "school",
+          "doorway",
+          "awning",
+          "teacher",
+          "basket",
+          "puddles",
+          "rain",
+          "rain_f"
+        ],
+        "description_ko": "처마 밖 마당에 세차게 쏟아지는 비",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "sky",
+          "ground",
+          "school",
+          "doorway",
+          "awning",
+          "teacher",
+          "basket",
+          "puddles",
+          "rain",
+          "rain_f",
+          "boy2",
+          "girl2",
+          "link"
+        ],
+        "description_ko": "빗속에 선 노란 우비 학생 둘 + 여자 어른 (윤곽 표시) → 화살표 → 우비 두 벌 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 16450,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 3999,
+      "end": 8449
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "제공했어!!!",
+    "anchor_group_id": "teacher"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "provide",
+    "spelling_chunks": [
+      "pro",
+      "provide"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/provide/provide.master.svg",
+    "motionRecipePath": "motion_recipes/provide.motion.json",
+    "audioSpecPath": "assets/audio_tts/provide/provide.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

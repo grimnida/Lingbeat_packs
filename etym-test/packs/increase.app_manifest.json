@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.increase.core.v1",
+  "word": "increase",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "increase.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/increase.motion.json",
+    "fallback_svg_path": "assets/images/increase/increase.master.svg",
+    "artboard": "increase",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/increase/increase.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/increase/increase.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/increase/increase.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "increase.app_wordpack.json",
+      "bytes": 5694,
+      "sha256": "b1b11e76c5b55e39a6bdc0dcb400ec75910db322fb0d74ea30ee5a407a34be17"
+    },
+    {
+      "path": "assets/audio_tts/increase/increase.chunk1.v4.mp3",
+      "bytes": 3237,
+      "sha256": "6f7c836a14ca0d0820f113fae52d71b7aa0c028374f1ec8e15cf2b365861f993"
+    },
+    {
+      "path": "assets/audio_tts/increase/increase.full.v4.mp3",
+      "bytes": 8637,
+      "sha256": "47ab97a827611d572db6c7f396e3bdee97c12cbdfdbf7e668a5e742fb876b1fe"
+    }
+  ]
+}

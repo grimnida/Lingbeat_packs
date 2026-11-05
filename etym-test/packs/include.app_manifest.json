@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.include.core.v1",
+  "word": "include",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "include.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/include.motion.json",
+    "fallback_svg_path": "assets/images/include/include.master.svg",
+    "artboard": "include",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/include/include.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/include/include.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/include/include.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "include.app_wordpack.json",
+      "bytes": 6000,
+      "sha256": "55d9ceb27ef9a5b7122b534c48569369d80ea1bdc1eb592ccca7c7bc713737b9"
+    },
+    {
+      "path": "assets/audio_tts/include/include.chunk1.v4.mp3",
+      "bytes": 2805,
+      "sha256": "b4ff9d26084639075b202b9e3dcffacbbc9e3e6d14d3140b0bec6e9eb24dbffe"
+    },
+    {
+      "path": "assets/audio_tts/include/include.full.v4.mp3",
+      "bytes": 8109,
+      "sha256": "dd08b0152c64b01fc4138de83c23bfddf1378fac9e5699a8109ba3ff951781f5"
+    }
+  ]
+}

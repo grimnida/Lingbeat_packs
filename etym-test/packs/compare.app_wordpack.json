@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.4.0-v7-test-c1",
+  "word_id": "linkling.compare.core.v1",
+  "word": "compare",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "비교하다",
+    "accepted_meanings_ko": [
+      "비교하다",
+      "견주다",
+      "맞대어 보다",
+      "대보다"
+    ],
+    "excluded_meanings_ko": [
+      "대조하다",
+      "맞추다",
+      "재다",
+      "고르다",
+      "나누다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "kəmˈpeər",
+    "full_audio_asset_id": "assets/audio_tts/compare/compare.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "kəm",
+        "cumulative_spelling": "com",
+        "audio_asset_id": "assets/audio_tts/compare/compare.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "kəmˈpeər",
+        "cumulative_spelling": "compare",
+        "audio_asset_id": "assets/audio_tts/compare/compare.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/compare/compare.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "3인칭: 식탁 가장자리에 턱을 댄 내 옆얼굴 (왼쪽) 과 맞닿은 두 유리컵 (왼쪽 주스 5분의 4 · 오른쪽 5분의 2) → 모두 멈춘 채 \"어느 쪽이 더 많지?\" (꼬리 = 내 입) → 내 눈 쪽으로 다가가 1인칭 (화면 = 내 눈) 으로: 내 눈이 왼쪽 주스 꼭대기로 (화면 아래에서 점선 시선) 머묾 → 오른쪽 주스 꼭대기로 머묾 → 다시 왼쪽 → 다시 오른쪽 → 물러나 3인칭 (옆얼굴 · 두 컵) → 두 주스 꼭대기 사이로 화면이 확 다가가며 흰 집중선, 벽 · 식탁은 회색 → 두 컵 맞닿은 곳에 큰 보라 '>' (왼쪽이 더 많음) → 제자리 → 옆얼굴 윤곽 표시 (끝까지) → 굵은 화살표가 내 머리 위 앞에서 솟아 왼쪽 컵 위 빈 벽을 지나 두 컵이 맞닿은 곳 바로 위로 뻗으며 화살표 위에 \"비교하다\" 가 따라 나옴 → 두 컵 (한 덩어리) 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "HIDDEN_OR_INITIAL"
+        ],
+        "group_ids": [
+          "wall",
+          "table",
+          "glasses"
+        ],
+        "description_ko": "식탁 위에 맞닿아 나란한 유리컵 둘 — 왼쪽 주스 5분의 4 · 오른쪽 5분의 2",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "REVEAL"
+        ],
+        "group_ids": [
+          "wall",
+          "table",
+          "glasses",
+          "face"
+        ],
+        "description_ko": "식탁 가장자리에 턱을 대고 두 컵을 번갈아 보는 나 (옆얼굴)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "CONTRAST_CONFIRMED"
+        ],
+        "group_ids": [
+          "wall",
+          "table",
+          "glasses",
+          "face",
+          "link",
+          "gt"
+        ],
+        "description_ko": "나 (옆얼굴 윤곽 표시) → 굵은 화살표 → 두 컵 (한 덩어리 윤곽 표시) · 두 컵 사이 '>' (왼쪽이 더 많음) — 두 컵을 견줘 봄",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 17350,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 7001,
+      "end": 11451
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "비교했어!!!",
+    "anchor_group_id": "glasses"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "compare",
+    "spelling_chunks": [
+      "com",
+      "compare"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/compare/compare.master.svg",
+    "motionRecipePath": "motion_recipes/compare.motion.json",
+    "audioSpecPath": "assets/audio_tts/compare/compare.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

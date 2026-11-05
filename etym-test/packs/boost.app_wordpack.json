@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.3.0-v7-test-c1",
+  "word_id": "linkling.boost.core.v1",
+  "word": "boost",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "높이다, 북돋우다",
+    "accepted_meanings_ko": [
+      "높이다",
+      "북돋우다",
+      "끌어올리다",
+      "증진하다",
+      "활력을 주다",
+      "힘을 주다",
+      "늘리다"
+    ],
+    "excluded_meanings_ko": [
+      "되살리다",
+      "소화하다",
+      "충전하다",
+      "서다",
+      "축하하다",
+      "들어 올리다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "buːst",
+    "full_audio_asset_id": "assets/audio_tts/boost/boost.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "buːst",
+        "cumulative_spelling": "boost",
+        "audio_asset_id": "assets/audio_tts/boost/boost.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/boost/boost.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[몸속 달걀 엔진 — 먹은 달걀이 배 속에 보이며 '펑' 부푸는 한 방에 지친 얼굴이 환한 웃음으로 · 제 다리로 벌떡] 바닥에 털썩 주저앉은 지친 소년 (눈꺼풀이 거의 감김 · 처진 입꼬리) · 옆 접시에 달걀 반쪽 하나 → 그 반쪽을 집어 한 입에 (접시가 빔) → 먹은 달걀이 턱 아래에서 배 한가운데로 쑥 → 두근 두 번 → 쪼그려 딛고 고개를 들자 점점 크게 두근두근 → 얼굴 · 윗몸 확대 · '펑' 크게 부푸는 순간 화면이 확 다가가며 노랑 집중선 · 반짝임, 눈이 동그랗게 · 입을 크게 벌린 환한 웃음 (바닥 · 접시는 회색) → 그대로 멈춘 채 화면이 제자리로 → 벌떡 꼿꼿이 (발은 바닥) · 화면 오른쪽 주먹을 머리 위로 · 허벅지 양옆 네온 노랑 ↑ 둘이 솟음 → 주먹 불끈 → 화면이 물러나 선 소년 전신 → 배 속 빛 윤곽 표시 (끝까지) → 굵은 화살표가 배 속 달걀 오른쪽에서 몸 밖 오른쪽으로 길게 나갔다가 위로 솟아 들어 올린 주먹 아래까지 뻗으며 수평 구간 위에 \"북돋우다\" 가 따라 나옴 → 머리가 닿는 순간 소년 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 — 주먹을 든 소년 — 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "ground",
+          "plate",
+          "tired"
+        ],
+        "description_ko": "바닥에 주저앉은 지친 소년 · 옆 접시에 삶은 달걀 반쪽 하나",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "ground",
+          "plate",
+          "tired",
+          "belly"
+        ],
+        "description_ko": "먹은 달걀이 지친 소년의 배 한가운데에 보임",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "ground",
+          "plate",
+          "tired",
+          "belly",
+          "boy",
+          "rise",
+          "link"
+        ],
+        "description_ko": "환하게 웃으며 벌떡 서서 주먹을 머리 위로 뻗은 소년 (윤곽 표시) · 허리 양옆 ↑ — 배 속 빛 (윤곽 표시) 에서 몸 밖으로 나가 주먹 쪽으로 솟는 화살표",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 13850,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 1800,
+      "end": 6251
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "북돋웠어!!!",
+    "anchor_group_id": "belly"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "boost",
+    "spelling_chunks": [
+      "boost"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/boost/boost.master.svg",
+    "motionRecipePath": "motion_recipes/boost.motion.json",
+    "audioSpecPath": "assets/audio_tts/boost/boost.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

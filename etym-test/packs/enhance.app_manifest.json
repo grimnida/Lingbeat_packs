@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.enhance.core.v1",
+  "word": "enhance",
+  "wordpack_version": "3.2.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "enhance.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/enhance.motion.json",
+    "fallback_svg_path": "assets/images/enhance/enhance.master.svg",
+    "artboard": "enhance",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/enhance/enhance.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/enhance/enhance.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/enhance/enhance.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "enhance.app_wordpack.json",
+      "bytes": 6032,
+      "sha256": "8da452f559d2f869252f021e6232561501f3b5d02682bb29b9cf1a1ea9163b56"
+    },
+    {
+      "path": "assets/audio_tts/enhance/enhance.chunk1.v4.mp3",
+      "bytes": 2781,
+      "sha256": "5b01c31eda4acc2b94de57e26547622fc4a7170ec34af844ebb33240cb972e72"
+    },
+    {
+      "path": "assets/audio_tts/enhance/enhance.full.v4.mp3",
+      "bytes": 8157,
+      "sha256": "871fb4400a6089ad442c9f3f5359489bf56f126ea852155d55336fa35bed3f56"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.4.0-v7-test-c1",
+  "word_id": "linkling.contain.core.v1",
+  "word": "contain",
+  "template_id": "T03_REVEAL_CONTRAST",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "포함하다",
+    "accepted_meanings_ko": [
+      "포함하다",
+      "들어 있다",
+      "함유하다",
+      "담고 있다",
+      "담겨 있다",
+      "품고 있다"
+    ],
+    "excluded_meanings_ko": [
+      "숨기다",
+      "채우다",
+      "비추다",
+      "쥐다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "kənˈteɪn",
+    "full_audio_asset_id": "assets/audio_tts/contain/contain.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "kən",
+        "cumulative_spelling": "con",
+        "audio_asset_id": "assets/audio_tts/contain/contain.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "kənˈteɪn",
+        "cumulative_spelling": "contain",
+        "audio_asset_id": "assets/audio_tts/contain/contain.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/contain/contain.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭 (내 눈높이): 연한 크림색 부엌 벽 앞에서 화면 아래 남색 소매 내 오른손이 종이 주스 팩 (앞면 오렌지 그림 · 빨대) 을 쥠 → 팩의 겉 그림이 천천히 사라지며 팩이 비치고, 팩의 벽 · 바닥 선이 굵고 진하게 남아 그 안에 담긴 주황 주스가 보임 (팩 위쪽 3분의 1 은 비어 있고 비친 팩 속 뒤 모서리가 흐리게 보임 · 주스 윗면이 밝은 주황 평행사변형) → 주스가 좌우로 출렁여 양쪽 벽에 부딪혔다가 (벽 밖으로는 안 나감) 잔잔해짐 → 주스 한가운데에 검은 글자 이름표 \"주스\" 가 톡 나타남 → 화면이 팩 몸통 (진한 벽 + 속 주스 + \"주스\") 으로 확 다가감 · 흰 집중선, 부엌 벽 · 내 손 회색 (한동안 멈춤) → 제자리 → 주스 팩 윤곽 표시 (끝까지) → 굵은 화살표가 팩 위쪽 오른 모서리에서 오른쪽 빈 곳으로 크게 돌아 내려오며 화살표 위에 \"포함하다\" 가 따라 나옴 → 팩 속 주스 오른쪽에 닿고 주스 안쪽을 따라 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "wall",
+          "hand",
+          "pack"
+        ],
+        "description_ko": "내 손이 종이 주스 팩을 쥠 (1인칭)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "wall",
+          "hand",
+          "pack",
+          "packc",
+          "juice",
+          "walls"
+        ],
+        "description_ko": "비친 팩 — 진한 벽 · 바닥 선 안에 담긴 주황 주스",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "wall",
+          "hand",
+          "pack",
+          "packc",
+          "juice",
+          "walls",
+          "juicelb",
+          "link"
+        ],
+        "description_ko": "비친 주스 팩 (윤곽 표시) → 굵은 화살표 → 팩 속 주스 \"주스\" (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 12650,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 2000,
+      "end": 6899
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "팩 속에 주스를 포함하고 있어!",
+    "anchor_group_id": "juice"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "contain",
+    "spelling_chunks": [
+      "con",
+      "contain"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/contain/contain.master.svg",
+    "motionRecipePath": "motion_recipes/contain.motion.json",
+    "audioSpecPath": "assets/audio_tts/contain/contain.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

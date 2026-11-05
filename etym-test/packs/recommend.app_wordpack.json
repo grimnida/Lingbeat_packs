@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.2.0-v7-test-c1",
+  "word_id": "linkling.recommend.core.v1",
+  "word": "recommend",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "추천하다",
+    "accepted_meanings_ko": [
+      "추천하다",
+      "권하다",
+      "권유하다",
+      "권장하다"
+    ],
+    "excluded_meanings_ko": [
+      "고르다",
+      "선택하다",
+      "칭찬하다",
+      "가리키다",
+      "팔다",
+      "주다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˌrekəˈmend",
+    "full_audio_asset_id": "assets/audio_tts/recommend/recommend.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˌrek",
+        "cumulative_spelling": "rec",
+        "audio_asset_id": "assets/audio_tts/recommend/recommend.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˌrekə",
+        "cumulative_spelling": "recom",
+        "audio_asset_id": "assets/audio_tts/recommend/recommend.chunk2.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˌrekəˈmend",
+        "cumulative_spelling": "recommend",
+        "audio_asset_id": "assets/audio_tts/recommend/recommend.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/recommend/recommend.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함 없음 · 결과 과장] 1인칭: 매대 위 같은 모자 셋 (연노랑 · 연보라 · 하늘색) · 매대 너머 빨간 앞치마 점원 → 내 두 손이 이 모자 저 모자 위를 망설이며 오감 → 손바닥을 펴 묻고 \"뭐가 좋아요?\" → 점원이 검지로 하늘색 모자를 가리키며 엄지척 (톡) 하는 순간 화면이 확 다가가며 노랑 집중선 · 하늘색 모자 둘레 반짝임, 벽 · 매대 · 다른 두 모자는 회색 → 모두 멈춘 채 점원이 \"이걸 추천해요!\" (꼬리 = 점원 입) → 화면 제자리 → 내 오른손이 곧장 하늘색 모자를 잡음 → 모자가 화면 앞으로 크게 (화면 폭의 절반) · 두 손이 양옆을 꽉 쥠 → 들어 보이자 점원이 크게 두 번 끄덕 → 멈춤 → 점원 몸 윤곽을 따라 표시 (끝까지) → 굵은 화살표가 점원의 가리키는 검지 끝에서 오른쪽 위 빈 벽으로 휘어 내 손의 큰 하늘색 모자로 뻗으며 화살표 위에 \"추천하다\" 가 따라 나옴 → 모자 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "wall",
+          "counter",
+          "clerk"
+        ],
+        "description_ko": "빨간 앞치마 점원이 검지로 가리키며 엄지척 (매대 너머)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "wall",
+          "counter",
+          "clerk",
+          "cap_y",
+          "cap_v"
+        ],
+        "description_ko": "매대 위에 남은 연노랑 · 연보라 모자 (같은 모자 셋 중 하나였음)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "wall",
+          "counter",
+          "clerk",
+          "cap_y",
+          "cap_v",
+          "capb",
+          "hg_l",
+          "hg_r",
+          "link"
+        ],
+        "description_ko": "내 두 손이 꽉 쥔 큰 하늘색 모자 + 화살표 점원 → 하늘색 모자 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 16600,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 2301,
+      "end": 8051
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "추천해요!!!",
+    "anchor_group_id": "clerk"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "recommend",
+    "spelling_chunks": [
+      "rec",
+      "recom",
+      "recommend"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/recommend/recommend.master.svg",
+    "motionRecipePath": "motion_recipes/recommend.motion.json",
+    "audioSpecPath": "assets/audio_tts/recommend/recommend.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

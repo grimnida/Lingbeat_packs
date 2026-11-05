@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.2.0-v7-test-c1",
+  "word_id": "linkling.consume.core.v1",
+  "word": "consume",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "먹다 (먹어 없애다)",
+    "accepted_meanings_ko": [
+      "소비하다",
+      "먹어 없애다",
+      "다 먹다",
+      "먹다",
+      "마시다",
+      "다 써 버리다"
+    ],
+    "excluded_meanings_ko": [
+      "소화하다",
+      "파괴하다",
+      "씹다",
+      "흡수하다",
+      "낭비하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "kənˈsuːm",
+    "full_audio_asset_id": "assets/audio_tts/consume/consume.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "kən",
+        "cumulative_spelling": "con",
+        "audio_asset_id": "assets/audio_tts/consume/consume.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "kənˈsuːm",
+        "cumulative_spelling": "consume",
+        "audio_asset_id": "assets/audio_tts/consume/consume.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/consume/consume.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 손톱만 한 애벌레가 집채만 한 양배추를 입으로 한 입씩 다 먹어 잎맥만 남김] 집채만 한 보라 적양배추에 손톱만 한 초록 애벌레가 머리를 댐 → 확대 → 입을 쩍 → 덥석: 입이 있던 그 자리에 둥근 구멍 (배경이 보임) · 보라 조각을 입에 묾 → 냠냠 → 꿀꺽 (목에서 혹이 넘어감) → 앞 위 · 앞 아래로 한 입씩 이어 먹음 → 물러나며 빨리 감기: 먹힌 띠가 입 앞에서만 자라 바깥 테부터 안까지 나선으로 (잎맥 레이스가 드러남) → 가운데 마지막 한 입 순간 화면이 확 다가가며 집중선 · 반짝임, 땅 · 바탕은 회색 → 잎맥 레이스만 남음 → 정지 → 가운데 애벌레 윤곽 표시 (끝까지) → 굵은 화살표가 애벌레 입에서 위로 솟아 양배추 밖으로 나와 왼쪽으로 휘어 레이스 윗 왼쪽 바깥 테두리로 뻗으며 화살표 위에 \"소비하다\" 가 따라 나옴 → 머리가 닿는 순간 레이스 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "ground",
+          "worm"
+        ],
+        "description_ko": "손톱만 한 초록 애벌레 (먹는 쪽) — 볼이 빵빵",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "ground",
+          "worm",
+          "cabbage"
+        ],
+        "description_ko": "집채만 한 보라 양배추가 잎맥 레이스만 남음 (입이 닿은 곳부터 다 먹힘)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "ground",
+          "worm",
+          "cabbage",
+          "leafbit",
+          "link"
+        ],
+        "description_ko": "마지막 조각을 입에 문 애벌레 (윤곽 표시) → 굵은 화살표 → 잎맥만 남은 양배추 한 통 (윤곽 표시) — 다 먹어 없앰",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 18800,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 7451,
+      "end": 12400
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "소비했어!!!",
+    "anchor_group_id": "cabbage"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "consume",
+    "spelling_chunks": [
+      "con",
+      "consume"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/consume/consume.master.svg",
+    "motionRecipePath": "motion_recipes/consume.motion.json",
+    "audioSpecPath": "assets/audio_tts/consume/consume.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

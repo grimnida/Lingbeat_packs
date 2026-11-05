@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "word_id": "linkling.receive.core.v1",
+  "word": "receive",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "받다",
+    "accepted_meanings_ko": [
+      "받다",
+      "받아 들다",
+      "건네받다",
+      "얻다",
+      "수령하다"
+    ],
+    "excluded_meanings_ko": [
+      "주다",
+      "들고 있다",
+      "나르다",
+      "잡다",
+      "들어 올리다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "rɪˈsiːv",
+    "full_audio_asset_id": "assets/audio_tts/receive/receive.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "rɪ",
+        "cumulative_spelling": "re",
+        "audio_asset_id": "assets/audio_tts/receive/receive.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "rɪˈsiːv",
+        "cumulative_spelling": "receive",
+        "audio_asset_id": "assets/audio_tts/receive/receive.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/receive/receive.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭 (내 눈높이): 화면 아래 가운데 하늘색 소매 내 두 손이 손바닥을 위로 모아 앞으로 내밂 · 위는 연한 단색 벽 → 화면 위에서 회색 소매 두 손이 리본 묶은 커다란 빨간 선물 상자 (내 두 손을 합친 너비의 두 배) 를 들고 내려와 내 손바닥 위에 올려놓음 → 회색 소매 두 손은 놓자마자 상자에서 떨어져 벌리고, 상자 무게에 내 두 손이 쑥 내려감 — 화면이 확 다가가며 노랑 집중선 · 반짝임, 벽 회색 (잠시 멈춤) → 회색 소매 두 손은 위로 빠져나가고 내 두 손이 다시 올라옴 → 두 손이 상자 양옆을 꽉 쥐고 내 쪽으로 살짝 들어 올림 → 내 두 손 윤곽 표시 (끝까지) → 굵은 화살표가 오른 손목 바깥에서 위로 크게 휘어 상자 윗면으로 내려오며 화살표 위에 \"받다\" 가 따라 나옴 → 상자 윗면에 닿고 상자 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "wall"
+        ],
+        "description_ko": "연한 단색 벽 (1인칭 — 내 눈높이)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "wall",
+          "box"
+        ],
+        "description_ko": "리본 묶은 커다란 빨간 선물 상자",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "wall",
+          "box",
+          "grip_l",
+          "grip_r",
+          "link"
+        ],
+        "description_ko": "상자 양옆을 꽉 쥔 하늘색 소매 내 두 손 (윤곽 표시) → 굵은 화살표 → 빨간 선물 상자 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 11650,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 0,
+      "end": 4400
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "받았어!!!",
+    "anchor_group_id": "box"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "receive",
+    "spelling_chunks": [
+      "re",
+      "receive"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/receive/receive.master.svg",
+    "motionRecipePath": "motion_recipes/receive.motion.json",
+    "audioSpecPath": "assets/audio_tts/receive/receive.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

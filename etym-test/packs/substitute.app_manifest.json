@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.substitute.core.v1",
+  "word": "substitute",
+  "wordpack_version": "3.3.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "substitute.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/substitute.motion.json",
+    "fallback_svg_path": "assets/images/substitute/substitute.master.svg",
+    "artboard": "substitute",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/substitute/substitute.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/substitute/substitute.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/substitute/substitute.chunk2.v4.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/substitute/substitute.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "substitute.app_wordpack.json",
+      "bytes": 5909,
+      "sha256": "8472f6ebc1abffd766ab3da097fb013847fdfc79fc195d005dc00a3f868b700c"
+    },
+    {
+      "path": "assets/audio_tts/substitute/substitute.chunk1.v4.mp3",
+      "bytes": 3693,
+      "sha256": "ed489d2384c7f2ff31d2a933827fe8015c52113f35fac78f022d2fafc916a4ab"
+    },
+    {
+      "path": "assets/audio_tts/substitute/substitute.chunk2.v4.mp3",
+      "bytes": 6549,
+      "sha256": "95c18ae957a0e85f76a1bf7318817c4727ce761055c1f89ed0b590829323481a"
+    },
+    {
+      "path": "assets/audio_tts/substitute/substitute.full.v4.mp3",
+      "bytes": 11181,
+      "sha256": "8f9286c2ec3e32ffd385f56cc95037df35858bd7cbbe8bacc27bf8b267c0ae7e"
+    }
+  ]
+}

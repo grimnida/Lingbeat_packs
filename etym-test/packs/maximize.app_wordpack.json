@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "word_id": "linkling.maximize.core.v1",
+  "word": "maximize",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "극대화하다",
+    "accepted_meanings_ko": [
+      "극대화하다",
+      "최대로 하다",
+      "최대한 끌어올리다"
+    ],
+    "excluded_meanings_ko": [
+      "늘리다",
+      "강화하다",
+      "확장하다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "ˈmæksɪmaɪz",
+    "full_audio_asset_id": "assets/audio_tts/maximize/maximize.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "ˈmæks",
+        "cumulative_spelling": "max",
+        "audio_asset_id": "assets/audio_tts/maximize/maximize.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "ˈmæksɪ",
+        "cumulative_spelling": "maxi",
+        "audio_asset_id": "assets/audio_tts/maximize/maximize.chunk2.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 3,
+        "cumulative_ipa": "ˈmæksɪmaɪz",
+        "cumulative_spelling": "maximize",
+        "audio_asset_id": "assets/audio_tts/maximize/maximize.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/maximize/maximize.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "책상 앞 내 눈높이 — 위쪽 대부분을 검은 테두리 모니터가 차지, 아래 책상 위 내 오른손이 흰 마우스를 쥠 · 모니터 안 하늘색 바탕 가운데 손바닥만 한 작은 창 (회색 위 띠 · 오른쪽 끝 손톱만 한 단추 셋 — 가로줄 · 빈 네모 · 가위표) · 창 속 풍경 (하늘 · 파란 산) · 모니터 아래쪽 흰 포인터 → 손이 마우스를 살짝 밀자 포인터가 빈 네모 단추로 (단추 테두리 진해짐) → 손가락 딸깍 (빈 네모 단추가 눌려 어두워짐) → 창이 사방으로 쭉 커져 모니터 네 가장자리에 탁 — 바탕이 하나도 안 보이고 풍경이 모니터 가득 (오른쪽 위에 해가 드러남) · 더는 안 커짐 — 그 순간 화면이 모니터로 살짝 다가가며 노랑 집중선 · 창 네 모서리에 큰 반짝임, 책상 · 마우스 · 모니터 테두리 회색 · 오래 멈춤 → 포인터가 사라짐 → 쉼 → 마우스를 쥔 손 윤곽 표시 (끝까지) → 굵은 화살표가 손에서 책상 위를 왼쪽으로 길게 뻗다가 모니터 왼쪽 아래에서 위로 휘어 화면 가운데를 가리킴 · 책상 위 곧은 구간을 따라 \"극대화하다\" 가 나옴 → 가득 찬 화면 가장자리 안쪽에 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "desk",
+          "monitor"
+        ],
+        "description_ko": "책상 앞 모니터",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "desk",
+          "monitor",
+          "win"
+        ],
+        "description_ko": "모니터 안을 빈틈없이 가득 채운 창 (풍경) — 더 커질 수 없는 크기",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 3
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "desk",
+          "monitor",
+          "win",
+          "mouse",
+          "hand",
+          "link"
+        ],
+        "description_ko": "마우스를 쥔 내 오른손 (윤곽 표시) → 화살표 → 모니터를 가득 채운 창 = 화면 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 12900,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 1551,
+      "end": 6300
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "극대화했어!!!",
+    "anchor_group_id": "win"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "maximize",
+    "spelling_chunks": [
+      "max",
+      "maxi",
+      "maximize"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/maximize/maximize.master.svg",
+    "motionRecipePath": "motion_recipes/maximize.motion.json",
+    "audioSpecPath": "assets/audio_tts/maximize/maximize.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

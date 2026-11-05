@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "3.3.0-v7-test-c1",
+  "word_id": "linkling.present.core.v1",
+  "word": "present",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "제시하다, 보여 주다",
+    "accepted_meanings_ko": [
+      "제시하다",
+      "보여 주다",
+      "내보이다",
+      "제공하다",
+      "발표하다",
+      "선보이다"
+    ],
+    "excluded_meanings_ko": [
+      "주다",
+      "권하다",
+      "전시하다",
+      "설명하다",
+      "끌다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "prɪˈzent",
+    "full_audio_asset_id": "assets/audio_tts/present/present.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "prɪ",
+        "cumulative_spelling": "pre",
+        "audio_asset_id": "assets/audio_tts/present/present.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "prɪˈzent",
+        "cumulative_spelling": "present",
+        "audio_asset_id": "assets/audio_tts/present/present.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/present/present.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "1인칭 — 내가 교실 의자에 앉은 눈높이: 화면 아래 빈 내 책상, 건너편에 주황 후드티 친구가 가로로 긴 흰 판을 가슴 앞에 세워 들고 내려다봄 (나에게는 흰 뒷면만) → 친구가 고개를 들어 나를 봄 — \"이거 봐!\" → 카메라가 다가가고, 친구가 두 주먹으로 쥔 판을 천천히 돌림 (흰 뒷면 → 얇아져 판 두께만 → 앞면 네온 4색 원그래프가 내 쪽으로) → 두 팔을 뻗어 판을 내 책상 건너편 끝에 탁 세움 → 그 순간 원그래프로 화면이 확 다가가며 집중선 · 반짝임, 벽 · 칠판 · 책상은 회색 → 원그래프 판이 내 책상 위에 나를 향해 섬 · 두 손은 판 양옆 · 판 위로 그의 얼굴 → 화면이 조금 물러나 친구 머리끝까지 → 친구 머리 · 후드와 판을 쥔 오른손 윤곽 표시 (끝까지) → 굵은 화살표가 그 손에서 왼쪽 위 빈 칠판으로 휘어 판 앞면 왼쪽 위로 뻗으며 화살표 위에 \"제시하다\" 가 따라 나옴 → 판 윤곽 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "room",
+          "desk"
+        ],
+        "description_ko": "내 자리 — 비어 있던 내 책상 · 교실 앞 벽과 초록 칠판",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "room",
+          "desk",
+          "board"
+        ],
+        "description_ko": "내 책상 위에 나를 향해 선 네온 4색 원그래프 판",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "room",
+          "desk",
+          "board",
+          "friend",
+          "hands",
+          "link"
+        ],
+        "description_ko": "주황 후드티 친구 (머리 · 오른손 윤곽 표시) 가 판 양옆을 쥐고 나를 봄 → 굵은 화살표 → 판 (윤곽 표시)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 12750,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 2200,
+      "end": 6849
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "제시했어!!!",
+    "anchor_group_id": "board"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "present",
+    "spelling_chunks": [
+      "pre",
+      "present"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/present/present.master.svg",
+    "motionRecipePath": "motion_recipes/present.motion.json",
+    "audioSpecPath": "assets/audio_tts/present/present.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

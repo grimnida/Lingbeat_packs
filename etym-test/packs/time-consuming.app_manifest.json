@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.time-consuming.core.v1",
+  "word": "time-consuming",
+  "wordpack_version": "3.1.2-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "time-consuming.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/time-consuming.motion.json",
+    "fallback_svg_path": "assets/images/time-consuming/time-consuming.master.svg",
+    "artboard": "time-consuming",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/time-consuming/time-consuming.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/time-consuming/time-consuming.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/time-consuming/time-consuming.chunk2.v4.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/time-consuming/time-consuming.chunk3.v4.mp3"
+      },
+      {
+        "order": 4,
+        "path": "assets/audio_tts/time-consuming/time-consuming.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "time-consuming.app_wordpack.json",
+      "bytes": 6857,
+      "sha256": "71a9b4371970f3b03a2dc52d8c3bfbba7e7c13da648402bd78728afa3325da0e"
+    },
+    {
+      "path": "assets/audio_tts/time-consuming/time-consuming.chunk1.v4.mp3",
+      "bytes": 4389,
+      "sha256": "9833e020f96697e7ff1819a5ea734db488206994c642bfaadb999fbbad3f8fd0"
+    },
+    {
+      "path": "assets/audio_tts/time-consuming/time-consuming.chunk2.v4.mp3",
+      "bytes": 6549,
+      "sha256": "e333c68d18323d24303302009f757c248ea07400e9446fbba880930d8070dc85"
+    },
+    {
+      "path": "assets/audio_tts/time-consuming/time-consuming.chunk3.v4.mp3",
+      "bytes": 9477,
+      "sha256": "367e6df6c78078bf53b880ca4db6b96e22956102d52c729c14ce98bf55d50bfb"
+    },
+    {
+      "path": "assets/audio_tts/time-consuming/time-consuming.full.v4.mp3",
+      "bytes": 12333,
+      "sha256": "5a196a89463c66ff4c25aff48c58f5776fe75286c74600b170230b0acf9b4ed0"
+    }
+  ]
+}

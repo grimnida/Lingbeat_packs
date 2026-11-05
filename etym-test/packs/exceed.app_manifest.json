@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.exceed.core.v1",
+  "word": "exceed",
+  "wordpack_version": "3.2.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "exceed.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/exceed.motion.json",
+    "fallback_svg_path": "assets/images/exceed/exceed.master.svg",
+    "artboard": "exceed",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/exceed/exceed.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/exceed/exceed.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/exceed/exceed.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "exceed.app_wordpack.json",
+      "bytes": 5501,
+      "sha256": "b7659dd28acfd32191eed8aaa6b6ae8d8dcbb343bed634489ae15ca997a3fe33"
+    },
+    {
+      "path": "assets/audio_tts/exceed/exceed.chunk1.v4.mp3",
+      "bytes": 2685,
+      "sha256": "87231b8fbe7389206df1f262147f6f218c09999dc44afde9e9c4c0a678398fc1"
+    },
+    {
+      "path": "assets/audio_tts/exceed/exceed.full.v4.mp3",
+      "bytes": 7989,
+      "sha256": "d3968c476a6b474a4cff37cc5581d6e87ddd9575b10e35d352920e3147ee9bb9"
+    }
+  ]
+}

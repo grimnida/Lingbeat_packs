@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.boost.core.v1",
+  "word": "boost",
+  "wordpack_version": "3.3.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "boost.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/boost.motion.json",
+    "fallback_svg_path": "assets/images/boost/boost.master.svg",
+    "artboard": "boost",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/boost/boost.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/boost/boost.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "boost.app_wordpack.json",
+      "bytes": 5624,
+      "sha256": "58be2c22d8aba2b7129f145060a2d30da8398245949affc3ff3d4f7a14ef6b19"
+    },
+    {
+      "path": "assets/audio_tts/boost/boost.full.v4.mp3",
+      "bytes": 6405,
+      "sha256": "3639a0a2bcfb0406e76df1cec5873661dc6a578cc18869b39ba335dbdbb148c8"
+    }
+  ]
+}

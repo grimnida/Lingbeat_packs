@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.present.core.v1",
+  "word": "present",
+  "wordpack_version": "3.3.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "present.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/present.motion.json",
+    "fallback_svg_path": "assets/images/present/present.master.svg",
+    "artboard": "present",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/present/present.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/present/present.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/present/present.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "present.app_wordpack.json",
+      "bytes": 5571,
+      "sha256": "eb5ba0de4dff7346bea4b259ae51ff32e06424178bccf832acb200558033d2d3"
+    },
+    {
+      "path": "assets/audio_tts/present/present.chunk1.v4.mp3",
+      "bytes": 3981,
+      "sha256": "2bf6355e5757c36cc1474b44d65a38acfd066c703282acb6f17b244d3c445a1b"
+    },
+    {
+      "path": "assets/audio_tts/present/present.full.v4.mp3",
+      "bytes": 8013,
+      "sha256": "ea1b15c8476288ff29b79c7ad3f35854b3bfebda112835006b6b6035db06b568"
+    }
+  ]
+}

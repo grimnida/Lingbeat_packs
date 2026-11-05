@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "wordpack_version": "1.4.0-v7-test-c1",
+  "word_id": "linkling.consume-2.core.v1",
+  "word": "consume",
+  "template_id": "T02_CAUSE_EFFECT_AGENT_PATIENT",
+  "status": "integration_ready",
+  "lexical": {
+    "part_of_speech": "verb",
+    "core_meaning_ko": "소비하다 ((에너지 · 연료 · 자원을) 써서 없애다)",
+    "accepted_meanings_ko": [
+      "소비하다",
+      "소모하다",
+      "다 써 버리다",
+      "써서 없애다",
+      "다 쓰다"
+    ],
+    "excluded_meanings_ko": [
+      "태우다",
+      "쓰다",
+      "낭비하다",
+      "비우다",
+      "다 떨어지다",
+      "먹다",
+      "오르다",
+      "나르다"
+    ],
+    "profile": {}
+  },
+  "learning_scope": {},
+  "pronunciation": {
+    "dialect": "american",
+    "ipa": "kənˈsuːm",
+    "full_audio_asset_id": "assets/audio_tts/consume-2/consume-2.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "cumulative_ipa": "kən",
+        "cumulative_spelling": "con",
+        "audio_asset_id": "assets/audio_tts/consume-2/consume-2.chunk1.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": false
+      },
+      {
+        "order": 2,
+        "cumulative_ipa": "kənˈsuːm",
+        "cumulative_spelling": "consume",
+        "audio_asset_id": "assets/audio_tts/consume-2/consume-2.full.v4.mp3",
+        "pass_profile_id": "PRON_CHUNK_LOOSE_V1",
+        "is_full_word": true
+      }
+    ],
+    "final_pass_profile_id": "PRON_FULL_CLARITY_V1"
+  },
+  "scene": {
+    "master_scene_asset_id": "assets/images/consume-2/consume-2.master.svg",
+    "render_format": "svg_motion",
+    "summary_ko": "[이상함: 차만 한 투명 연료통을 지붕에 이고 산을 오르는 꼬마 차 — 굽이마다 기름 한 칸이 관으로 빨려 차 속으로 들어가 빈 칸이 늘고, 꼭대기에서 마지막 칸까지 사라짐] 맑은 하늘 아래 황토색 큰 산 · 지그재그 산길 · 꼭대기 작은 노란 깃발 · 산 아래 파란 자동차 (창이 짙어 안이 안 보임) — 지붕 받침대 위 차 높이만 한 투명 통이 호박색 기름으로 꽉 참 (흰 눈금 넷 = 다섯 칸), 통 아래 앞 귀퉁이에서 투명 관이 보닛 속으로 → 화면이 차로 다가가 따라감 → 차가 비탈 하나를 올라 굽이에 서면 화면이 통으로 다가가며 둘레가 어두워짐 (통만 밝음) → 맨 위 기름 칸이 깜빡깜빡하다 그 칸의 기름이 통 아래 관으로 빨려 나가 관을 주황으로 채우며 보닛 속으로 쭉 들어가고 (칸은 어둡게 꺼지며 눈금으로 납작해짐) 그 자리에 어두운 회색 빈 칸이 또렷이 남음 → 잠깐 모든 것이 멈춤 → 화면이 물러나며 차가 돌아섬 → 다음 굽이마다 한 칸씩 빨려 나가 빈 칸이 늘어남 → 마지막 비탈을 올라 꼭대기 평평한 곳에 서면 화면이 가장 가까이 다가가고 가장 어두워진 가운데 마지막 칸이 세 번 깜빡이다 가장 길게 관으로 빨려 나가 통이 완전히 텅 빔 (어두운 통 속에 회색 빈 칸 다섯 — 흰 빛 없음) — 화면이 통 쪽으로 확 다가가며 흰 집중선, 산 · 길 · 하늘 · 깃발 회색 → 어두운 막이 걷히며 꼭대기 둘레로 넓어짐 → 정지 → 차 윤곽 표시 (끝까지) → 굵은 화살표가 차 뒤 트렁크 위에서 통 왼쪽 옆면으로 뻗으며 화살표 선을 따라 \"소비하다\" 가 나옴 → 머리가 통 왼쪽 옆면에 닿는 순간 텅 빈 통 바깥 윤곽 (손잡이 · 뚜껑까지) 표시 → 셋 다 남은 채 멈춤 (표시 v7: 정리는 멈춘 결과 그림 위에서 주체 → 화살표 + 뜻 → 대상)",
+    "layers": [
+      {
+        "order": 1,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "AGENT_ACTION"
+        ],
+        "group_ids": [
+          "sky",
+          "mountain",
+          "road",
+          "flag",
+          "car"
+        ],
+        "description_ko": "산꼭대기 길에 선 파란 자동차 (일하는 쪽)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 2,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 1
+        },
+        "semantic_roles": [
+          "PATIENT_IMPACT"
+        ],
+        "group_ids": [
+          "sky",
+          "mountain",
+          "road",
+          "flag",
+          "car",
+          "tank"
+        ],
+        "description_ko": "차 지붕 위 투명 통에 꽉 찬 호박색 연료 (흰 눈금 다섯 칸)",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      },
+      {
+        "order": 3,
+        "unlock_trigger": {
+          "type": "chunk_pass",
+          "chunk_order": 2
+        },
+        "semantic_roles": [
+          "RESULT"
+        ],
+        "group_ids": [
+          "sky",
+          "mountain",
+          "road",
+          "flag",
+          "car",
+          "tank",
+          "link"
+        ],
+        "description_ko": "연료가 관으로 다 빨려 들어가 텅 빈 통 (어두운 통 속 회색 빈 칸 다섯) — 차 (윤곽 표시) → 굵은 화살표 → 텅 빈 통 (바깥 윤곽 표시): 차가 연료를 다 써서 없앰",
+        "persists_after_reveal": true,
+        "same_camera_frame": true,
+        "uses_chunk_color_link": false,
+        "reveal_preset_id": "LAYER_FADE_IN_LOCK_V1"
+      }
+    ]
+  },
+  "final_sequence": {
+    "order": [
+      "soften_layer_boundaries",
+      "integrate_scene",
+      "replay_full_pronunciation",
+      "play_final_animation",
+      "freeze_keyframe",
+      "show_speech_bubble",
+      "show_core_meaning_ko",
+      "show_spelling_and_grammar"
+    ],
+    "animation": {
+      "duration_ms": 20230,
+      "final_keyframe_id": "final_hold"
+    },
+    "core_segment_ms": {
+      "start": 9881,
+      "end": 14331
+    }
+  },
+  "speech_bubble": {
+    "type": "speech",
+    "text_ko": "소비했어!!!",
+    "anchor_group_id": "tank"
+  },
+  "meaning_reveal": {},
+  "spelling_and_grammar": {
+    "full_spelling": "consume",
+    "spelling_chunks": [
+      "con",
+      "consume"
+    ]
+  },
+  "review_policy": {},
+  "assets": {
+    "renderBackend": "svg_motion",
+    "imageSpecPath": "assets/images/consume-2/consume-2.master.svg",
+    "motionRecipePath": "motion_recipes/consume-2.motion.json",
+    "audioSpecPath": "assets/audio_tts/consume-2/consume-2.full.v4.mp3",
+    "assetStatus": "generated"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "word_id": "linkling.reinforce.core.v1",
+  "word": "reinforce",
+  "wordpack_version": "3.1.0-v7-test-c1",
+  "status": "preview",
+  "wordpack_path": "reinforce.app_wordpack.json",
+  "scene": {
+    "format": "svg_motion",
+    "availability": "ready",
+    "motion_recipe_path": "motion_recipes/reinforce.motion.json",
+    "fallback_svg_path": "assets/images/reinforce/reinforce.master.svg",
+    "artboard": "reinforce",
+    "max_layer_stage": 3
+  },
+  "audio": {
+    "full_path": "assets/audio_tts/reinforce/reinforce.full.v4.mp3",
+    "chunks": [
+      {
+        "order": 1,
+        "path": "assets/audio_tts/reinforce/reinforce.chunk1.v4.mp3"
+      },
+      {
+        "order": 2,
+        "path": "assets/audio_tts/reinforce/reinforce.chunk2.v4.mp3"
+      },
+      {
+        "order": 3,
+        "path": "assets/audio_tts/reinforce/reinforce.full.v4.mp3"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "reinforce.app_wordpack.json",
+      "bytes": 7099,
+      "sha256": "3cce3ee65791c9210bc8defe17d9f5e953e295286bdbec658846c4ee33c7d4b4"
+    },
+    {
+      "path": "assets/audio_tts/reinforce/reinforce.chunk1.v4.mp3",
+      "bytes": 3765,
+      "sha256": "9db6cfeab0f75dac8a3e77927fd7e7fe46fddd2f1daa918b50b675aa4c204b2b"
+    },
+    {
+      "path": "assets/audio_tts/reinforce/reinforce.chunk2.v4.mp3",
+      "bytes": 4797,
+      "sha256": "5424da057868464161987c82937b26c44b1f237e36aebeae89d99a2244dbb011"
+    },
+    {
+      "path": "assets/audio_tts/reinforce/reinforce.full.v4.mp3",
+      "bytes": 11901,
+      "sha256": "e6f6d68a4b4fe2edf1854a60916bb78aae53f969db2dc74ee0c071725a3ad2ee"
+    }
+  ]
+}
