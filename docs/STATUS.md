@@ -1,4 +1,4 @@
-# STATUS — Lingbeat_packs (2026-11-22 12:05)
+# STATUS — Lingbeat_packs (2026-11-22 11:52)
 
 ## 지금 창고에 있는 것
 | 폴더 | 누가 읽나 | 내용 |
